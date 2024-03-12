@@ -1,0 +1,271 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: inherit;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Arvo", serif;
+  color: #170f0f;
+}
+
+body {
+  min-width: 700px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-container,
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background: #47b8a7;
+}
+
+.footer-container {
+  flex: 0 0 auto;
+}
+
+.header__link,
+.footer__info {
+  font-size: 14px;
+}
+
+.header__link {
+  margin: 0 20px;
+  transition: all 0.2s;
+}
+.header__link:hover, .header__link.active {
+  color: white;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.header-content__inner {
+  max-width: 900px;
+}
+.header-content__inner .header-container__contact .header-contact__text {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 50px;
+  line-height: 25px;
+}
+.header-content__inner .header-container__contact .contact-information {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.header-content__inner .header-container__contact .contact-information .contact-information__info {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.header-content__inner .header-container__contact .contact-information .contact-information__info .address, .header-content__inner .header-container__contact .contact-information .contact-information__info .tel, .header-content__inner .header-container__contact .contact-information .contact-information__info .mail {
+  margin: 20px 0;
+}
+.header-content__inner .header-container__contact .header-contact__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 75px 0;
+}
+.header-content__inner .header-container__contact .header-contact__button .disabled {
+  pointer-events: none;
+}
+.header-content__inner .header-container__contact .header-contact__button .button {
+  padding: 30px 120px 30px 120px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: none;
+  background-color: #47b8a7;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.2s;
+}
+.header-content__inner .header-container__contact .header-contact__button .button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: white;
+}
+.header-content__inner .header-container__contact .header-contact__button .disabled {
+  pointer-events: none;
+}
+
+.wrapper-none {
+  display: none;
+}
+
+.wrapper {
+  flex-grow: 1;
+}
+.wrapper #form {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: #47b8a7;
+  border-radius: 30px;
+}
+.wrapper #form .form__left-decoration,
+.wrapper #form .form__right-decoration {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #f69a73;
+  border-radius: 20px;
+}
+.wrapper #form .form__left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.wrapper #form .form__right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.wrapper #form .form__left-decoration:before,
+.wrapper #form .form__left-decoration:after,
+.wrapper #form .form__right-decoration:before,
+.wrapper #form .form__right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: #47b8a7;
+}
+.wrapper #form .form__left-decoration:before {
+  top: -20px;
+}
+.wrapper #form .form__left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.wrapper #form .form__right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.wrapper #form .form__right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.wrapper #form .form__circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #47b8a7;
+}
+.wrapper #form .form__wrapper {
+  padding: 50px;
+  text-align: center;
+}
+.wrapper #form .form__wrapper h3 {
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #170f0f;
+}
+.wrapper #form .form__wrapper .form__field-inner {
+  margin-bottom: 10px;
+}
+.wrapper #form .form__wrapper .form__field-inner input, .wrapper #form .form__wrapper .form__field-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 20px;
+  background: #E9EFF6;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.wrapper #form .form__wrapper .form__btn {
+  border-radius: 15px;
+  margin-top: 20px;
+  background: #47b8a7;
+  border-bottom: 4px solid #000000;
+  color: #170f0f;
+  font-size: 14px;
+  padding: 5px 10px;
+  transition: all 0.2s;
+}
+.wrapper #form .form__wrapper .form__btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: white;
+}
+.wrapper #form .form__wrapper .form__error {
+  color: red;
+  display: block;
+  font-size: 12px;
+}
+.wrapper #form .form__wrapper .form__send-result {
+  font-size: 12px;
+  color: green;
+}

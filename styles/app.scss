@@ -1,0 +1,264 @@
+@import "reset";
+
+$grey: #170f0f;
+$headFoot: #47b8a7;
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Arvo", serif;
+  color: $grey;
+}
+
+body {
+  min-width: 700px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-container,
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background: $headFoot;
+  
+}
+.footer-container{
+ flex: 0 0 auto;
+}
+
+.header__link,
+.footer__info {
+  font-size: 14px;
+}
+
+.header__link {
+  margin: 0 20px;
+  transition: all .2s;
+
+  &:hover,
+  &.active {
+    color: white;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  
+}
+
+
+
+.header-content__inner{
+  max-width: 900px;
+
+  .header-container__contact{
+
+    .header-contact__text{
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 50px;
+      line-height: 25px;
+    }
+
+      .contact-information{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+
+        .contact-information__map{
+
+        }
+        .contact-information__info{
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 600; 
+          .address,.tel,.mail{
+            margin: 20px 0;
+            
+          }
+        }
+      }
+      .header-contact__button{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 75px 0;
+
+       .disabled {
+          pointer-events: none;
+       }
+       .button{
+          padding: 30px 120px 30px 120px;
+          border-radius: 15px;
+          font-size: 20px;
+          border: none;
+          background-color: $headFoot;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          transition: all .2s;
+          &:hover {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            color: white;
+          }
+       }
+
+       .disabled {
+          pointer-events: none;
+        }
+      }
+  }
+}
+.wrapper-none{
+  display: none;
+}
+.wrapper{
+  flex-grow: 1;
+  #form {
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto 0;
+    background: $headFoot;
+    border-radius: 30px;
+
+    .form__left-decoration, 
+    .form__right-decoration {
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      background: #f69a73;
+      border-radius: 20px;
+    }
+
+    .form__left-decoration {
+      bottom: 60px;
+      left: -30px;
+    }
+
+    .form__right-decoration {
+      top: 60px;
+      right: -30px;
+    }
+
+    .form__left-decoration:before, 
+    .form__left-decoration:after, 
+    .form__right-decoration:before, 
+    .form__right-decoration:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 30px;
+      background: $headFoot;
+    }
+
+    .form__left-decoration:before {
+      top: -20px;
+    }
+
+    .form__left-decoration:after {
+      top: 20px;
+      left: 10px;
+    }
+
+    .form__right-decoration:before {
+      top: -20px;
+      right: 0;
+    }
+
+    .form__right-decoration:after {
+      top: 20px;
+      right: 10px;
+    }
+
+    .form__circle {
+      position: absolute;
+      bottom: 80px;
+      left: -55px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: $headFoot;
+    }
+
+    .form__wrapper {
+      padding: 50px;
+      text-align: center;
+      h3 {
+        margin-bottom: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: $grey;
+      }
+      .form__field-inner {
+        margin-bottom: 10px;
+      }
+      
+      .form__field-inner input, .form__field-inner textarea {
+        display: block;
+        width: 100%;
+        padding: 8px 20px;
+        background: #E9EFF6;
+        border-width: 0;
+        border-radius: 20px;
+        font-family: 'Roboto', sans-serif;
+      }
+      
+      .form__btn {
+        border-radius: 15px;
+        margin-top: 20px;
+        background: $headFoot;
+        border-bottom: 4px solid #000000;
+        color: $grey;
+        font-size: 14px;
+        padding: 5px 10px;
+        transition: all .2s;
+        &:hover{
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            color: white;
+        }
+      }
+      
+      .form__error {
+        color: red;
+        display: block;
+        font-size: 12px;
+      }
+      
+      .form__send-result{
+        font-size: 12px;
+        color: green;
+      }
+      
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
