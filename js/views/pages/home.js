@@ -1,5 +1,5 @@
 import Component from '../component.js';
-
+import { slider } from '../../helpers/slider.js';
 
 class Home extends Component {
 
@@ -7,28 +7,53 @@ class Home extends Component {
     render() {
         return new Promise(resolve => {
             resolve(`
-            <div class="container-slider">
-            <div class="slider">
-                <div><img src="../../../img/sliderHome/1.jpg" alt=""></div>
-                <div><img src="../../../img/sliderHome/2.jpg" alt=""></div>
-                <div><img src="../../../img/sliderHome/3.jpg" alt=""></div>
+            <div class="header-home">
+            <div class="header-title">
+                    <div class="header-text">
+                        <h3>Паважаныя, сябры! Калі хто з вас хоча навучыцца прасці, ткаць і вышываць зусім задарма, звяртайцеся ў Лазавіцкую сярэднюю школу. Вас запрашае Музей беларускага ручніка.</h3>
+                    </div>
+                    <div class="header-underText">
+                        <p>Школьны – гэта лад жыцця,
+                            Краязнаўчы – значыць частка краіны.
+                            Музей – захавальнік вобраза Айчыны...
+                            Памятаць мінулае трэба здаўна.</p>
+                        <p>У нашым музеі: прас і ручнік,
+                            Старадаўнія кросны драўляныя…
+                            Ці можна любіць свой край
+                            Не ведаючы гісторыю края?</p>
+                    </div>
             </div>
-            </div>
+
+            <div class="swiper">
+    
+                <div class="swiper-wrapper">
+                
+                    <div class="swiper-slide">
+                        <img src="../../../img/sliderHome/1.jpg" alt="">
+
+                    </div> 
+                    <div class="swiper-slide">
+                        <img src="../../../img/sliderHome/2.jpg" alt="">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../../../img/sliderHome/3.jpg" alt="">
+                        
+                </div>
+                
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                </div>
+                </div>
             `);
         });
     }
 
-    slider(){
-        $('.slider').slick({
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear'
-        });
-       };
-
     afterRender() {
-        this.slider();
+        slider();
     }
 
     

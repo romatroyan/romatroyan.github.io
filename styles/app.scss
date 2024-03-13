@@ -251,17 +251,43 @@ body {
   }
 }
 
-.container-slider{
-  max-width: 1024px;
-  .slider{
-
-    img{
-      display: block;
-      width: 100%;
-      
+.header-home{
+  flex-direction: column;
+  justify-content: center;
+  .header-title{
+    max-width: 400px;
+    
+    .header-text{
+      h{
+        text-align: center;
+      }
     }
+
+    .header-underText{
+      display: flex;
+      p{
+        
+      }
+    }
+
+  }
+  .swiper {
+    max-width: 800px;
+    border-radius: 15px;
+    .swiper-wrapper {
+  
+      .swiper-slide {
+        text-align: center;
+  
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  
   }
 }
+
 
 
 

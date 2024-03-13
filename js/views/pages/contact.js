@@ -4,6 +4,7 @@ class Contact extends Component {
     render() {
         return new Promise(resolve => {
             resolve(`
+            
             <div class="header-content__inner">
         <div class="header-container__contact">
             <div class="header-contact__text">
