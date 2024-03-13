@@ -96,35 +96,34 @@ body {
           }
         }
       }
-      .header-contact__button{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       margin: 75px 0;
-
-       .disabled {
-          pointer-events: none;
-       }
-       .button{
-          padding: 30px 120px 30px 120px;
-          border-radius: 15px;
-          font-size: 20px;
-          border: none;
-          background-color: $headFoot;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          transition: all .2s;
-          &:hover {
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-            color: white;
-          }
-       }
-
-       .disabled {
-          pointer-events: none;
-        }
-      }
+      
   }
 }
+
+.header-contact__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 75px 0;
+
+  .disabled {
+     pointer-events: none;
+  }
+  .button{
+     padding: 30px 120px 30px 120px;
+     border-radius: 15px;
+     font-size: 20px;
+     border: none;
+     background-color: $headFoot;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     transition: all .2s;
+     &:hover {
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       color: white;
+     }
+  }
+ }
+ 
 .wrapper-none{
   display: none;
 }

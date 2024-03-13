@@ -132,16 +132,17 @@ body {
 .header-content__inner .header-container__contact .contact-information .contact-information__info .address, .header-content__inner .header-container__contact .contact-information .contact-information__info .tel, .header-content__inner .header-container__contact .contact-information .contact-information__info .mail {
   margin: 20px 0;
 }
-.header-content__inner .header-container__contact .header-contact__button {
+
+.header-contact__button {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 75px 0;
 }
-.header-content__inner .header-container__contact .header-contact__button .disabled {
+.header-contact__button .disabled {
   pointer-events: none;
 }
-.header-content__inner .header-container__contact .header-contact__button .button {
+.header-contact__button .button {
   padding: 30px 120px 30px 120px;
   border-radius: 15px;
   font-size: 20px;
@@ -150,12 +151,9 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.2s;
 }
-.header-content__inner .header-container__contact .header-contact__button .button:hover {
+.header-contact__button .button:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   color: white;
-}
-.header-content__inner .header-container__contact .header-contact__button .disabled {
-  pointer-events: none;
 }
 
 .wrapper-none {
