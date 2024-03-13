@@ -267,3 +267,11 @@ body {
   font-size: 12px;
   color: green;
 }
+
+.container-slider {
+  max-width: 1024px;
+}
+.container-slider .slider img {
+  display: block;
+  width: 100%;
+}
