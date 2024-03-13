@@ -268,10 +268,26 @@ body {
   color: green;
 }
 
-.container-slider {
-  max-width: 1024px;
+.header-home {
+  flex-direction: column;
+  justify-content: center;
 }
-.container-slider .slider img {
-  display: block;
-  width: 100%;
+.header-home .header-title {
+  max-width: 400px;
+}
+.header-home .header-title .header-text h {
+  text-align: center;
+}
+.header-home .header-title .header-underText {
+  display: flex;
+}
+.header-home .swiper {
+  max-width: 800px;
+  border-radius: 15px;
+}
+.header-home .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+}
+.header-home .swiper .swiper-wrapper .swiper-slide img {
+  max-width: 100%;
 }
