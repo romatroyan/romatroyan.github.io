@@ -9,8 +9,12 @@ class Home extends Component {
             resolve(`
             <div class="header-home">
             <div class="header-title">
+                    <div class="header-headline">
+                       <h1 class="custom-color"> МУЗЕЙ БЕЛАРУСКАГА РУЧНІКА ДЗЯРЖАЎНАЙ УСТАНОВЫ АДУКАЦЫІ “ЛАЗАВІЦКАЯ СЯРЭДНЯЯ ШКОЛА  КЛЕЦКАГА РАЁНА”
+                       </h1>
+                    </div>
                     <div class="header-text">
-                        <h3>Паважаныя, сябры! Калі хто з вас хоча навучыцца прасці, ткаць і вышываць зусім задарма, звяртайцеся ў Лазавіцкую сярэднюю школу. Вас запрашае Музей беларускага ручніка.</h3>
+                        <h3 class="custom-color">Паважаныя, сябры! Калі хто з вас хоча навучыцца прасці, ткаць і вышываць зусім задарма, звяртайцеся ў Лазавіцкую сярэднюю школу. Вас запрашае Музей беларускага ручніка.</h3>
                     </div>
                     <div class="header-underText">
                         <p>Школьны – гэта лад жыцця,
@@ -40,7 +44,19 @@ class Home extends Component {
                         <img src="../../../img/sliderHome/3.jpg" alt="">
                         
                 </div>
-                
+                <div class="swiper-slide">
+                        <img src="../../../img/sliderHome/4.jpg" alt="">
+                        
+                </div>
+                <div class="swiper-slide">
+                        <img src="../../../img/sliderHome/5.jpg" alt="">
+                        
+                </div>
+                <div class="swiper-slide">
+                        <img src="../../../img/sliderHome/6.jpg" alt="">
+                        
+                </div>
+               
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-prev"></div>

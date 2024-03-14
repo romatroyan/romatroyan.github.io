@@ -4,8 +4,9 @@ import Header from './views/partials/header.js';
 import Footer from './views/partials/footer.js';
 
 import Home from './views/pages/home.js';
-import AboutMuseum from './views/pages/aboutMuseum.js';
-import HistoryAndAchievements from './views/pages/historyAndAchievements.js';
+import Card from './views/pages/card.js';
+import Document from './views/pages/document.js';
+import ImgDocument from './views/pages/imgDocument.js';
 import Exposition from './views/pages/exposition.js';
 import Vr from './views/pages/vr.js';
 import Contact from './views/pages/contact.js';
@@ -14,8 +15,9 @@ import Error404 from './views/pages/error404.js';
 
 const Routes = {
     '/' : Home,
-    '/about_museum' : AboutMuseum,
-    '/history_and_achievements' : HistoryAndAchievements,
+    '/card' : Card,
+    '/imgDocumen': ImgDocument,
+    '/document' : Document,
     '/exposition' : Exposition,
     '/vr' : Vr,
     '/contact' : Contact,
