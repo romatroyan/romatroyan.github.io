@@ -7,20 +7,28 @@ import Home from './views/pages/home.js';
 import Card from './views/pages/card.js';
 import Document from './views/pages/document.js';
 import ImgDocument from './views/pages/imgDocument.js';
-import Exposition from './views/pages/exposition.js';
+import Video from './views/pages/video.js';
 import Vr from './views/pages/vr.js';
 import Contact from './views/pages/contact.js';
 import Error404 from './views/pages/error404.js';
+import Class from './views/pages/class.js';
+import Ecscurs from './views/pages/ecscurs.js';
+import Suitcase from './views/pages/suitcase.js';
+import Game from './views/pages/game.js';
 
 
 const Routes = {
     '/' : Home,
+    '/suitcase': Suitcase,
+    '/ecscurs': Ecscurs,
+    '/class': Class,
     '/card' : Card,
     '/imgDocumen': ImgDocument,
     '/document' : Document,
-    '/exposition' : Exposition,
+    '/video' : Video,
     '/vr' : Vr,
     '/contact' : Contact,
+    '/game': Game,
 };
 
 function router() {

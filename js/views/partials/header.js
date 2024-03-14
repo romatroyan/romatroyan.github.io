@@ -29,10 +29,17 @@ class Header extends Component {
                         </div>
                 </div>
            </div>
-           <div class="header__link ${resource === 'exposition' ? 'active' : ''}">
-                <a  href="/#/exposition">
-                    ЭКСПАЗІЦЫІ
-                </a>
+           <div class="header__link">
+                <div class="dropdown">
+                <div class="dropbtn">СКАРБОНКА МУЗЕЙНЫХ СПРАЎ</div>
+                    <div class="dropdown-content">
+                        <a href="/#/video">Відэаэкскурсіі</a>
+                        <a href="/#/class">Музейныя заняткі</a>
+                        <a href="/#/ecscurs">Аглядныя і тэматычныя экскурсіі</a>
+                        <a href="/#/suitcase">Музей ў чамадане</a>
+                        <a href="/#/game">Інтэрактыўныя заданні</a>
+                    </div>
+                </div>
             </div>
             <div class="header__link ${resource === 'vr' ? 'active' : ''}">
                 <a  href="/#/vr">
