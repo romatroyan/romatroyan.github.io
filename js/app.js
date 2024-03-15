@@ -15,19 +15,29 @@ import Class from './views/pages/class.js';
 import Ecscurs from './views/pages/ecscurs.js';
 import Suitcase from './views/pages/suitcase.js';
 import Game from './views/pages/game.js';
+import Material from './views/pages/material.js';
+import Vrmuzbel from './views/pages/vrmuzbel.js';
+import Achieving from './views/pages/achieving.js';
+import Materialwork from './views/pages/materialwork.js';
+import Cooperation from './views/pages/cooperation.js';
 
 
 const Routes = {
     '/' : Home,
+    '/achieving': Achieving,
     '/suitcase': Suitcase,
+    '/materialwork': Materialwork,
+    '/cooperation': Cooperation,
     '/ecscurs': Ecscurs,
     '/class': Class,
+    '/vrmuzbel': Vrmuzbel,
     '/card' : Card,
     '/imgDocumen': ImgDocument,
     '/document' : Document,
     '/video' : Video,
     '/vr' : Vr,
     '/contact' : Contact,
+    '/material': Material,
     '/game': Game,
 };
 

@@ -14,7 +14,7 @@ class Ecscurs extends Component {
                     Традыцыйнае беларускае адзенне
                     </h3>
                 </div>
-                <div class="icon"><a href="../../../document//Традыцыйнае беларускае адзенне.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
+                <div class="icon"><a href="../../../document/Традыцыйнае беларускае адзенне.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
             </div>
             <div class="title-load">
                 <div class="title-text">

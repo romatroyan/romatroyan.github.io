@@ -29,6 +29,25 @@ class Header extends Component {
                         </div>
                 </div>
            </div>
+            <div class="header__link">
+                <div class="dropdown">
+                    <div class="dropbtn">Карысныя спасылкі</div>
+                        <div class="dropdown-content">
+                            <a href="/#/material">Матэрыялы для цікаўных</a>
+                            <a href="/#/vrmuzbel">Віртуальны тур па музеях Беларусі</a>
+                        </div>
+                </div>
+           </div>
+            <div class="header__link">
+                <div class="dropdown">
+                    <div class="dropbtn">Навукова-асветніцкая дзейнасць</div>
+                        <div class="dropdown-content">
+                            <a href="/#/materialwork">Матэрыялы даследчых работ</a>
+                            <a href="/#/achieving">Дасягненні і ўзнагароды</a>
+                            <a href="/#/cooperation">Супрацоўніцтва</a>
+                        </div>
+                </div>
+           </div>
            <div class="header__link">
                 <div class="dropdown">
                 <div class="dropbtn">СКАРБОНКА МУЗЕЙНЫХ СПРАЎ</div>

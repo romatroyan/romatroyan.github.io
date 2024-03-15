@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -584,5 +585,184 @@ body {
   text-align: center;
 }
 .wrapper-game .subtitle-game .icon a > img {
+  max-width: 75px;
+}
+
+.wrapper-material {
+  width: 900px;
+  background-color: #47b8a7;
+  margin-bottom: auto;
+  margin-top: -50px;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-material .title-material {
+  width: 600px;
+  margin: 75px 0;
+}
+.wrapper-material .title-material h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.wrapper-material .subtitle-material {
+  width: 350px;
+}
+.wrapper-material .subtitle-material .title-text {
+  margin-bottom: 20px;
+}
+.wrapper-material .subtitle-material .title-text h3 {
+  font-size: 28px;
+  text-align: center;
+}
+.wrapper-material .subtitle-material .icon {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.wrapper-material .subtitle-material .icon a > img {
+  max-width: 75px;
+}
+
+.wrapper-vrmuzbel {
+  width: 900px;
+  background-color: #47b8a7;
+  margin-bottom: auto;
+  margin-top: -50px;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-vrmuzbel .title-vrmuzbel {
+  width: 600px;
+  margin: 75px 0;
+}
+.wrapper-vrmuzbel .title-vrmuzbel h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.wrapper-vrmuzbel .subtitle-vrmuzbel {
+  width: 350px;
+}
+.wrapper-vrmuzbel .subtitle-vrmuzbel .title-text {
+  margin-bottom: 20px;
+}
+.wrapper-vrmuzbel .subtitle-vrmuzbel .title-text h3 {
+  font-size: 28px;
+  text-align: center;
+}
+.wrapper-vrmuzbel .subtitle-vrmuzbel .icon {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.wrapper-vrmuzbel .subtitle-vrmuzbel .icon a > img {
+  max-width: 75px;
+}
+
+.wrapper-achieving {
+  width: 900px;
+  background-color: #47b8a7;
+  margin-bottom: auto;
+  margin-top: -50px;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-achieving .title-achieving {
+  width: 600px;
+  margin: 75px 0;
+}
+.wrapper-achieving .title-achieving h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.wrapper-achieving .swiper {
+  max-width: 900px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.wrapper-achieving .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+}
+.wrapper-achieving .swiper .swiper-wrapper .swiper-slide img {
+  max-width: 100%;
+}
+.wrapper-achieving .swiper .swiper-pagination {
+  font-size: 30px;
+}
+
+.wrapper-сooperation {
+  width: 900px;
+  background-color: #47b8a7;
+  margin-bottom: auto;
+  margin-top: -50px;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-сooperation .title-сooperation {
+  width: 600px;
+  margin: 75px 0;
+}
+.wrapper-сooperation .title-сooperation h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.wrapper-сooperation .swiper {
+  max-width: 900px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.wrapper-сooperation .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+}
+.wrapper-сooperation .swiper .swiper-wrapper .swiper-slide img {
+  max-width: 100%;
+}
+.wrapper-сooperation .swiper .swiper-pagination {
+  font-size: 30px;
+}
+
+.wrapper-materialwork {
+  width: 900px;
+  background-color: #47b8a7;
+  margin-bottom: auto;
+  margin-top: -50px;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-materialwork .title-materialwork {
+  width: 600px;
+  margin: 75px 0;
+}
+.wrapper-materialwork .title-materialwork h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.wrapper-materialwork .subtitle-materialwork {
+  width: 350px;
+}
+.wrapper-materialwork .subtitle-materialwork .title-text {
+  margin-bottom: 20px;
+}
+.wrapper-materialwork .subtitle-materialwork .title-text h3 {
+  font-size: 28px;
+  text-align: center;
+}
+.wrapper-materialwork .subtitle-materialwork .icon {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.wrapper-materialwork .subtitle-materialwork .icon a > img {
   max-width: 75px;
 }
