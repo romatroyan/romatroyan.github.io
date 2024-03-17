@@ -20,13 +20,17 @@ import Vrmuzbel from './views/pages/vrmuzbel.js';
 import Achieving from './views/pages/achieving.js';
 import Materialwork from './views/pages/materialwork.js';
 import Cooperation from './views/pages/cooperation.js';
+import Histori from './views/pages/histori.js';
+import Direction from './views/pages/direction.js';
 
 
 const Routes = {
     '/' : Home,
     '/achieving': Achieving,
+    '/histori': Histori,
     '/suitcase': Suitcase,
     '/materialwork': Materialwork,
+    '/direction': Direction,
     '/cooperation': Cooperation,
     '/ecscurs': Ecscurs,
     '/class': Class,

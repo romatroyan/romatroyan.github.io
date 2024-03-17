@@ -1,4 +1,10 @@
-<div class="wrapper-сooperation">
+import Component from '../component.js';
+import { slider } from '../../helpers/slider.js';
+class Direction extends Component {
+    render() {
+        return new Promise(resolve => {
+            resolve(`
+            <div class="wrapper-сooperation">
     
     <div class="title-сooperation">
         <img src="../../../img/direction/Музей, Заостр (2).jpg" alt="">
@@ -331,4 +337,14 @@
         <div class="swiper-button-next"></div>
     
         </div>
-</div>        
+</div>                     
+                          
+            `);
+        });
+    }
+    afterRender() {
+        slider();
+    }
+}
+
+export default Direction;

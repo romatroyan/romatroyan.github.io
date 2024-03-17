@@ -65,6 +65,16 @@ class Header extends Component {
                     ВІРТУАЛЬНАЯ ЭКСКУРСІЯ
                 </a> 
             </div>
+            <div class="header__link ${resource === 'direction' ? 'active' : ''}">
+                <a  href="/#/direction">
+                НАКІРУНКІ ДЗЕЙНАСТІ
+                </a> 
+            </div>
+            <div class="header__link ${resource === 'histori' ? 'active' : ''}">
+                <a  href="/#/histori">
+                ГІСТАРЫЧНЫ ЭКСКУРС
+                </a> 
+            </div>
            <div class="header__link ${resource === 'contact' ? 'active' : ''}">
                 <a  href="/#/contact">
                 КАНТАКТЫ
