@@ -746,8 +746,14 @@ body {
       text-align: center;
       font-size: 48px;
     } 
+    
+    
+  }
+  .title-img{
+    margin-top: 0;
+    width: 850px;
     img{
-      
+    
       width: 100%;
     }
   }
@@ -769,8 +775,15 @@ body {
     }
     
   }
+  .text-img{
+    width: 850px;
+    img{
+      width: 100%;
+    }
+  }
   .swiper {
     max-width: 900px;
+    max-height: 750px;
     border-radius: 15px;
     margin-bottom: 20px;
     .swiper-wrapper {
@@ -779,6 +792,7 @@ body {
         text-align: center;
   
         img{
+          max-height: 100%;
           max-width: 100%;
         }
       }

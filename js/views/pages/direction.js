@@ -6,48 +6,14 @@ class Direction extends Component {
             resolve(`
             <div class="wrapper-сooperation">
     
-    <div class="title-сooperation">
+    <div class="title-сooperation title-img">
         <img src="../../../img/direction/Музей, Заостр (2).jpg" alt="">
                 
     </div>
-    <div class="text-сooperation">
-        <h3>Арганізацыйная работа</h3> 
-        <p>Выбраны  і дзейнічаюць савет і актыў музея, 
-            пасяджэнні якіх праводзяцца 1 раз у чвэрць,  размеркаваны абавязкі па сектарах</p>
-            <ul>
-                <li>сектар збору, уліку і захоўвання матэрыялаў;
-                </li>
-                <li>сектар афармлення экспазіцый і выстаў; 
-                </li>
-                <li>сектар экскурсій; 
-                </li>
-                <li>сектар перапісак; сектар культурна-масавай работы.
-                </li>
-            </ul>
-
+    <div class="text-сooperation text-img">
+        <img src="../../../img/direction/1.jpg" alt="">
     </div>
-    <div class="swiper">
-                
-        <div class="swiper-wrapper">
-        
-            <div class="swiper-slide">
-                <img src="../../../img/direction/organ/Рисунок10.jpg" alt="">
-
-            </div> 
-            <div class="swiper-slide">
-                <img src="../../../img/direction/organ/Рисунок9.png" alt="">
-
-            </div> 
-            
-            
-            
-        
-        </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
     
-        </div>
     <div class="text-сooperation">
         <h3>Пошукава-даследчая работа </h3> 
         <p>Работа з архіўнымі матэрыяламі НГАБ.

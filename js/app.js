@@ -22,7 +22,7 @@ import Materialwork from './views/pages/materialwork.js';
 import Cooperation from './views/pages/cooperation.js';
 import Histori from './views/pages/histori.js';
 import Direction from './views/pages/direction.js';
-
+import Exposition from './views/pages/exposition.js';
 
 const Routes = {
     '/' : Home,
@@ -38,6 +38,7 @@ const Routes = {
     '/card' : Card,
     '/imgDocumen': ImgDocument,
     '/document' : Document,
+    '/exposition': Exposition,
     '/video' : Video,
     '/vr' : Vr,
     '/contact' : Contact,

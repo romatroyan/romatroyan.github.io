@@ -716,7 +716,11 @@ body {
   text-align: center;
   font-size: 48px;
 }
-.wrapper-сooperation .title-сooperation img {
+.wrapper-сooperation .title-img {
+  margin-top: 0;
+  width: 850px;
+}
+.wrapper-сooperation .title-img img {
   width: 100%;
 }
 .wrapper-сooperation .text-сooperation {
@@ -736,8 +740,15 @@ body {
   font-size: 22px;
   margin: 25px;
 }
+.wrapper-сooperation .text-img {
+  width: 850px;
+}
+.wrapper-сooperation .text-img img {
+  width: 100%;
+}
 .wrapper-сooperation .swiper {
   max-width: 900px;
+  max-height: 750px;
   border-radius: 15px;
   margin-bottom: 20px;
 }
@@ -745,6 +756,7 @@ body {
   text-align: center;
 }
 .wrapper-сooperation .swiper .swiper-wrapper .swiper-slide img {
+  max-height: 100%;
   max-width: 100%;
 }
 .wrapper-сooperation .swiper .swiper-pagination {

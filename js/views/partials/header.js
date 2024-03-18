@@ -17,6 +17,9 @@ class Header extends Component {
                     <div class="dropbtn">АБ МУЗЕІ</div>
                         <div class="dropdown-content">
                             <a href="/#/card">Візітная картка</a>
+                            <a href="/#/histori">Гістарычны экскурс</a>
+                            <a href="/#/direction">Накірункі дзейнасці</a>
+                            <a href="/#/exposition">Экспазіцыі</a>
                         </div>
                 </div>
             </div>
@@ -63,16 +66,6 @@ class Header extends Component {
             <div class="header__link ${resource === 'vr' ? 'active' : ''}">
                 <a  href="/#/vr">
                     ВІРТУАЛЬНАЯ ЭКСКУРСІЯ
-                </a> 
-            </div>
-            <div class="header__link ${resource === 'direction' ? 'active' : ''}">
-                <a  href="/#/direction">
-                НАКІРУНКІ ДЗЕЙНАСТІ
-                </a> 
-            </div>
-            <div class="header__link ${resource === 'histori' ? 'active' : ''}">
-                <a  href="/#/histori">
-                ГІСТАРЫЧНЫ ЭКСКУРС
                 </a> 
             </div>
            <div class="header__link ${resource === 'contact' ? 'active' : ''}">

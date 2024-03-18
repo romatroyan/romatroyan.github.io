@@ -1,4 +1,11 @@
-<div class="wrapper-сooperation">
+import Component from '../component.js';
+import { slider } from '../../helpers/slider.js';
+
+class Exposition extends Component {
+    render() {
+        return new Promise(resolve => {
+            resolve(`
+            <div class="wrapper-сooperation">
     <div class="title-сooperation">
         <h1>
             Экспазіцыі
@@ -356,9 +363,9 @@
             <div class="swiper-slide">
                 <img src="../../../img/exsposition/Зменная выстава Мелодыя ручніка/photo_2024-03-17_16-28-35.jpg" alt="">
 
-            </div>              
+            </div>  
             <div class="swiper-slide">
-                <img src="../../../img/exsposition/Экспазіцыя Беларускі народны касцюм/1.jpg" alt="">
+                <img src="../../../img/exsposition/Зменная выстава Мелодыя ручніка/1.jpg" alt="">
 
             </div>              
         
@@ -398,6 +405,10 @@
                 <img src="../../../img/exsposition/Экспазіцыя Беларускі народны касцюм/photo_2024-03-17_16-40-02.jpg" alt="">
 
             </div>  
+            <div class="swiper-slide">
+                <img src="../../../img/exsposition/Экспазіцыя Беларускі народны касцюм/1.jpg" alt="">
+
+            </div> 
            
         
         </div>
@@ -406,4 +417,14 @@
         <div class="swiper-button-next"></div>
     
         </div>
-</div>        
+</div>               
+                         
+            `);
+        });
+    }
+    afterRender() {
+        slider();
+    }
+}
+
+export default Exposition;

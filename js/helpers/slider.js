@@ -16,7 +16,7 @@ export const slider = ()=> {new Swiper('.swiper', {
         delay: 2000,
         disableOnInteraction: false,
     },
-    
+    autoHeight: true,
 
     
 })};
