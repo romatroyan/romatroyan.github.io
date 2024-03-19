@@ -63,10 +63,6 @@ class Exposition extends Component {
 
             </div> 
             <div class="swiper-slide">
-                <img src="../../../img/exsposition/Экспазіцыя Ад сахі да ручніка/photo_2024-03-17_15-49-53.jpg" alt="">
-
-            </div> 
-            <div class="swiper-slide">
                 <img src="../../../img/exsposition/Экспазіцыя Ад сахі да ручніка/photo_2024-03-17_15-50-00.jpg" alt="">
 
             </div> 
@@ -161,10 +157,6 @@ class Exposition extends Component {
             </div> 
             <div class="swiper-slide">
                 <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-04-13.jpg" alt="">
-
-            </div> 
-            <div class="swiper-slide">
-                <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-04-45.jpg" alt="">
 
             </div> 
             <div class="swiper-slide">
@@ -364,10 +356,7 @@ class Exposition extends Component {
                 <img src="../../../img/exsposition/Зменная выстава Мелодыя ручніка/photo_2024-03-17_16-28-35.jpg" alt="">
 
             </div>  
-            <div class="swiper-slide">
-                <img src="../../../img/exsposition/Зменная выстава Мелодыя ручніка/1.jpg" alt="">
-
-            </div>              
+                          
         
         </div>
         <div class="swiper-pagination"></div>
@@ -395,10 +384,6 @@ class Exposition extends Component {
             </div>  
             <div class="swiper-slide">
                 <img src="../../../img/exsposition/Экспазіцыя Беларускі народны касцюм/photo_2024-03-17_16-33-14.jpg" alt="">
-
-            </div>  
-            <div class="swiper-slide">
-                <img src="../../../img/exsposition/Экспазіцыя Беларускі народны касцюм/photo_2024-03-17_16-33-36.jpg" alt="">
 
             </div>  
             <div class="swiper-slide">

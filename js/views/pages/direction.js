@@ -49,10 +49,6 @@ class Direction extends Component {
 
             </div> 
             <div class="swiper-slide">
-                <img src="../../../img/direction/posh/Рисунок15.jpg" alt="">
-
-            </div> 
-            <div class="swiper-slide">
                 <img src="../../../img/direction/posh/Рисунок16.jpg" alt="">
 
             </div> 
@@ -290,11 +286,7 @@ class Direction extends Component {
                 <img src="../../../img/direction/cult/Рисунок47.jpg" alt="">
 
             </div> 
-            <div class="swiper-slide">
-                <img src="../../../img/direction/cult/Рисунок48.jpg" alt="">
-
-            </div> 
-            
+                        
             
         
         </div>

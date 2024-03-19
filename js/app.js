@@ -23,6 +23,7 @@ import Cooperation from './views/pages/cooperation.js';
 import Histori from './views/pages/histori.js';
 import Direction from './views/pages/direction.js';
 import Exposition from './views/pages/exposition.js';
+import Galery from './views/pages/galery.js';
 
 const Routes = {
     '/' : Home,
@@ -35,6 +36,7 @@ const Routes = {
     '/ecscurs': Ecscurs,
     '/class': Class,
     '/vrmuzbel': Vrmuzbel,
+    '/galery': Galery,
     '/card' : Card,
     '/imgDocumen': ImgDocument,
     '/document' : Document,

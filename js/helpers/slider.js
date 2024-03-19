@@ -13,10 +13,10 @@ export const slider = ()=> {new Swiper('.swiper', {
     loop: true,
 
     autoplay: {
-        delay: 2000,
+        delay: 3500,
         disableOnInteraction: false,
     },
-    autoHeight: true,
+    
 
     
 })};

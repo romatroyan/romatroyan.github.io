@@ -20,6 +20,7 @@ class Header extends Component {
                             <a href="/#/histori">Гістарычны экскурс</a>
                             <a href="/#/direction">Накірункі дзейнасці</a>
                             <a href="/#/exposition">Экспазіцыі</a>
+                            <a href="/#/galery">Фотагалерэя</a>
                         </div>
                 </div>
             </div>
