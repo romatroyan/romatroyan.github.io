@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0076)https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&allowFullscreen=1 -->
+<html lang="by"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.ui-draggable {-ms-touch-action:none;}</style>
+<!--<link rel="stylesheet" href="js/jquery.mobile-1.0.min.css" />-->
+<link rel="stylesheet" type="text/css" href="./jquery.fancybox-1.3.4.css" media="screen">
+<script async="" src="./analytics.js.загрузка"></script><script type="text/javascript" src="./jquery-1.7.2.min.js.загрузка"></script>
+<script type="text/javascript" src="./jquery-ui-1.8.22.min.js.загрузка"></script>
+<script type="text/javascript" src="./jquery.ui.touch-punch.min.js.загрузка"></script>
+<script type="text/javascript" src="./jquery.fancybox-1.3.4.pack.js.загрузка"></script>
+<script type="text/javascript" src="./jquery.easing-1.3.pack.js.загрузка"></script>
+
+<style type="text/css">
+.feedback{
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ border-radius:15px;
+
+ box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
+ -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -ms-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -o-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+
+ border:10px solid #ddd;
+ background:white;
+ z-index:100000;
+}
+
+html, body { height:100%; padding:0px; margin:0px; font-family:Arial; background:url(back.jpg);}
+
+*{
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+img{ border:0px}
+
+.tableCell{
+ float:left;
+ position:relative;
+ border-radius: 10px;
+ width:164px;
+ height:60px;
+ background:transparent;
+ border:3px dashed #666;
+ margin:8px;
+ margin-left:6px;
+ margin-right:6px;
+ text-align:center;
+}
+.tableCellInner{
+ text-align:center;
+}
+.fixedCell{
+ border: 0px;
+ background:transparent;
+}
+
+.tableCell.highlight {
+  background: #ffe;
+}
+
+.tableCell.hovered {
+  border-color: blue;
+  background: #ffc;
+}
+
+#nav {
+  background: #ffc;
+ box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
+ -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -ms-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -o-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+
+}
+
+.card{
+ overflow:hidden;
+ position:relative;
+ border-radius: 10px;
+ background:#ffd;
+ float:left;
+ text-align:center;
+ border:2px solid #999;
+ cursor:pointer;
+ margin:10px;
+ margin-bottom:5px;
+ z-index:1000;
+ padding:5px;
+}
+
+.lineHorz {
+/* background:#ddaa33; */
+ height:3px;
+ width:100%;
+}
+.lineVert {
+/* background:#ddaa33; */
+ position:absolute;
+ width:3px;
+ height:95px;
+ margin-left:-2px;
+ margin-top:-6px;
+}
+
+.connectedBackground{
+ position:absolute;
+ opacity:0.5;
+ height:78px;
+ background:#fff;
+ border-radius: 10px;
+
+ box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
+ -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -ms-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+ -o-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+}
+
+</style>
+<script type="text/javascript" src="./layout.js.загрузка"></script>
+<link type="text/css" rel="stylesheet" href="./LearningApps.css"></head>
+<body onresize="refreshResize();" style="overflow-wrap: break-word; cursor: auto;">
+
+<script>
+  var gaProperty = "UA-36966755-1";
+  var disableStr = "ga-disable-" + gaProperty;
+  if (document.cookie.indexOf(disableStr + "=true") > -1) {
+    window[disableStr] = true;
+  }
+  function gaOptout() {
+    document.cookie = disableStr + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/";
+    window[disableStr] = true;
+    window.location.reload();
+  }
+  function gaOptin() {
+    document.cookie = disableStr + "=false; expires=Thu, 01 Jan 1970 00:00:01 UTC; path=/";
+    window.location.reload();
+  }
+  if(window[disableStr] != true){
+  (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+  ga("create", "UA-36966755-1", "auto");
+  ga("set", "anonymizeIp", true);
+  ga("send", "pageview");
+  ga("send", "event", "App template used 270","p2i2z6adk18");
+  }
+
+  // Sentry.init({ dsn: "https://afa577de7837449bb902d379c34f52ae@sentry.io/1447840" });
+</script>
+
+<script type="text/javascript" src="./data"></script>
+<script type="text/javascript" src="./AppClientServer.js.загрузка"></script>
+<script type="text/javascript">/* <![CDATA[ */
+ var AppID = "p2i2z6adk18";
+ var AppClientLanguage = "BY";
+ var AppClient = new AppClientClass(AppID,false,0);
+/* ]]> */
+</script><div id="AppClientLoadingPanel" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; box-sizing: border-box; z-index: 999999; background-color: rgb(255, 255, 255); display: none;"><table style="box-sizing:border-box; width:100%;height:100%"><tbody><tr><td width="100%" align="center" style="color:#333;font-family:Arial;" id="LoadingPanelContent"><img src="./loading.gif" alt="" style="vertical-align:middle;margin:5px"> <b> Loading ... </b></td></tr></tbody></table></div>
+
+
+<script type="text/javascript">
+
+var dataArray = new Array();
+var feedback = "";
+var totalCards = 0;
+var maxcolums = 0;
+
+function init(){ 
+
+ if(AppClient.isMobileDevice())
+  document.getElementById("mobileCSS").innerHTML = 
+        '<style type="text/css">'+
+        '.card , .tableCell{'+
+        '  border-radius: 0px;'+
+        '}</style>';
+
+ // feedback einlesen und schon mal ins Div schreiben
+ feedback = AppClient.getParameter("feedback","Alles richtig :-)");	
+ feedback = feedback.replace(/\r/g,"")
+ feedback = feedback.replace(/\n/g,"<br>");
+ if(feedback == "") feedback = AppClient.getTranslation("FeedbackValue");
+
+ var d = document.getElementById("feedback_inner");
+ d.innerHTML = AppClient.linkifyText(feedback);
+
+ // Daten einlesen und in Array f¸llen
+ for (var i=1; i < 20; i++){
+  var row = new Array();
+  var rowUsed = false;
+  for (var z=1; z < 6; z++){
+   var c = AppClient.getParameter("content_"+i+"_"+z,"");
+   var o = new Object();
+   o.column = z;
+   o.paramName = "content_"+i+"_"+z;
+   o.value = "";
+   if(trim(c.replace("|","")) != "") {
+    rowUsed = true;
+    maxcolums = Math.max(maxcolums,z);
+    o.value = trim(c);
+   }
+   row.push(o);
+  }
+  if(rowUsed){
+   dataArray.push(row);
+  }
+ } 
+ for(var i=0; i < dataArray.length; i++){
+  var row = dataArray[i];   
+  row.splice(maxcolums,row.length-maxcolums);
+ }
+
+ displayTable();
+ displayCardList();
+
+ // layout.js functions
+ makeCardsDragable(); 
+ refreshResize();
+}
+
+function displayCardList(){
+ totalCards = 0;
+
+ var s = "";
+ for (var y=0; y < dataArray.length; y++){
+  for (var x=0; x < dataArray[y].length; x++){
+   if((y == 0 && AppClient.getParameter("fixedRow1") == "true") ||
+      (x == 0 && AppClient.getParameter("fixedColumn1") == "true") ||
+      (x == 1 && AppClient.getParameter("fixedColumn2") == "true") ||
+      (x == 2 && AppClient.getParameter("fixedColumn3") == "true") ||
+      (x == 3 && AppClient.getParameter("fixedColumn4") == "true") ||
+      (x == 4 && AppClient.getParameter("fixedColumn5") == "true")){
+
+   } else {
+    if(dataArray[y][x].value != ""){
+     if(Math.random() > 0.5)
+      s += addCardContent(dataArray[y][x].paramName); else
+      s = addCardContent(dataArray[y][x].paramName) + s;
+     totalCards++;
+    }
+   }
+  }
+ }
+ document.getElementById("nav").innerHTML = '<div id="navinner" style="width:'+(totalCards*190+50)+'px;padding-left:10px">'+s+'</div>'; 
+}
+
+var arrowVisible = true;
+
+function addCardContent(paramName){
+ return '<div id="'+paramName+'" class="card dragableCard">'+formatContent(paramName)+'</div>';
+}
+
+function addFixedContent(paramName){
+ return '<div class="tableCell fixedCell"><div class="tableCellInner" style="padding:5px">'+formatContent(paramName)+'</div></div>';
+}
+
+function addCardSlotContent(paramName){
+ return '<div id="slot_'+paramName+'" class="tableCell dropableSlot"> </div>';
+}
+
+function displayTable() {
+ var rowConnected = AppClient.getParameter("rowConnected") == "true";
+
+ var s = "";
+ s += '<div class="tablewrapper"><table style="margin:auto;margin-top:20px" id="dataTable" cellspacing="0" cellpadding="0">';
+ for (var y=0; y < dataArray.length; y++){
+  if(y > 0) s += '<tr><td colspan="'+dataArray[y].length+'"><div class="lineHorz"></div></td></tr>'; 
+  s += '<tr>';
+  for (var x=0; x < dataArray[y].length; x++){
+   s += '<td>'; 
+   if(!(y == 0 && AppClient.getParameter("") == "true"))
+    if(x == 0 && rowConnected){
+     s += '<div class="connectedBackground" style="width:'+(dataArray[y].length*180)+'px"></div>';
+    }
+   if(x > 0) s += '<div class="lineVert"></div>'; 
+   if((y == 0 && AppClient.getParameter("fixedRow1") == "true") ||
+      (x == 0 && AppClient.getParameter("fixedColumn1") == "true") ||
+      (x == 1 && AppClient.getParameter("fixedColumn2") == "true") ||
+      (x == 2 && AppClient.getParameter("fixedColumn3") == "true") ||
+      (x == 3 && AppClient.getParameter("fixedColumn4") == "true") ||
+      (x == 4 && AppClient.getParameter("fixedColumn5") == "true")){
+    s += addFixedContent(dataArray[y][x].paramName);
+   } else {
+    s += addCardSlotContent(dataArray[y][x].paramName);
+   }
+   s += '</td>'; 
+  }
+  s += '</tr>';
+ }
+ s += '</table></div>';
+
+ document.getElementById("tab").innerHTML = s;
+}
+
+
+function checkCorrectCards(){
+ var matched = new Array();
+ 
+ $('.dropableSlot').each(function(i, slot) {
+   var d = $('#'+slot.id).data('dropped');
+   if(d){
+     var p1 = 'slot_'+d.attr('id');
+     var p2 = slot.id; 
+     var a1 = p1.split("_");
+     var a2 = p2.split("_");
+     var r1 = a1[2];
+     var r2 = a2[2];
+     var c1 = a1[3];
+     var c2 = a2[3];
+     if(!matched[r2]) matched[r2] = new Array();
+     var o = new Object();
+     o.sameRow = r1==r2;
+     o.sameCol = c1==c2;
+     o.column = c1; 
+     o.row = r1;
+     o.item = d;
+     matched[r2][c2] = o; 
+     d.css("background","#ffd");
+     d.data('correct',0);
+   }else{
+     var p2 = slot.id; 
+     var a2 = p2.split("_");
+     var r2 = a2[2];
+     var c2 = a2[3];
+     if(!matched[r2]) matched[r2] = new Array();
+
+     var o = new Object();
+     o.sameRow = false;
+     o.sameCol = false;
+     o.column = -1; 
+     o.row = -1;
+     o.item = null;
+     matched[r2][c2] = o; 
+   }
+ });
+ 
+ var needExactRow = false;
+ var rowConnected = AppClient.getParameter("rowConnected") == "true";
+ 
+ if(rowConnected)
+  if ((AppClient.getParameter("fixedColumn1") == "true") ||
+      (AppClient.getParameter("fixedColumn2") == "true") ||
+      (AppClient.getParameter("fixedColumn3") == "true") ||
+      (AppClient.getParameter("fixedColumn4") == "true") ||
+      (AppClient.getParameter("fixedColumn5") == "true")) needExactRow = true;
+
+
+ function makeGreen(row,col){
+  if(matched[row][col].item != null) {
+     matched[row][col].item.css("backgroundColor","lightgreen"); 
+     matched[row][col].item.data('correct',1);
+  }
+ }
+ var usedRows = new Array();
+ 
+ for(row in matched){
+  var correctRow = true;
+  var correctCols = true;
+  var sameRow = true;
+  var lastRow = -1;
+  for (col in matched[row]) { 
+   if(matched[row][col].item == null) continue;
+   correctRow &= matched[row][col].sameRow; 
+   correctCols &= matched[row][col].sameCol;
+   if(lastRow > -1) {
+    sameRow &= lastRow == matched[row][col].row;
+   }
+   lastRow = matched[row][col].row; 
+   if(needExactRow && matched[row][col].sameRow && matched[row][col].sameCol){
+    makeGreen(row,col);
+   }
+   if(!needExactRow && !rowConnected && matched[row][col].sameCol){
+    makeGreen(row,col);
+   }
+  }
+  
+  if((!needExactRow && rowConnected && sameRow && correctCols) ||
+      (needExactRow && rowConnected && correctRow && correctCols)) {
+   // ganze Zeile grün einfärben
+   var alreadyUsed = false;
+   for (col in matched[row]) {
+    var r = matched[row][col].row;
+    if(!r) continue;
+    if(r == -1) continue;
+    if(usedRows.indexOf(r) != -1) alreadyUsed = true;
+   }
+   if(!alreadyUsed){
+    for (col in matched[row]) {
+     var r = matched[row][col].row;
+     if(!r) continue;
+     if(r == -1) continue;
+     if(usedRows.indexOf(r) == -1) usedRows.push(r); 
+     makeGreen(row,col);
+    }
+   }
+  }
+  
+  
+ } 
+ var greenCards = 0;
+ var droppedCards = 0;
+ 
+ $('.dropableSlot').each(function(i, slot) {
+   var d = $('#'+slot.id).data('dropped');
+   if(d) droppedCards++;
+   if(d && d.data('correct') == 1) greenCards++;
+ });
+
+ if(droppedCards == totalCards)
+  AppClient.setChecked(greenCards == totalCards ? 1 : 0,droppedCards-greenCards);
+
+ if(greenCards == totalCards) finished();
+}
+
+function finished() {
+  var d = document.getElementById("feedback");
+  d.style.display = "block";
+  AppClient.setSolved();
+}
+
+AppClient.onInit = init;
+
+</script>
+
+<div id="mobileCSS" style="display:none"></div>
+
+<div id="wrapper" style="width:100%;height:100%;overflow:auto;position:absolute;">
+  <div id="dragHandler" style="z-index:1100;position:absolute;width:150px;height:50px;top:-50px"></div>
+  <div id="arrow" style="z-index: 3000; position: absolute; left: 55%; top: 70px; display: none;"><img src="./arrow.png" alt=""></div>
+  <div id="nav" style="position: absolute; z-index: 10; height: 110px; width: 100%; overflow: auto hidden;"><div id="navinner" style="width: 4010px; padding-left: 10px;"><div id="content_6_4" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 1;"><a id="contentcontent_6_4trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_6_4content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_6_4" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">гарусоўка</div> <div style="display:none;"><div id="itemcontent_6_4content" style="padding:5px;text-align:left">гарусоўка</div></div></div></div><div id="content_6_3" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 21;"><a id="contentcontent_6_3trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_6_3content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_6_3" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">камяніца</div> <div style="display:none;"><div id="itemcontent_6_3content" style="padding:5px;text-align:left">камяніца</div></div></div></div><div id="content_5_1" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 3;"><a id="contentcontent_5_1trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_5_1content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_5_1" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">лёк </div> <div style="display:none;"><div id="itemcontent_5_1content" style="padding:5px;text-align:left">лёк </div></div></div></div><div id="content_4_4" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 4;"><a id="contentcontent_4_4trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_4_4content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_4_4" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">плюшаўка</div> <div style="display:none;"><div id="itemcontent_4_4content" style="padding:5px;text-align:left">плюшаўка</div></div></div></div><div id="content_4_3" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 5;"><a id="contentcontent_4_3trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_4_3content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_4_3" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">мураванка</div> <div style="display:none;"><div id="itemcontent_4_3content" style="padding:5px;text-align:left">мураванка</div></div></div></div><div id="content_4_2" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 6;"><a id="contentcontent_4_2trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_4_2content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_4_2" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">паўмісак</div> <div style="display:none;"><div id="itemcontent_4_2content" style="padding:5px;text-align:left">паўмісак</div></div></div></div><div id="content_3_4" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 7;"><a id="contentcontent_3_4trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_3_4content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_3_4" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">вышыванка</div> <div style="display:none;"><div id="itemcontent_3_4content" style="padding:5px;text-align:left">вышыванка</div></div></div></div><div id="content_3_3" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 8;"><a id="contentcontent_3_3trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_3_3content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_3_3" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">падпаветка</div> <div style="display:none;"><div id="itemcontent_3_3content" style="padding:5px;text-align:left">падпаветка</div></div></div></div><div id="content_3_2" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 9;"><a id="contentcontent_3_2trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_3_2content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_3_2" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">куфель</div> <div style="display:none;"><div id="itemcontent_3_2content" style="padding:5px;text-align:left">куфель</div></div></div></div><div id="content_2_4" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 10;"><a id="contentcontent_2_4trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_2_4content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_2_4" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">шарак</div> <div style="display:none;"><div id="itemcontent_2_4content" style="padding:5px;text-align:left">шарак</div></div></div></div><div id="content_2_3" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 11;"><a id="contentcontent_2_3trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_2_3content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_2_3" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)"> прысценак</div> <div style="display:none;"><div id="itemcontent_2_3content" style="padding:5px;text-align:left"> прысценак</div></div></div></div><div id="content_2_2" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 12;"><a id="contentcontent_2_2trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_2_2content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_2_2" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">цёрла</div> <div style="display:none;"><div id="itemcontent_2_2content" style="padding:5px;text-align:left">цёрла</div></div></div></div><div id="content_2_1" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 13;"><a id="contentcontent_2_1trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_2_1content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_2_1" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">акраса</div> <div style="display:none;"><div id="itemcontent_2_1content" style="padding:5px;text-align:left">акраса</div></div></div></div><div id="content_3_1" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 14;"><a id="contentcontent_3_1trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_3_1content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_3_1" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">грачанік</div> <div style="display:none;"><div id="itemcontent_3_1content" style="padding:5px;text-align:left">грачанік</div></div></div></div><div id="content_4_1" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 15;"><a id="contentcontent_4_1trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_4_1content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_4_1" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">верашчака</div> <div style="display:none;"><div id="itemcontent_4_1content" style="padding:5px;text-align:left">верашчака</div></div></div></div><div id="content_5_2" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 16;"><a id="contentcontent_5_2trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_5_2content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_5_2" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">конаўка</div> <div style="display:none;"><div id="itemcontent_5_2content" style="padding:5px;text-align:left">конаўка</div></div></div></div><div id="content_5_3" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 17;"><a id="contentcontent_5_3trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_5_3content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_5_3" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">вазоўня</div> <div style="display:none;"><div id="itemcontent_5_3content" style="padding:5px;text-align:left">вазоўня</div></div></div></div><div id="content_5_4" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 18;"><a id="contentcontent_5_4trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_5_4content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_5_4" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">тараноўка</div> <div style="display:none;"><div id="itemcontent_5_4content" style="padding:5px;text-align:left">тараноўка</div></div></div></div><div id="content_6_1" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 19;"><a id="contentcontent_6_1trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_6_1content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_6_1" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">зацірка</div> <div style="display:none;"><div id="itemcontent_6_1content" style="padding:5px;text-align:left">зацірка</div></div></div></div><div id="content_6_2" class="card dragableCard ui-draggable" style="width: 150px; height: 50px; z-index: 20;"><a id="contentcontent_6_2trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_6_2content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_6_2" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">гляк</div> <div style="display:none;"><div id="itemcontent_6_2content" style="padding:5px;text-align:left">гляк</div></div></div></div></div></div>
+  <div id="tab" style="position: absolute; top: 110px; left: 0px; width: 100%; bottom: 0px; overflow: auto; box-sizing: border-box;"><div class="tablewrapper"><table style="margin:auto;margin-top:20px" id="dataTable" cellspacing="0" cellpadding="0"><tbody><tr><td><div class="tableCell fixedCell" style="width: 160px; height: 60px;"><div class="tableCellInner" style="padding: 5px; width: 150px; height: 50px;"><a id="contentcontent_1_1trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_1_1content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_1_1" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">Стравы</div> <div style="display:none;"><div id="itemcontent_1_1content" style="padding:5px;text-align:left">Стравы</div></div></div></div></div></td><td><div class="lineVert"></div><div class="tableCell fixedCell" style="width: 160px; height: 60px;"><div class="tableCellInner" style="padding: 5px; width: 150px; height: 50px;"><a id="contentcontent_1_2trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_1_2content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_1_2" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">Посуд</div> <div style="display:none;"><div id="itemcontent_1_2content" style="padding:5px;text-align:left">Посуд</div></div></div></div></div></td><td><div class="lineVert"></div><div class="tableCell fixedCell" style="width: 160px; height: 60px;"><div class="tableCellInner" style="padding: 5px; width: 150px; height: 50px;"><a id="contentcontent_1_3trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_1_3content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_1_3" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">Надворныя пабудовы</div> <div style="display:none;"><div id="itemcontent_1_3content" style="padding:5px;text-align:left">Надворныя пабудовы</div></div></div></div></div></td><td><div class="lineVert"></div><div class="tableCell fixedCell" style="width: 160px; height: 60px;"><div class="tableCellInner" style="padding: 5px; width: 150px; height: 50px;"><a id="contentcontent_1_4trigger" class="fancybox" href="https://learningapps.org/tools/270/10/watch?id=p2i2z6adk18&amp;allowFullscreen=1#itemcontent_1_4content" title=""></a> <div style="margin-top:0px;text-align:center;font-size:16px;overflow:hidden;"><div id="contentcontent_1_4" style="width:100%;cursor:pointer;height:100%;text-align:center;" ontouchend="openItem(this)" onmouseup="openItem(this)">Адзенне</div> <div style="display:none;"><div id="itemcontent_1_4content" style="padding:5px;text-align:left">Адзенне</div></div></div></div></div></td></tr><tr><td colspan="4"><div class="lineHorz"></div></td></tr><tr><td><div id="slot_content_2_1" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_2_2" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_2_3" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_2_4" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td></tr><tr><td colspan="4"><div class="lineHorz"></div></td></tr><tr><td><div id="slot_content_3_1" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_3_2" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_3_3" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_3_4" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td></tr><tr><td colspan="4"><div class="lineHorz"></div></td></tr><tr><td><div id="slot_content_4_1" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_4_2" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_4_3" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_4_4" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td></tr><tr><td colspan="4"><div class="lineHorz"></div></td></tr><tr><td><div id="slot_content_5_1" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_5_2" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_5_3" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_5_4" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td></tr><tr><td colspan="4"><div class="lineHorz"></div></td></tr><tr><td><div id="slot_content_6_1" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_6_2" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_6_3" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td><td><div class="lineVert"></div><div id="slot_content_6_4" class="tableCell dropableSlot ui-droppable" style="width: 160px; height: 60px;"> </div></td></tr></tbody></table></div></div>
+
+  <div id="feedback" class="feedback" style="display:none;position:absolute;left:50%;margin-left:-150px;top:20%;max-height:60%;width:300px;padding:10px;">
+    <div id="feedback_inner">Цудоўна, ты правільна выканаў заданне.</div>
+    <br><br>
+    <div style="text-align:center">
+      <input type="button" style="font-size:120%;" onclick="document.getElementById(&#39;feedback&#39;).style.display=&#39;none&#39;;" value="OK">
+    </div>
+  </div>
+</div>
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div id="AppClientTaskPanel" style="box-sizing: border-box; font-family: Arial; position: absolute; width: 40%; margin-left: 30%; margin-right: 30%; left: 0px; top: 20%; max-height: 65%; overflow: auto; z-index: 999998; padding: 10px; border: 10px solid rgb(221, 221, 221); box-shadow: rgb(51, 51, 51) 0px 0px 10px; border-radius: 10px; background-color: rgb(255, 255, 255); display: none;"><p style="text-align:center;font-size:150%;padding:0px;margin:0px;margin-bottom:5px"><b>Заданне</b></p><div style="max-height:195px;overflow:auto;">Размяркуйце словы па тэматычных групах у выглядзе табліцы</div><div style="margin-top:10px;text-align:center"><button type="button" onclick="AppClient.closeTaskPanel()" style="font-size:120%;">OK</button></div></div><div id="AppClientTaskButton" style="position: fixed; width: 16px; left: 2px; top: 2px; z-index: 999997;"><a style="padding:0px; margin:0px; text-decoration:none; font-size:16px" href="JavaScript:AppClient.showTaskPanel()"><img border="0" style="vertical-align:top" src="./taskicon.gif" title="Паказаць заданне" alt=""></a></div><div id="AppClientHelpButton" style="position: fixed; width: 16px; left: 22px; top: 2px; z-index: 999997; display: none;"><a style="padding:0px; margin:0px; text-decoration:none; font-size:16px" href="JavaScript:AppClient.showHelpPanel()"><img border="0" style="vertical-align:top" src="./helpicon.png" title="Паказаць дапамогу" alt=""></a></div><div id="AppClientFullscreenButton" style="position: fixed; width: 16px; right: 2px; top: 2px; z-index: 999997;"><a style="padding:0px; margin:0px; text-decoration:none; font-size:16px" href="https://learningapps.org/watch?v=p2i2z6adk18" onclick="return AppClient.doFullscreen()" target="_blank"><img border="0" style="vertical-align:top" src="./fullscreenicon.png" title="Вывесці практыкаванне на ўвесь экран." alt=""></a></div></body></html>

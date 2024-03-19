@@ -1,0 +1,1988 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "cardsize=%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80&media1_1=text%7C%D0%90%D0%B1%D0%B0%D1%80%D0%BE%D0%B3&media1_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fgcyrkln2.png&media2_1=text%7C%D0%90%D0%B1%D0%BE%D0%B7%D0%BD%D1%8F&media2_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2F6kdpduuc.png&media3_1=text%7C%D0%90%D0%B1%D0%BE%D1%80%D0%B0&media3_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fimipf3d6.png&media4_1=text%7C%D0%90%D0%B7%D1%8F%D1%80%D0%BE%D0%B4&media4_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Frxmuv36l.png&media5_1=text%7C%D0%90%D0%BB%D1%8C%D0%BF%D0%B0%D0%BD%D0%BA%D0%B0&media5_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2F94076t7t.png&media6_1=text%7C%D0%90%D1%81%D0%B5%D0%BB%D1%96%D1%88%D1%87%D0%B0%20%28%D1%81%D1%8F%D0%B4%D0%B7%D1%96%D0%B1%D0%B0%29&media6_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fpo08tnv.png&media7_1=text%7C%D0%91%D1%80%D0%BE%D0%B2%D0%B0%D1%80%20%28%D0%B2%D1%96%D0%BD%D0%B0%D0%BA%D1%83%D1%80%D0%BD%D1%8F%29&media7_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fkqxgisem.png&media8_1=text%7C%D0%B2%D0%B0%D0%B7%D0%BE%D1%9E%D0%BD%D1%8F%20%28%D0%BA%D0%B0%D0%BB%D0%B5%D1%88%D0%BD%D1%8F%29&media8_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2F4twfhfl.png&media9_1=text%7C%D0%92%D1%8F%D1%82%D1%80%D0%B0%D0%BA%20%28%D0%BC%D0%BB%D1%8B%D0%BD%29&media9_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Figebuo3x.png&media10_1=text%7C%D0%93%D1%83%D0%BC%D0%BD%D0%BE&media10_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fplpuxmvn.png&media11_1=text%7C%D0%9C%D0%B0%D1%91%D0%BD%D1%82%D0%B0%D0%BA&media11_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fqhptqq8d.png&media12_1=text%7C%D0%93%D0%B0%D0%BD%D0%B0%D0%BA&media12_2=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fd4rxds0c.png&cardsfadeout=cards%20stay%20visibile&feedback=%D0%9C%D0%B0%D0%BB%D0%B0%D0%B9%D1%87%D1%8B%D0%BD%D0%B0%2C%20%D1%82%D1%8B%20%D0%BF%D1%80%D0%B0%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B0%20%D0%B2%D1%8B%D0%BA%D0%B0%D0%BD%D0%B0%D1%9E%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D0%B5.",
+	"title": "Беларускія сельскагаспадарчыя пабудовы",
+	"tool": "904",
+	"helptext": "",
+	"tasktext": "",
+	"formlanguage": "RU",
+	"language": "BY",
+	"parameters": [
+		{
+			"t": "group",
+			"label": "%Einstellungen%",
+			"description": "",
+			"name": "Einstellungen",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "%mittel%|%gross%|%klein%",
+					"width": "",
+					"height": "",
+					"name": "cardsize",
+					"label": "%Kartengröße%",
+					"type": "select",
+					"description": ""
+				}
+			]
+		},
+		{
+			"t": "list",
+			"label": "%Paare%",
+			"description": "%PaareBeschreibung%",
+			"name": "Bilder",
+			"min": "1",
+			"max": 15,
+			"addtext": "Добавить следующий элемент",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "media#_1",
+					"label": "%Paar% #",
+					"type": "media",
+					"description": "",
+					"media": "text|image|speech",
+					"usehint": "image"
+				},
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "media#_2",
+					"label": "%Paar% #",
+					"type": "media",
+					"description": "",
+					"media": "text|image|speech",
+					"usehint": "image"
+				},
+				{
+					"t": "space",
+					"value": "20"
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "%show%|%hide%",
+			"width": "",
+			"height": "",
+			"name": "cardsfadeout",
+			"label": "%cardsfadeout%",
+			"type": "select",
+			"description": ""
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Paare-Spiel"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Pairing Game"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "DE",
+			"value": "Klassisches Paare-Spiel mit Texten und Bildern."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "EN",
+			"value": "Classic pairing game with texts and images"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "DE",
+			"value": "Kartengröße"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "EN",
+			"value": "Card size"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie die Größe der Spielkarten."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "EN",
+			"value": "Select the size of the game cards."
+		},
+		{
+			"id": "gross",
+			"language": "DE",
+			"value": "Große Kärtchen"
+		},
+		{
+			"id": "gross",
+			"language": "EN",
+			"value": "large cards"
+		},
+		{
+			"id": "mittel",
+			"language": "DE",
+			"value": "Mittlere Kärtchen"
+		},
+		{
+			"id": "mittel",
+			"language": "EN",
+			"value": "medium cards"
+		},
+		{
+			"id": "klein",
+			"language": "DE",
+			"value": "Kleine Kärtchen"
+		},
+		{
+			"id": "klein",
+			"language": "EN",
+			"value": "small cards"
+		},
+		{
+			"id": "Paare",
+			"language": "DE",
+			"value": "Paare"
+		},
+		{
+			"id": "Paare",
+			"language": "EN",
+			"value": "Pairs"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "DE",
+			"value": "Stellen Sie die einzelnen Paare zusammen, die im Spiel verwendet werden sollen."
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "EN",
+			"value": "Provide the pairs for the game."
+		},
+		{
+			"id": "Paar",
+			"language": "DE",
+			"value": "Paar"
+		},
+		{
+			"id": "Paar",
+			"language": "EN",
+			"value": "Pair"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "DE",
+			"value": "Einstellungen"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "EN",
+			"value": "Settings"
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text ein, der eingeblendet wird, wenn die richtige Lösung gefunden wurde."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide feedback text which will be displayed when the solution has been found."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast die richtige Lösung gefunden."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Great, you've found the solution!"
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Saisissez le texte qui s'affiche lorsque la solution a été trouvée"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Inserisci un testo che verrà inserito quando verrà trovata la soluzione corretta."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Введите текст, который появится, если найдено верное решение!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Super, tu as trouvé la solution!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Fantastico, hai trovato la risposta giusta."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Здорово, ты верно выполнил задание."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "FR",
+			"value": "Former des paires - classique avec images et textes."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "Jeu de paires (memory)"
+		},
+		{
+			"id": "gross",
+			"language": "FR",
+			"value": "Grandes cartes"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "FR",
+			"value": "Taille des cartes"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "FR",
+			"value": "Sélectionnez la taille des cartes de jeu."
+		},
+		{
+			"id": "klein",
+			"language": "FR",
+			"value": "Petites cartes"
+		},
+		{
+			"id": "mittel",
+			"language": "FR",
+			"value": "Cartes moyennes"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "IT",
+			"value": "Gioco del memory classico con immagini."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "IT",
+			"value": "Gioco del memory"
+		},
+		{
+			"id": "gross",
+			"language": "IT",
+			"value": "Cartoncini grandi"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "IT",
+			"value": "Dimensione dei cartoncini"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "IT",
+			"value": "Selezioni la grandezza delle carte da gioco."
+		},
+		{
+			"id": "klein",
+			"language": "IT",
+			"value": "Cartoncini piccoli"
+		},
+		{
+			"id": "mittel",
+			"language": "IT",
+			"value": "Cartoncini medi"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "FR",
+			"value": "Réglages"
+		},
+		{
+			"id": "Paar",
+			"language": "FR",
+			"value": "Paire"
+		},
+		{
+			"id": "Paar",
+			"language": "IT",
+			"value": "Coppia"
+		},
+		{
+			"id": "Paar",
+			"language": "RU",
+			"value": "Пара"
+		},
+		{
+			"id": "Paare",
+			"language": "FR",
+			"value": "Paires"
+		},
+		{
+			"id": "Paare",
+			"language": "IT",
+			"value": "Coppie"
+		},
+		{
+			"id": "Paare",
+			"language": "RU",
+			"value": "Пары"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RM",
+			"value": "Giug da pèrs cun texts e maletgs."
+		},
+		{
+			"id": "gross",
+			"language": "RM",
+			"value": "Cartas grondas"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "RM",
+			"value": "Grondezia dallas cartas"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Giug da pèrs"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "RM",
+			"value": "Cumpona ils singuls pèrs che duein vegnir duvrai el giug."
+		},
+		{
+			"id": "Paare",
+			"language": "RM",
+			"value": "Pèrs"
+		},
+		{
+			"id": "klein",
+			"language": "RM",
+			"value": "Cartas pintgas"
+		},
+		{
+			"id": "mittel",
+			"language": "RM",
+			"value": "Cartas mesaunas"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatescha in text che vegn mussaus sche la sligiaziun ei correcta."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "RM",
+			"value": "Configuraziuns"
+		},
+		{
+			"id": "Paar",
+			"language": "RM",
+			"value": "Pèr"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "RO",
+			"value": "Mărime cartonașe"
+		},
+		{
+			"id": "Paare",
+			"language": "RO",
+			"value": "Perechi"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "RO",
+			"value": "Alegeți mărimea cărților de joc."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Joc-Perechi"
+		},
+		{
+			"id": "Paar",
+			"language": "RO",
+			"value": "Pereche"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "RO",
+			"value": "Setări"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "gross",
+			"language": "RO",
+			"value": "Cartonașe mari"
+		},
+		{
+			"id": "mittel",
+			"language": "RO",
+			"value": "Cartonașe medii"
+		},
+		{
+			"id": "klein",
+			"language": "RO",
+			"value": "Cartonașe mici"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RO",
+			"value": "Joc perechi clasic cu texte și imagini."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Introduceți un text care este vizibil atunci când soluția este corectă."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, ai găsit soluția corectă!"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "RO",
+			"value": "Compuneți perechile individuale care urmează sa fie folosite în joc."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "RM",
+			"value": "Elegia la grondezia dallas cartas."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, ti has sligiau tut endretg!"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RU",
+			"value": "Классическая игра &quot;Парочки&quot; с использованием не только картинок, но и текста."
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GL",
+			"value": "Moi ben, atopáchelas todas!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Игра &quot;Парочки&quot;"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PL",
+			"value": "Klasyczna gra Memory z tekstem lub obrazkami."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Znajdź pary"
+		},
+		{
+			"id": "klein",
+			"language": "PL",
+			"value": "małe karty "
+		},
+		{
+			"id": "mittel",
+			"language": "PL",
+			"value": "średnie karty "
+		},
+		{
+			"id": "gross",
+			"language": "PL",
+			"value": "duże karty "
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "PL",
+			"value": "Wybierz rozmiar kart do gry. "
+		},
+		{
+			"id": "Kartengröße",
+			"language": "PL",
+			"value": "Wielkość Kart "
+		},
+		{
+			"id": "Paare",
+			"language": "PL",
+			"value": "Pary"
+		},
+		{
+			"id": "Paar",
+			"language": "PL",
+			"value": "Para"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "PL",
+			"value": "Wprowadź elementy w parach, do wykorzystania w grze."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "PL",
+			"value": "Ustawienia "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Podaj tekst, który będzie wyświetlany, gdy zostanie znalezione rozwiązanie."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Świetnie, znalazłeś odpowiednie rozwiązanie."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Memoriin"
+		},
+		{
+			"id": "Paare",
+			"language": "ET",
+			"value": "paarid"
+		},
+		{
+			"id": "Paar",
+			"language": "ET",
+			"value": "paar"
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "tagasiside"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Sisesta tagasiside, mida vastaja näeb, kui on jõudnud õige lahenduseni"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ET",
+			"value": "Tubli, sa oled leidnud õige lahenduse."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Браво! Това е правилното решение. "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Осигурете текстова обратна връзка, която се показва, когато се намери решение."
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна връзка"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "BG",
+			"value": "Настройки"
+		},
+		{
+			"id": "Paar",
+			"language": "BG",
+			"value": "Двойка"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "BG",
+			"value": "Определяне на двойките карти."
+		},
+		{
+			"id": "Paare",
+			"language": "BG",
+			"value": "Двойки"
+		},
+		{
+			"id": "mittel",
+			"language": "BG",
+			"value": "Средни карти"
+		},
+		{
+			"id": "klein",
+			"language": "BG",
+			"value": "Малки карти"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "BG",
+			"value": "Избери размера на картите"
+		},
+		{
+			"id": "gross",
+			"language": "BG",
+			"value": "Големи карти"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "BG",
+			"value": "Размер на картите"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Игра с двойки карти"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BG",
+			"value": "Класическа игра с двойки текстове или изображения."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "TR",
+			"value": "Metin ve resimlerle oluşturulan klasik eşleştirme oyunu"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Eşini bul!"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "TR",
+			"value": "Kart büyüklüğü"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "TR",
+			"value": "Oyundaki kartların büyüklüğünü seçin"
+		},
+		{
+			"id": "gross",
+			"language": "TR",
+			"value": "Büyük boy kart"
+		},
+		{
+			"id": "mittel",
+			"language": "TR",
+			"value": "Orta boy kart"
+		},
+		{
+			"id": "klein",
+			"language": "TR",
+			"value": "Küçük boy kart"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "TR",
+			"value": "Oyunda eşlenecek kartları belirleyin"
+		},
+		{
+			"id": "Paare",
+			"language": "TR",
+			"value": "Eşlenen kartlar"
+		},
+		{
+			"id": "Paar",
+			"language": "TR",
+			"value": "Eşlenen kartlar"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "TR",
+			"value": "Ayarlar"
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüşüm"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Maşaallah, doğru çözümü buldunuz."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Doğru çözüm bulunduğunda okunmasını istediğiniz bir metin varsa, buraya yazın:  "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Гра &quot;Парочки&quot;"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "UK",
+			"value": "Класична гра пошуку пар з використанням зображень та тексту."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "UK",
+			"value": "Оберіть розмір ігрових карток"
+		},
+		{
+			"id": "klein",
+			"language": "UK",
+			"value": "малі картки"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "UK",
+			"value": "Розмір карток"
+		},
+		{
+			"id": "mittel",
+			"language": "UK",
+			"value": "середні картки"
+		},
+		{
+			"id": "Paare",
+			"language": "UK",
+			"value": "Пари"
+		},
+		{
+			"id": "Paar",
+			"language": "UK",
+			"value": "Пара"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "UK",
+			"value": "Задайте парні відповідності для гри"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "UK",
+			"value": "Налаштування"
+		},
+		{
+			"id": "gross",
+			"language": "UK",
+			"value": "великі картки"
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, правильне рішення знайдено!"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "ET",
+			"value": "Kaardi suurus"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "ET",
+			"value": "Vali mängu kaardi suurus"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ET",
+			"value": "Klassikaline sobitamise mäng tekstide ja piltidega. "
+		},
+		{
+			"id": "gross",
+			"language": "ET",
+			"value": "suured kaardid"
+		},
+		{
+			"id": "mittel",
+			"language": "ET",
+			"value": "keskmised kaardid"
+		},
+		{
+			"id": "klein",
+			"language": "ET",
+			"value": "väikesed kaardid"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "ET",
+			"value": "Sisesta paarid"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "ET",
+			"value": "Seaded"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "დაწყვილება"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GE",
+			"value": "კლასიკური თამაში ტექსტისა და გამოსახულების წყვილის გამოყენებით."
+		},
+		{
+			"id": "Kartengröße",
+			"language": "GE",
+			"value": "ბარათის ზომა"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "GE",
+			"value": "აირჩიეთ სათამაშო ბარათის ზომა."
+		},
+		{
+			"id": "gross",
+			"language": "GE",
+			"value": "დიდი ზომის"
+		},
+		{
+			"id": "mittel",
+			"language": "GE",
+			"value": "საშუალო ზომის"
+		},
+		{
+			"id": "klein",
+			"language": "GE",
+			"value": "მცირე ზომის"
+		},
+		{
+			"id": "Paare",
+			"language": "GE",
+			"value": "წყვილები"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "GE",
+			"value": "შექმენით წყვილი თამაშისათვის."
+		},
+		{
+			"id": "Paar",
+			"language": "GE",
+			"value": "წყვილი"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "GE",
+			"value": "პარამეტრები"
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც გამოჩნდება სწორი პასუხის გაცემის შემთხვევაში."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "კარგია, თქვენ იპოვეთ სწორი პასუხი."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "ES",
+			"value": "Configuración"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BS",
+			"value": "Klasična igra parova sa tekstom i slikama"
+		},
+		{
+			"id": "gross",
+			"language": "BS",
+			"value": "Velike karte"
+		},
+		{
+			"id": "mittel",
+			"language": "BS",
+			"value": "Srednje karte"
+		},
+		{
+			"id": "klein",
+			"language": "BS",
+			"value": "Male karte"
+		},
+		{
+			"id": "Paare",
+			"language": "BS",
+			"value": "Parovi"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "BS",
+			"value": "Odredi parove za igru"
+		},
+		{
+			"id": "Paar",
+			"language": "BS",
+			"value": "Par"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "BS",
+			"value": "Odaberi veličinu karata"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Igra parova"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Odlično, našli ste tačno rješenje"
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "BS",
+			"value": "Veličina karata"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "BS",
+			"value": "Postavke"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite feedback tekst koji će se pojaviti nakon pronalaska ispravnog rješenja."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Parenspel"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "NL",
+			"value": "Klassiek koppelingspel"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "NL",
+			"value": "Kaartgrootte"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "NL",
+			"value": "Selecteer de grootte van de speelkaarten"
+		},
+		{
+			"id": "gross",
+			"language": "NL",
+			"value": "Grote kaarten"
+		},
+		{
+			"id": "mittel",
+			"language": "NL",
+			"value": "Medium kaarten"
+		},
+		{
+			"id": "klein",
+			"language": "NL",
+			"value": "Kleine kaarten"
+		},
+		{
+			"id": "Paare",
+			"language": "NL",
+			"value": "Paren"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "NL",
+			"value": "Stel de paren samen die in het spel aan bod komen.\n"
+		},
+		{
+			"id": "Paar",
+			"language": "NL",
+			"value": "Paar"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "NL",
+			"value": "Instellingen"
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Voorzie feedback welke getoond wordt als de oplossing gevonden is."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, je hebt de juiste oplossing gevonden!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "SV",
+			"value": "Memory"
+		},
+		{
+			"id": "gross",
+			"language": "SV",
+			"value": "Stora kort"
+		},
+		{
+			"id": "klein",
+			"language": "SV",
+			"value": "Små kort"
+		},
+		{
+			"id": "mittel",
+			"language": "SV",
+			"value": "Mellankort"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "SV",
+			"value": "Välj storlek på korten"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "SV",
+			"value": "Klassiskt memory med bilder och text"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "SV",
+			"value": "Storlek på kort"
+		},
+		{
+			"id": "Paar",
+			"language": "SV",
+			"value": "Par"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "SV",
+			"value": ""
+		},
+		{
+			"id": "Feedback",
+			"language": "SV",
+			"value": ""
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "SV",
+			"value": "Grattis, du har klarat av spelet!"
+		},
+		{
+			"id": "Paare",
+			"language": "SV",
+			"value": "Par"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "SV",
+			"value": "Skriv den text som visas när spelet är slut"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": "Ταίριαξε τα ζευγάρια"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GR",
+			"value": "Κλασικό παιχνίδι ταιριάσματος εικόνων και κειμένων "
+		},
+		{
+			"id": "klein",
+			"language": "GR",
+			"value": "Μικρές κάρτες"
+		},
+		{
+			"id": "mittel",
+			"language": "GR",
+			"value": "Μεσαίες κάρτες"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "GR",
+			"value": "Μέγεθος κάρτας"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "GR",
+			"value": "Παραγώγη ζευγάριων για το παιχνίδι"
+		},
+		{
+			"id": "Paar",
+			"language": "GR",
+			"value": "Ζευγάρι"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GR",
+			"value": "Γράψτε ένα κείμενο το οποίο θα εμφανίζεται όταν έχεις βρεί την λύση "
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "GR",
+			"value": "Επιλογή μεγέθους για το παιχνίδι"
+		},
+		{
+			"id": "Paare",
+			"language": "GR",
+			"value": "Ζευγάρια"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GR",
+			"value": "Τέλεια βρήκες την σωστή απάντηση "
+		},
+		{
+			"id": "Einstellungen",
+			"language": "GR",
+			"value": "Ρυθμίσεις"
+		},
+		{
+			"id": "gross",
+			"language": "GR",
+			"value": "Μεγάλες κάρτες"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Jogos de emparelhamento/pares"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "PT",
+			"value": "Tamanho do cartão"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "PT",
+			"value": "Seleccionar o tamnho dos cartões do jogo"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PT",
+			"value": "Jogo de correspondência clássico com textos e imagens."
+		},
+		{
+			"id": "gross",
+			"language": "PT",
+			"value": "cartões grandes"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "PT",
+			"value": "Fornecer os pares para o jogo."
+		},
+		{
+			"id": "klein",
+			"language": "PT",
+			"value": "cartões pequenos"
+		},
+		{
+			"id": "Paare",
+			"language": "PT",
+			"value": "Pares"
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "PT",
+			"value": "Configurações"
+		},
+		{
+			"id": "mittel",
+			"language": "PT",
+			"value": "cartões médios"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "Óptimo, encontrou a solução correcta!"
+		},
+		{
+			"id": "Paar",
+			"language": "PT",
+			"value": "Par"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "Fornecer  texto de feedback que é exibido quando a solução for encontrada"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BY",
+			"value": "Гульня &quot;Пары&quot;"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "BY",
+			"value": "Выберыце памер картак"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "BY",
+			"value": "Памер картак"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BY",
+			"value": "Класічная гульня на праверку памяці, у якой выкарыстоўваюцца не толькі малюнкі, але і тэкст."
+		},
+		{
+			"id": "gross",
+			"language": "BY",
+			"value": "Вялікія карткі"
+		},
+		{
+			"id": "mittel",
+			"language": "BY",
+			"value": "Сярэднія карткі"
+		},
+		{
+			"id": "klein",
+			"language": "BY",
+			"value": "Маленькія карткі"
+		},
+		{
+			"id": "Paare",
+			"language": "BY",
+			"value": "Пары"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "BY",
+			"value": "Выбраць пары для гульні"
+		},
+		{
+			"id": "Paar",
+			"language": "BY",
+			"value": "Пара"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "BY",
+			"value": "Наладкі"
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BY",
+			"value": "Напішыце тэкст, які будзе паказвацца пры правільным выкананні практыкавання."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BY",
+			"value": "Малайчына! Практыкаванне выканана."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Párosítós játék"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "HU",
+			"value": "Kártyaméret"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "HU",
+			"value": "Válassza ki a kártya méretét!"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "HU",
+			"value": "Klasszikus párosítós játék szövegekkel és képekkel."
+		},
+		{
+			"id": "mittel",
+			"language": "HU",
+			"value": "Közepes méretű kártyák"
+		},
+		{
+			"id": "klein",
+			"language": "HU",
+			"value": "Kis méretű kártyák"
+		},
+		{
+			"id": "gross",
+			"language": "HU",
+			"value": "Nagy méretű kártyák"
+		},
+		{
+			"id": "Paare",
+			"language": "HU",
+			"value": "Párok"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "HU",
+			"value": "Beállítások"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "HU",
+			"value": "Állítsa össze a párokat, melyeket, a játékban használni kíván! "
+		},
+		{
+			"id": "Paar",
+			"language": "HU",
+			"value": "Pár"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy üzenetet, mely a helyes megfejtés után megjelenik!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Nagyszerű! Megtaláltad a helyes megoldást."
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "FR",
+			"value": "Définissez les paires pour l'appli"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "RU",
+			"value": "Размер карточек"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "RU",
+			"value": "Выберите размер карточек"
+		},
+		{
+			"id": "gross",
+			"language": "RU",
+			"value": "Большой размер"
+		},
+		{
+			"id": "mittel",
+			"language": "RU",
+			"value": "Средний размер"
+		},
+		{
+			"id": "klein",
+			"language": "RU",
+			"value": "Малый размер"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "RU",
+			"value": "Составьте отдельные пары, которые будут использованы в игре."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "RU",
+			"value": "Настройки"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "DE",
+			"value": "Gefundene Paare ausblenden?"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "EN",
+			"value": "Hide matched cards?"
+		},
+		{
+			"id": "hide",
+			"language": "DE",
+			"value": "Karten ausblenden"
+		},
+		{
+			"id": "hide",
+			"language": "EN",
+			"value": "hide cards"
+		},
+		{
+			"id": "show",
+			"language": "DE",
+			"value": "Karten bleiben sichtbar"
+		},
+		{
+			"id": "show",
+			"language": "EN",
+			"value": "cards stay visible"
+		},
+		{
+			"id": "show",
+			"language": "FR",
+			"value": "Les cartes restent visibles"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "TR",
+			"value": "Eşleşmiş kartlar ekrandan otomatik olarak silinsin mi?"
+		},
+		{
+			"id": "hide",
+			"language": "TR",
+			"value": "Kartlar ekrandan silinsin"
+		},
+		{
+			"id": "show",
+			"language": "TR",
+			"value": "Kartlar ekranda kalsın"
+		},
+		{
+			"id": "Feedback",
+			"language": "ES",
+			"value": "Retroalimentación"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "¡Enhorabuena! Lograste dar con la(s) respuesta(s) correcta(s)."
+		},
+		{
+			"id": "hide",
+			"language": "FR",
+			"value": "Masquer les cartes"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "FR",
+			"value": "Masquer les paires trouvées ?"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "IT",
+			"value": "impostazioni"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "GE",
+			"value": "დაიმალოს ანთებული წყვილები?"
+		},
+		{
+			"id": "show",
+			"language": "GE",
+			"value": "ბარათები რჩება ხილული"
+		},
+		{
+			"id": "hide",
+			"language": "GE",
+			"value": "ბარათების დამალვა"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "RM",
+			"value": "Stizzar pèrs anflai?"
+		},
+		{
+			"id": "show",
+			"language": "RM",
+			"value": "Las cartas restan veseivlas"
+		},
+		{
+			"id": "hide",
+			"language": "RM",
+			"value": "Stizzar cartas"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "HU",
+			"value": "Eltűnjenek a megtalált párok?"
+		},
+		{
+			"id": "hide",
+			"language": "HU",
+			"value": "A kártyák eltűnnek."
+		},
+		{
+			"id": "show",
+			"language": "HU",
+			"value": "A kártyák láthatóak maradnak."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "CZ",
+			"value": "Pexeso"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "CZ",
+			"value": "Vložte text, který se zobrazí po správném vyřešení úlohy."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "CZ",
+			"value": "Klasické pexeso hra s obrázky a texty."
+		},
+		{
+			"id": "mittel",
+			"language": "CZ",
+			"value": "Střední karty"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "CZ",
+			"value": "Vyberte velikost karet."
+		},
+		{
+			"id": "gross",
+			"language": "CZ",
+			"value": "Velké karty"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "CZ",
+			"value": "Velikost karet"
+		},
+		{
+			"id": "Paare",
+			"language": "CZ",
+			"value": "Dvojice"
+		},
+		{
+			"id": "klein",
+			"language": "CZ",
+			"value": "Malé Karty"
+		},
+		{
+			"id": "Paar",
+			"language": "CZ",
+			"value": "Dvojice"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "CZ",
+			"value": "Sestavte dvojice, které mají být ve hře použity."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "CZ",
+			"value": "Nastevení"
+		},
+		{
+			"id": "Feedback",
+			"language": "CZ",
+			"value": "Zpětná vazba"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "CZ",
+			"value": "Skvěle, vše je správně vyřešeno!"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "CZ",
+			"value": "Skrýt objevené dvojice?"
+		},
+		{
+			"id": "hide",
+			"language": "CZ",
+			"value": "Skrýt karty"
+		},
+		{
+			"id": "show",
+			"language": "CZ",
+			"value": "Žádné karty nezůstanou viditelné"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "BS",
+			"value": "Sakriti uparene karte?"
+		},
+		{
+			"id": "hide",
+			"language": "BS",
+			"value": "Sakriti karte"
+		},
+		{
+			"id": "show",
+			"language": "BS",
+			"value": "Karte ostaju vidljive"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ES",
+			"value": "Juego de parejas"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ES",
+			"value": "Juego clásico de parejas con imágenes y texto."
+		},
+		{
+			"id": "Paare",
+			"language": "ES",
+			"value": "Parejas"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "ES",
+			"value": "Elija el tamaño de las fichas"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "ES",
+			"value": "Empareje las fichas que vaya a usar en el juego"
+		},
+		{
+			"id": "mittel",
+			"language": "ES",
+			"value": "Fichas medianas"
+		},
+		{
+			"id": "gross",
+			"language": "ES",
+			"value": "Fichas grandes"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ES",
+			"value": "Introduzca un texto a mostrar cuando se solucione correctamente."
+		},
+		{
+			"id": "Paar",
+			"language": "ES",
+			"value": "Pareja"
+		},
+		{
+			"id": "hide",
+			"language": "ES",
+			"value": "Ocultar fichas"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "ES",
+			"value": "¿Ocultar las parejas resueltas?"
+		},
+		{
+			"id": "show",
+			"language": "ES",
+			"value": "Dejar visibles las fichas"
+		},
+		{
+			"id": "klein",
+			"language": "ES",
+			"value": "Fichas pequeñas"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "ES",
+			"value": "Tamaño de las fichas"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "PL",
+			"value": "Czy ukryć znalezione pary?"
+		},
+		{
+			"id": "show",
+			"language": "PL",
+			"value": "karty pozostaną widoczne"
+		},
+		{
+			"id": "hide",
+			"language": "PL",
+			"value": "ukryj karty"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "RU",
+			"value": "Скрыть найденные пары?"
+		},
+		{
+			"id": "hide",
+			"language": "RU",
+			"value": "Скрыть карточки"
+		},
+		{
+			"id": "show",
+			"language": "RU",
+			"value": "Оставить карточки видимыми"
+		},
+		{
+			"id": "versuche",
+			"language": "DE",
+			"value": "Spielzüge:"
+		},
+		{
+			"id": "versuche",
+			"language": "EN",
+			"value": "Turns:"
+		},
+		{
+			"id": "versuche",
+			"language": "TR",
+			"value": "Oyun hamlesi"
+		},
+		{
+			"id": "versuche",
+			"language": "RO",
+			"value": "Mutări joc"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "RO",
+			"value": "Ascundeți perechile găsite?"
+		},
+		{
+			"id": "show",
+			"language": "RO",
+			"value": "Cartonașe rămân vizibile"
+		},
+		{
+			"id": "hide",
+			"language": "RO",
+			"value": "Ascunde cartonașe"
+		},
+		{
+			"id": "versuche",
+			"language": "PL",
+			"value": "Ruchy:"
+		},
+		{
+			"id": "versuche",
+			"language": "ES",
+			"value": "Intentos:"
+		},
+		{
+			"id": "versuche",
+			"language": "FR",
+			"value": "Se déplace : "
+		},
+		{
+			"id": "show",
+			"language": "IT",
+			"value": "Cartoncini rimangono visibili"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "IT",
+			"value": "nascondere le coppie corrette?"
+		},
+		{
+			"id": "hide",
+			"language": "IT",
+			"value": "nascondere le carte"
+		},
+		{
+			"id": "versuche",
+			"language": "IT",
+			"value": "mosse di gioco"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "IT",
+			"value": "Posizionate insieme le coppie che devono essere utilizzate nel gioco"
+		},
+		{
+			"id": "versuche",
+			"language": "RU",
+			"value": "Ходы:"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "GL",
+			"value": "Configuración"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "LT",
+			"value": "Atversti kortelių poras"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "LT",
+			"value": "Pasirinkti žaidimo kortelių dydį."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "LT",
+			"value": "Klasikinis žaidimas, kuriame reikia prisiminti ir iš eilės atversti dvi susijusias korteles su tekstais ar paveikslėliais"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "LT",
+			"value": "Kortelių dydis"
+		},
+		{
+			"id": "klein",
+			"language": "LT",
+			"value": "mažos kortelės"
+		},
+		{
+			"id": "mittel",
+			"language": "LT",
+			"value": "vidutinės kortelės "
+		},
+		{
+			"id": "Paar",
+			"language": "LT",
+			"value": "Pora"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "LT",
+			"value": "Nustatymai"
+		},
+		{
+			"id": "Feedback",
+			"language": "LT",
+			"value": "Grįžtamasis ryšys"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "LT",
+			"value": "Parašykite grįžtamojo ryšio tekstą, kuris bus rodomas teisingai atvertus visas kortelių poras."
+		},
+		{
+			"id": "gross",
+			"language": "LT",
+			"value": "didelės kortelės"
+		},
+		{
+			"id": "Paare",
+			"language": "LT",
+			"value": "Poros"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "LT",
+			"value": "Puiku, radai viskas kortelių poras!"
+		},
+		{
+			"id": "show",
+			"language": "LT",
+			"value": "kortelės lieka matomos"
+		},
+		{
+			"id": "cardsfadeout",
+			"language": "LT",
+			"value": "Paslėpti atrastas kortelių poras?"
+		},
+		{
+			"id": "PaareBeschreibung",
+			"language": "LT",
+			"value": "Pateikite kortelių poras žaidimui."
+		},
+		{
+			"id": "hide",
+			"language": "LT",
+			"value": "paslėpti korteles"
+		},
+		{
+			"id": "versuche",
+			"language": "LT",
+			"value": ""
+		},
+		{
+			"id": "versuche",
+			"language": "HU",
+			"value": "Mozog:"
+		}
+	],
+	"path": "https://learningapps.org/tools/904/30/",
+	"version": "30"
+};

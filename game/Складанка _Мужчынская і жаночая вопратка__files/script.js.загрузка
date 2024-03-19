@@ -1,0 +1,336 @@
+function trim(str, chars) {
+ return ltrim(rtrim(str, chars), chars);
+}
+
+function ltrim(str, chars) {
+ chars = chars || "\\s";
+ return str.replace(new RegExp("^[" + chars + "]+", "g"), "");
+}
+ 
+function rtrim(str, chars) {
+ chars = chars || "\\s";
+ return str.replace(new RegExp("[" + chars + "]+$", "g"), "");
+}
+
+ var tilesize = 150;
+
+ var useImage = false;
+ var video = null;
+
+ var v = AppClient.getParameter("mediaurl");
+ var s = AppClient.getParameterType("mediaurl");
+ var u = v.split("|");
+
+ var backgroundImage = "";
+ var videoID = "";
+ var videoStart = "0:00";
+ var videoEnde  = "0:00";
+ var videoTon   = "true";
+
+ if(u[0] != ""){
+   if(s == "image") {
+     useImage = true; 
+     backgroundImage = u[0]; 
+   }
+   if(s == "video") {
+     useImage = false; 
+     videoID = getYouTubeID(u[0]); 
+     videoStart = timeToSeconds(u[1]);
+     videoEnde  = timeToSeconds(u[2]);
+     videoTon   = u[3];
+   }
+ }
+
+ var tileimage = new Image();
+ tileimage.src = 'puzzleteil'+tilesize+'.png';
+
+ var topics = new Array();
+ var t1 = AppClient.getParameters("cluster1"); if (trim(t1.value) != "") topics.push({cluster:1,topic:t1});
+ var t2 = AppClient.getParameters("cluster2"); if (trim(t2.value) != "") topics.push({cluster:2,topic:t2});
+ var t3 = AppClient.getParameters("cluster3"); if (trim(t3.value) != "") topics.push({cluster:3,topic:t3});
+ var t4 = AppClient.getParameters("cluster4"); if (trim(t4.value) != "") topics.push({cluster:4,topic:t4});
+ var t5 = AppClient.getParameters("cluster5"); if (trim(t5.value) != "") topics.push({cluster:5,topic:t5});
+ var t6 = AppClient.getParameters("cluster6"); if (trim(t6.value) != "") topics.push({cluster:6,topic:t6});
+
+ var s = AppClient.getParameter("size");
+ if(AppClient.isTranslationOf("gross",s)) tilesize = 180; 
+ if(AppClient.isTranslationOf("mittel",s)) tilesize = 150; 
+ if(AppClient.isTranslationOf("klein",s)) tilesize = 100; 
+
+ var Feedbacktext = AppClient.getParameter("feedback");
+
+ var elementArray = new Array();
+
+ function splitElements(){
+  var elements = new Array();
+  for(var z=0; z < 6; z++){
+   var c = AppClient.getParameters("clusteritems"+(z+1));
+   for(var i=0; i < c.length; i++){
+    c[i].value = trim(c[i].value);
+    if(c[i].value != "") elements.push(c[i]);
+    c[i].clusters = [z+1]; 
+   }
+  }
+
+  // double entries in more than one group
+  for(var i=0; i < elements.length; i++){
+   for(var z=i+1; z < elements.length; z++){
+    if(elements[i].value == elements[z].value){
+      elements[i].clusters = elements[i].clusters.concat(elements[z].clusters);
+      elements[z].clusters = elements[i].clusters;
+    }
+   }
+  }   
+  elementArray = elements; 
+ }
+
+ splitElements();
+ var allElements = elementArray.length;
+
+ function getElement(){
+  if(elementArray.length == 0) splitElements();
+  var r = Math.floor(Math.random()*elementArray.length);
+  var o = elementArray[r];
+  elementArray.splice(r,1);
+  return o;  
+ } 
+
+ function createButtons(){  
+  var s = "";  
+  for(var i=0; i < topics.length; i++){   
+   var c = '';
+   if(topics[i].topic.media == "image"){
+     c = '<img style="margin:-5px;max-width:150px;max-height:28px;vertical-align:middle;display:inline-block" src="'+topics[i].topic.value+'"/>';
+   }else{
+     c = topics[i].topic.value;
+   }
+
+   s += '<span id="Topic'+topics[i].cluster+'" style="white-space:nowrap;" onmousedown="selectTopic('+topics[i].cluster+')" class="notSelectable round shadow btnlink">'+c+'</span> ';  
+  } 
+  document.getElementById("buttonbar1").innerHTML = s;    
+ }
+
+ var selectedTopic = -1;
+
+ function selectTopic(id){
+  for(var i=0; i < topics.length; i++){ 
+   var d = document.getElementById("Topic"+topics[i].cluster);
+   d.className = "round shadow btnlink";
+  }
+
+  var d = document.getElementById("Topic"+id);
+  d.className = "round shadow btnlink selectedButton";
+  selectedTopic = id;
+ }
+
+ 
+ var puzzleArray = new Array();
+ var puzzleColumns = Math.ceil(window.innerWidth*0.8 / (tilesize));
+ function fillPuzzle(){
+   var d = document.getElementById("x");
+   var w = Math.ceil(window.innerWidth*0.8 / (tilesize));
+   var h = Math.ceil((window.innerHeight-40) / (tilesize));
+
+   if(w == 0 || puzzleArray.length == 0) return;
+   while(puzzleArray.length / w < w/2) w--;
+   puzzleColumns = w;
+   
+   d.style.width = (w*(tilesize-2)+20)+"px";
+
+   while(puzzleArray.length % w != 0 || 
+//        (puzzleArray.length / w > h && puzzleArray.length > Math.ceil(allElements / w) * w) ||
+        (puzzleArray.length > h*w ) ||
+         puzzleArray.length < h*w && puzzleArray.length < allElements){
+     // add another tile to fill the table or remove one
+//     if((puzzleArray.length > 2*w) && (puzzleArray.length > Math.ceil(allElements / w) * w)){
+     if(puzzleArray.length > h*w ){
+
+       var id = puzzleArray.length-1;
+       puzzleArray.splice(id,1);
+       $('#t'+id).remove();
+     }
+     if(puzzleArray.length < h*w ){
+       // add
+       var s = addPuzzleTile(puzzleArray.length);
+       $('#puzzle').append($(s));
+     }
+     console.log("changed size");
+   }   
+   
+   for(var i=0; i < puzzleArray.length; i++){
+     if(i % puzzleColumns == 0) 
+       $('#t'+i).addClass("firstColumn"); else 
+       $('#t'+i).removeClass("firstColumn");  
+     if(i % puzzleColumns == puzzleColumns-1) 		
+       $('#t'+i).addClass("lastColumn"); else
+       $('#t'+i).removeClass("lastColumn"); 
+   }   
+ }
+
+ 
+
+ function addPuzzleTile(index){
+   var o = getElement();
+   puzzleArray.push(o);
+   var content = o.value;
+   if(o.media == "image"){
+     content = '<img style="max-width:'+(tilesize*0.8)+'px;max-height:'+(tilesize*0.5)+'px;vertical-align:middle;display:inline-block" src="'+o.value+'"/>';
+   }
+   var s = "";
+     var size="";
+     if(tilesize == 150){
+      if(o.value.length > 50) size = "80%";
+      if(o.value.length > 75) size = "70%";
+      if(o.value.length >100) size = "60%";
+     }
+     if(tilesize == 100){
+      if(o.value.length > 8) size = "80%";
+      if(o.value.length > 30) size = "70%";
+      if(o.value.length > 50) size = "60%";
+     }
+
+   s += '<div id="t'+(puzzleArray.length-1)+'" class="puzzleTile" style="z-index:1;background:url(\'puzzleteil'+tilesize+'.png\') no-repeat;width:'+(tilesize+24)+'px;height:'+(tilesize-tilesize/5+24)+'px;">';
+   s += '<div style="width:100%;height:100%;text-align:center; padding-left: 25px;padding-right: 29px;padding-top: 25px;padding-bottom: 33px;"><div style="height:100%;display:inline-block;vertical-align:middle;width:1px"></div><span id="t'+(puzzleArray.length-1)+'cell" style="vertical-align:middle;max-height:100%;display:inline-block;max-width:98%;overflow:hidden;line-height:1em;padding-bottom:3px'+(size != "" ? ';font-size:'+size:'')+'" unselectable="on" >'+content+'</span></div>';
+   s += '</div>'; 
+   return s;
+ }
+
+
+ function createPuzzle(){
+  var s = "";
+   s += '<div id="puzzle" class="round shadow" style="word-wrap: break-word;position:relative;overflow:hidden;text-align:left;padding-left:10px">';   
+   s += '<div style="padding:13px;text-align:center;position:absolute;left:0;top:0;right:0;bottom:0;z-index:0;display:flex;align-items:center;justify-content:center"><img id="bgimg" src="'+backgroundImage+'" style="max-width:100%;max-height:100%" alt="" /></div>';
+     
+  puzzleArray = new Array();
+  for(var i=0; i < allElements; i++){
+    s += addPuzzleTile(i);
+  } 
+   s += '<div onmousedown="mouseDown(event)" style="z-index:3;border:'+(tilesize == 180?'15':'13')+'px solid #555;position:absolute;left:0;right:0;top:0;bottom:0"></div>'; 
+   s += '<div id="messagePanel">'+
+         '<span id="message"></span><br><br><span style="" class="notSelectable round shadow btnlink" onclick="hideMessagePanel()">'+AppClient.getTranslation("OK")+'</span></div>';
+  s += '</div>';
+  document.getElementById("x").innerHTML = s;
+  setInterval(fillPuzzle,500);
+  fillPuzzle();
+ }
+
+
+ function hideMessagePanel(){
+  document.getElementById("messagePanel").style.display = "none";
+ }
+
+ function showMessagePanel(s,solved){
+  var d = document.getElementById("messagePanel");
+  d.style.display = "block";
+  d.style.background = solved ? '#ecfdeb' : '#fdf6eb';
+
+  var d = document.getElementById("message");
+  d.innerHTML = s;
+ }
+
+ function mouseDown(event){
+  var x = 0; var y = 0;
+  if(typeof(event.offsetX) != "undefined") x = event.offsetX; else x = event.layerX;
+  if(typeof(event.offsetY) != "undefined") y = event.offsetY; else y = event.layerY;
+   console.log("X:"+x+" Y:"+y);
+  x = x - 10;  
+
+   
+  var w = Math.ceil(window.innerWidth*0.8 / (tilesize));
+  if(w == 0 || puzzleArray.length == 0) return;
+  while(puzzleArray.length / w < w/2) w--;
+
+  var t = Math.floor(x / (tilesize-2) ) + (Math.floor((y+4) / (tilesize*0.8-8)))*w;
+  if(t < 0) return;
+   
+  var topic = -1;
+  var topictext = null;
+
+  for(var i=0; i < topics.length; i++){
+    if(topics[i].cluster == selectedTopic) topictext = topics[i].topic;
+  } 
+  var c = '';
+  if(topictext.media == "image"){
+    c = '<img style="margin-left:5px;max-width:150px;max-height:28px;vertical-align:middle;display:inline-block" src="'+topictext.value+'"/>';
+  }else{
+    c = topictext.value;
+  }
+
+   
+  var content = puzzleArray[t].value;
+  if(puzzleArray[t].media == "image"){
+     content = '<img style="max-width:50%;max-height:50%" src="'+puzzleArray[t].value+'"/><br>';
+  }
+
+  var d = document.getElementById("t"+(t));
+  for(var i=0; i < puzzleArray[t].clusters.length; i++){
+   if(puzzleArray[t].clusters[i] == selectedTopic) 
+     topic = selectedTopic;
+  }
+  if(selectedTopic == topic || d.style.opacity == "0"){
+   d.style.opacity = "0";
+  }else{
+   var d = document.getElementById("t"+(t)+"cell");
+   d.style.background = "#FFDDDD";
+
+   showMessagePanel('<i>'+content+'</i> '+AppClient.getTranslation("falsch")+': <b>'+c + '</b><br><br>'+AppClient.getTranslation("Neuversuchen"));
+   AppClient.setChecked(0,1);
+
+  }
+  var done = true;
+  for(var t=0; t < puzzleArray.length; t++) {
+   var d = document.getElementById("t"+(t));
+   if(d && d.style.opacity != "0") { done = false; break; } 
+  }
+  if(done) finish();
+
+ }
+
+ function finish(){
+  AppClient.setChecked(1);
+  AppClient.setSolved();
+
+  if(useImage == true){
+   showMessagePanel(AppClient.linkifyText(Feedbacktext),true);
+
+  }else{
+    showMessagePanel(Feedbacktext+'<br><br><div style="display:inline-block;max-width:320px;max-height:240px" id="videoout"></div>',true);
+
+   video.startTime = videoStart;
+   video.endTime = videoEnde; 
+   video.isMute = videoTon != "true";
+   video.autoStart = true;
+   video.loadPlayer("videoout");
+  }
+ }
+
+ function init(){
+  createPuzzle();
+  createButtons();
+  selectTopic(topics[0].cluster);
+ }
+
+
+ // init 
+
+ if(useImage == true){
+  var newImg = new Image();
+  newImg.onload = function(){
+   imageHeight = newImg.height;
+   imageWidth = newImg.width;
+  };
+  newImg.src = backgroundImage;
+ }else{
+  video = new YouTubeVideo(videoID);
+
+  var backgroundImage = video.getThumbnailURL();
+  var newImg = new Image();
+  newImg.onload = function(){
+   imageHeight = newImg.height;
+   imageWidth = newImg.width;
+  };
+  newImg.src = backgroundImage;
+
+ }
+
+ setTimeout(function(){ init();},1);

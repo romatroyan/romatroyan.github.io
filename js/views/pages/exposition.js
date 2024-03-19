@@ -127,10 +127,7 @@ class Exposition extends Component {
                 <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-02-01.jpg" alt="">
 
             </div> 
-            <div class="swiper-slide">
-                <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-02-14.jpg" alt="">
-
-            </div> 
+     
             <div class="swiper-slide">
                 <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-02-17.jpg" alt="">
 
@@ -139,10 +136,7 @@ class Exposition extends Component {
                 <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-02-37.jpg" alt="">
 
             </div> 
-            <div class="swiper-slide">
-                <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-02-40.jpg" alt="">
-
-            </div> 
+            
             <div class="swiper-slide">
                 <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-02-48.jpg" alt="">
 
@@ -183,10 +177,7 @@ class Exposition extends Component {
                 <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-05-01.jpg" alt="">
 
             </div> 
-            <div class="swiper-slide">
-                <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-09-56.jpg" alt="">
-
-            </div> 
+             
             <div class="swiper-slide">
                 <img src="../../../img/exsposition/Экспазіцыя Крылы льняныя-ручнікі/photo_2024-03-17_16-10-00.jpg" alt="">
 

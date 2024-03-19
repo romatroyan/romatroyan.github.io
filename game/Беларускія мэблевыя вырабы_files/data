@@ -1,0 +1,1579 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "content_1_1=text%7C%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D1%8D%D0%BD%D0%BD%D0%B5&content_1_2=text%7C%D1%82%D0%BB%D1%83%D0%BC%D0%B0%D1%87%D1%8D%D0%BD%D0%BD%D0%B5%20%D0%BF%D0%B0%D0%BD%D1%8F%D1%86%D1%86%D1%8F&content_1_3=text%7C%D0%BC%D0%B0%D0%BB%D1%8E%D0%BD%D0%B0%D0%BA&content_2_1=text%7C%D0%B7%D1%8B%D0%B1%D0%BA%D0%B0&content_2_2=text%7C%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D1%96%20%20%D0%BB%D0%BE%D0%B6%D0%B0%D1%87%D0%B0%D0%BA%20%D0%B0%D0%B1%D0%BE%20%D0%BA%D0%BE%D1%88%D1%8B%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B7%D1%8F%D1%86%D0%B5%D0%B9%2C%20%D1%8F%D0%BA%D1%96%20%D0%B4%D0%B0%D0%B7%D0%B2%D0%B0%D0%BB%D1%8F%D0%B5%20%D0%BA%D0%B0%D0%BB%D1%8B%D1%85%D0%B0%D1%86%D1%8C%20%D0%B4%D0%B7%D1%96%D1%86%D1%8F&content_2_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fslv9vjt.png&content_3_1=text%7C%D0%B7%D1%8D%D0%B4%D0%BB%D1%96%D0%BA&content_3_2=text%7C%D1%80%D0%B0%D0%B7%D0%BD%D0%B0%D0%B2%D1%96%D0%B4%D0%BD%D0%B0%D1%81%D1%86%D1%8C%20%D0%BB%D0%B0%D1%9E%D0%BA%D1%96%20%D0%B7%20%D0%BA%D0%B0%D1%80%D1%8D%D0%BD%D1%96%D1%88%D1%87%D0%B0%20%D0%B0%D0%B1%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%BB%D1%8F%20%D0%B4%D1%80%D1%8D%D0%B2%D0%B0%20%D0%B7%20%D0%97%E2%80%944%20%D0%BD%D0%BE%D0%B6%D0%BA%D0%B0%D0%BC%D1%96%20%D1%96%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%BC%20%D1%86%D1%96%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%BC%20%D1%81%D1%8F%D0%B4%D0%B7%D0%B5%D0%BD%D0%BD%D0%B5%D0%BC&content_3_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fi2fqrkum.png&content_4_1=text%7C%D0%BA%D0%B0%D0%BB%D1%8B%D1%81%D0%BA%D0%B0%20%28%D0%BB%D1%8E%D0%BB%D1%8C%D0%BA%D0%B0%29&content_4_2=text%7C%D0%BC%D0%B5%D1%81%D1%86%D0%B0%2C%20%D0%B4%D0%B7%D0%B5%20%D0%B7%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B7%D1%96%D1%86%D1%86%D0%B0%20%D0%B4%D0%B7%D1%96%D1%86%D1%8F%20%D1%9E%20%D0%BF%D0%B5%D1%80%D1%88%D1%8B%20%D0%B3%D0%BE%D0%B4%20%D0%BF%D0%B0%D1%81%D0%BB%D1%8F%20%D0%BD%D0%B0%D1%80%D0%B0%D0%B4%D0%B6%D1%8D%D0%BD%D0%BD%D1%8F&content_4_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Faigsckpp.png&content_5_1=text%7C%D0%BA%D0%B0%D0%BD%D0%B0%D0%BF%D0%B0&content_5_2=text%7C%D0%B2%D1%96%D0%B4%20%D0%BC%D1%8F%D0%BA%D0%BA%D0%B0%D0%B9%20%D0%BC%D1%8D%D0%B1%D0%BB%D1%96%2C%20%D0%BF%D1%80%D1%8B%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%81%D1%8F%D0%B4%D0%B7%D0%B5%D0%BD%D0%BD%D1%8F%2C%20%D0%BB%D1%8F%D0%B6%D0%B0%D0%BD%D0%BD%D1%8F&content_5_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fmn7m7olc.png&content_6_1=text%7C%D0%BA%D1%80%D1%8D%D1%81%D0%BB%D0%B0&content_6_2=text%7C%D0%B2%D1%96%D0%B4%20%D1%81%D1%82%D1%83%D0%BB%D0%B0%20%D0%B7%20%D1%80%D1%83%D1%87%D0%BA%D0%B0%D0%BC%D1%96%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%BF%D0%BE%D1%80%D1%8B%20%D0%BB%D0%BE%D0%BA%D1%86%D1%8F%D1%9E&content_6_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2F03lqunpc.jpg&content_7_1=text%7C%D0%BA%D1%83%D1%84%D0%B0%D1%80&content_7_2=text%7C%D0%B2%D1%8B%D1%80%D0%B0%D0%B1%20%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%D0%BD%D0%B0%D0%B9%20%D0%BC%D1%8D%D0%B1%D0%BB%D1%96%20%D0%B7%20%D0%B0%D0%B4%D0%BA%D1%96%D0%B4%D0%BD%D0%BE%D0%B9%20%D1%86%D1%96%20%D0%B7%D0%B4%D1%8B%D0%BC%D0%BD%D0%B0%D0%B9%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D1%8F%D0%B9%20%D0%BD%D0%B0%D0%BA%D1%80%D1%8B%D1%9E%D0%BA%D0%B0%D0%B9&content_7_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2F4i4i1e9o.jpg&content_8_1=text%7C%D0%BB%D0%B0%D0%B2%D0%B0&content_8_2=text%7C%D0%BC%D1%8D%D0%B1%D0%BB%D0%B5%D0%B2%D1%8B%20%D0%B2%D1%8B%D1%80%D0%B0%D0%B1%20%D0%B7%20%D0%B2%D1%83%D0%B7%D0%BA%D1%96%D0%BC%20%D1%81%D1%8F%D0%B4%D0%B7%D0%B5%D0%BD%D0%BD%D0%B5%D0%BC%2C%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B5%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%96%D1%85%20%D1%87%D0%B0%D0%BB%D0%B0%D0%B2%D0%B5%D0%BA%2C%20%D0%B7%20%D0%B2%D1%8B%D1%88%D1%8B%D0%BD%D1%91%D0%B9%20%D1%81%D1%8F%D0%B4%D0%B7%D0%B5%D0%BD%D0%BD%D1%8F%20%D1%80%D0%BE%D1%9E%D0%BD%D0%B0%D0%B9%20%D1%86%D1%96%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D0%B9%20%D1%8F%D0%B3%D0%BE%20%D0%B3%D0%BB%D1%8B%D0%B1%D1%96%D0%BD%D1%96&content_8_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fwgq47plx.jpg&content_9_1=text%7C%D0%BB%D0%BE%D0%B6%D0%B0%D0%BA&content_9_2=text%7C%D0%BF%D1%80%D0%B0%D0%B4%D0%BC%D0%B5%D1%82%20%D0%BC%D1%8D%D0%B1%D0%BB%D1%96%2C%20%D0%BF%D1%80%D1%8B%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%B4%D0%BF%D0%B0%D1%87%D1%8B%D0%BD%D0%BA%D1%83%20%D1%9E%20%D0%B3%D0%B0%D1%80%D1%8B%D0%B7%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%20%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%88%D1%87%D1%8B&content_9_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Ftmcjuo7m.jpg&content_10_1=text%7C%D1%81%D1%82%D0%BE%D0%BB&content_10_2=text%7C%D0%BC%D1%8D%D0%B1%D0%BB%D0%B5%D0%B2%D1%8B%20%D0%B2%D1%8B%D1%80%D0%B0%D0%B1%2C%20%D1%8F%D0%BA%D1%96%20%D0%BC%D0%B0%D0%B5%20%D0%BF%D1%80%D1%8B%D0%BF%D0%B0%D0%B4%D0%BD%D1%8F%D1%82%D1%83%D1%8E%20%D0%B3%D0%B0%D1%80%D1%8B%D0%B7%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%83%D1%8E%20%D0%BF%D0%B0%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D1%8E%2C%20%D0%BF%D1%80%D1%8B%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%BD%D1%83%D1%8E%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B7%D0%BC%D1%8F%D1%88%D1%87%D1%8D%D0%BD%D0%BD%D1%8F%20%D0%BD%D0%B0%20%D1%91%D0%B9%20%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%B0%D0%B4%D0%BC%D0%B5%D1%82%D0%B0%D1%9E&content_10_3=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2F6ksj7gwu.png&rowConnected=true&fixedRow1=true&fixedColumn1=true&feedback=%D0%A6%D1%83%D0%B4%D0%BE%D1%9E%D0%BD%D0%B0%2C%20%D1%82%D1%8B%20%D0%BF%D1%80%D0%B0%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B0%20%D0%B2%D1%8B%D0%BA%D0%B0%D0%BD%D0%B0%D1%9E%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D0%B5.",
+	"title": "Беларускія мэблевыя вырабы",
+	"tool": "270",
+	"helptext": "",
+	"tasktext": "Запоўніце табліцу",
+	"formlanguage": "RU",
+	"language": "BY",
+	"parameters": [
+		{
+			"t": "list",
+			"label": "%Zeile%",
+			"description": "%ZeileBeschreibung%",
+			"name": "Inhalte",
+			"min": "1",
+			"max": 10,
+			"addtext": "Добавить следующий элемент",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "content_#_1",
+					"label": "%Spalte% 1",
+					"type": "media",
+					"description": "",
+					"media": "text|image|audio|video|speech"
+				},
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "content_#_2",
+					"label": "%Spalte% 2",
+					"type": "media",
+					"description": "",
+					"media": "text|image|audio|video|speech"
+				},
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "content_#_3",
+					"label": "%Spalte% 3",
+					"type": "media",
+					"description": "",
+					"media": "text|image|audio|video|speech"
+				},
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "content_#_4",
+					"label": "%Spalte% 4",
+					"type": "media",
+					"description": "",
+					"media": "text|image|audio|video|speech"
+				},
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "content_#_5",
+					"label": "%Spalte% 5",
+					"type": "media",
+					"description": "",
+					"media": "text|image|audio|video|speech"
+				},
+				{
+					"t": "space",
+					"value": "20"
+				}
+			]
+		},
+		{
+			"t": "group",
+			"label": "%Einstellungen%",
+			"description": "%EinstellungenBeschreibung%",
+			"name": "",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "true",
+					"width": "",
+					"height": "",
+					"name": "rowConnected",
+					"label": "%rowsConnected%",
+					"type": "check",
+					"description": ""
+				},
+				{
+					"t": "parameter",
+					"value": "true",
+					"width": "",
+					"height": "",
+					"name": "fixedRow1",
+					"label": "%fixedRow%",
+					"type": "check",
+					"description": ""
+				},
+				{
+					"t": "parameter",
+					"value": "false",
+					"width": "",
+					"height": "",
+					"name": "fixedColumn1",
+					"label": "1. %rowdefined%",
+					"type": "check",
+					"description": ""
+				},
+				{
+					"t": "parameter",
+					"value": "false",
+					"width": "",
+					"height": "",
+					"name": "fixedColumn2",
+					"label": "2. %rowdefined%",
+					"type": "check",
+					"description": ""
+				},
+				{
+					"t": "parameter",
+					"value": "false",
+					"width": "",
+					"height": "",
+					"name": "fixedColumn3",
+					"label": "3. %rowdefined%",
+					"type": "check",
+					"description": ""
+				},
+				{
+					"t": "parameter",
+					"value": "false",
+					"width": "",
+					"height": "",
+					"name": "fixedColumn4",
+					"label": "4. %rowdefined%",
+					"type": "check",
+					"description": ""
+				},
+				{
+					"t": "parameter",
+					"value": "false",
+					"width": "",
+					"height": "",
+					"name": "fixedColumn5",
+					"label": "5. %rowdefined%",
+					"type": "check",
+					"description": ""
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Zuordnungstabelle"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Matching matrix"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "DE",
+			"value": "Kärtchen aus einer Liste müssen in eine Tabelle mit maximal fünf Spalten richtig eingeordnet werden."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "EN",
+			"value": "Drag and drop cards into a table with up to five columns."
+		},
+		{
+			"id": "Spalte",
+			"language": "DE",
+			"value": "Spalte"
+		},
+		{
+			"id": "Spalte",
+			"language": "EN",
+			"value": "Column"
+		},
+		{
+			"id": "Zeile",
+			"language": "DE",
+			"value": "Zeilen der Tabelle"
+		},
+		{
+			"id": "Zeile",
+			"language": "EN",
+			"value": "Rows of the table"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie hier die einzelnen Zeilen der Tabelle an. Lassen Sie nicht benötigte Spalten einfach leer."
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "EN",
+			"value": "Provide the rows of the table here. Leave unused columns blank."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "DE",
+			"value": "Einstellungen"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "EN",
+			"value": "Setup"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie hier weitere Einstellungen. Wenn die Inhalte in beliebiger Reihenfolge in jede Spalte geschrieben werden können, deaktivieren Sie den ersten Punkt."
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "EN",
+			"value": "Define further settings here. If items can be placed in any order in each column deactivate the first point."
+		},
+		{
+			"id": "rowdefined",
+			"language": "DE",
+			"value": "Spalte vorgeben"
+		},
+		{
+			"id": "rowdefined",
+			"language": "EN",
+			"value": "row is predefined"
+		},
+		{
+			"id": "rowdefined",
+			"language": "DE",
+			"value": "Spalte vorgeben"
+		},
+		{
+			"id": "rowdefined",
+			"language": "EN",
+			"value": "row is predefined"
+		},
+		{
+			"id": "fixedRow",
+			"language": "DE",
+			"value": "Erste Zeile vorgeben (z. B. als Tabellenkopf)"
+		},
+		{
+			"id": "fixedRow",
+			"language": "EN",
+			"value": "First row is predefined (table head)"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "DE",
+			"value": "Elemente gehören zeilenweise zusammen"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "EN",
+			"value": "Elements belong together in rows"
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text ein, der eingeblendet wird, wenn die richtige Lösung gefunden wurde."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a feedback text which will be displayed when the solution is found."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast die richtige Lösung gefunden."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Great, you've found the solution!"
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Saisissez le texte qui s'affichera lorsque la solution aura été trouvée"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Inserisci un testo che verrà inserito quando verrà trovata la soluzione corretta."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Введите здесь текст, который будет появляться, если найдено верное решение!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Super, tu as trouvé la solution!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Fantastico, hai trovato la risposta giusta."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Здорово, ты верно выполнил задание."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "Grille de correspondance "
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "FR",
+			"value": "Il faut glisser-déposer les fiches à l'endroit correspondant dans une grille de cinq colonnes au maximum."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RM",
+			"value": "Cartas ord ina gliesta ston vegnir ordinadas correctamein en ina tabella cun maximal tschun colonnas."
+		},
+		{
+			"id": "Spalte",
+			"language": "RO",
+			"value": "Coloană"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "RM",
+			"value": "Endatescha cheu entginas lingias dalla tabella. Lai semplamein vit quellas che vegnan buca duvradas."
+		},
+		{
+			"id": "Zeile",
+			"language": "RM",
+			"value": "Las lingias dalla tabella"
+		},
+		{
+			"id": "Spalte",
+			"language": "RM",
+			"value": "Colonna"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Tabella d'attribuziun"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "RM",
+			"value": "Elements s'audan ensemen tenor lingias"
+		},
+		{
+			"id": "fixedRow",
+			"language": "RM",
+			"value": "Dar avon l'emprema lingia (p.ex. il tgau dalla tabella)"
+		},
+		{
+			"id": "rowdefined",
+			"language": "RM",
+			"value": "Dar avon la colonna"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "RM",
+			"value": "Configuraziuns"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, ti has sligiau tut correctamein!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatescha cheu in text che duei vegnir mussaus sch'il pensum ei vegnius sligiaus endretg."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Tabel cu ordonare"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RO",
+			"value": "Cartonașele dintr-o listă trebuie ordonate corect intr-un tabel cu maxim 5 coloane."
+		},
+		{
+			"id": "Zeile",
+			"language": "RO",
+			"value": "Rânduri tabel"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "RO",
+			"value": "Setări"
+		},
+		{
+			"id": "rowdefined",
+			"language": "RO",
+			"value": "Specifică coloana"
+		},
+		{
+			"id": "fixedRow",
+			"language": "RO",
+			"value": "Specifică primul rând(ex. cap de tabel) "
+		},
+		{
+			"id": "rowsConnected",
+			"language": "RO",
+			"value": "Elementele aparțin împreună ca rânduri"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Introduceți un text care este vizibil atunci când soluția este corectă "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, ai găsit soluția corectă"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "RO",
+			"value": "Alegeți aici alte setări. Când conținuturile pot fi scrise în orice ordine in fiecare coloană, dezactivați primul punct. "
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "RO",
+			"value": "Indicați aici conținuturile tabelului. Nu lăsați coloanele necesare necompletate. "
+		},
+		{
+			"id": "Spalte",
+			"language": "FR",
+			"value": "Colonne "
+		},
+		{
+			"id": "Einstellungen",
+			"language": "FR",
+			"value": "Réglages"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "RM",
+			"value": "Elegia cheu ulteriuras configuraziuns. Sch'ils cuntegns san vegnir endatai senza risguardar la successiun, deactivescha p. pl. igl emprem punct."
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GL",
+			"value": "Moi ben, atopáchelas todas!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Таблица соответствий\n"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RU",
+			"value": "Заполнение таблицы карточками с информацией. Максимальный размер таблицы 5х5."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PL",
+			"value": "Przeciągnij i upuść karty w tabelce zawierającej maksymalnie pięć kolumn."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Dopasowywanie pól tabelki"
+		},
+		{
+			"id": "Spalte",
+			"language": "PL",
+			"value": "Kolumna"
+		},
+		{
+			"id": "Zeile",
+			"language": "PL",
+			"value": "Wiersze tabeli "
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "PL",
+			"value": "Wprowadź w każdym wierszu tabeli. Zostaw nieużywane kolumny puste."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "PL",
+			"value": "Ustawienia "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Podaj tekst, który będzie wyświetlany, gdy zostanie znalezione rozwiązanie."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Brawo, znalazłeś właściwe rozwiązanie."
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "PL",
+			"value": "Określ dodatkowe ustawienia tutaj. Jeśli elementy mogą być umieszczone w dowolnej kolejności, w każdej kolumnie, wyłącz pierwszy punkt. "
+		},
+		{
+			"id": "rowdefined",
+			"language": "PL",
+			"value": "kolumna wypełniona"
+		},
+		{
+			"id": "fixedRow",
+			"language": "PL",
+			"value": "Pierwszy wiersz jest zdefiniowany (np. nagłówek tabeli) "
+		},
+		{
+			"id": "rowsConnected",
+			"language": "PL",
+			"value": "Elementy ze sobą powiązane są w tych samych wierszach "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Sobitusmaatriks"
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "tagasiside"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Sisesta tekst, mis kuvatakse õige vastuse puhul."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ET",
+			"value": "Tubli, sa oled leidnud õige lahenduse."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Поздравления! Ти намери правилното решение. "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Осигурете текстова обратна връзка, която се показва, когато се намери решение."
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна връзка"
+		},
+		{
+			"id": "fixedRow",
+			"language": "BG",
+			"value": "Първият ред е предварително определен (началото на таблицата)"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "BG",
+			"value": "Елементите са заедно по редове"
+		},
+		{
+			"id": "rowdefined",
+			"language": "BG",
+			"value": "редът е предварително определен"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "BG",
+			"value": "Тук може да изберете други настройки. Ако съдържанието може да бъде записано в произволен ред във всяка колона, деактивирайте първата точка."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "BG",
+			"value": "Настройка"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "BG",
+			"value": "Създаване на редовете на таблицата тук. Оставете неизползваните колони празни."
+		},
+		{
+			"id": "Zeile",
+			"language": "BG",
+			"value": "Редове на таблицата"
+		},
+		{
+			"id": "Spalte",
+			"language": "BG",
+			"value": "Колона\n"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BG",
+			"value": "Картите от списъка трябва да бъдат правилно подредени в таблица с максимум пет колони."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Подреждане на елементи"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Таблиця відповідностей"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "UK",
+			"value": "Перетягуйте картки в таблицю до 5 стовпців."
+		},
+		{
+			"id": "Spalte",
+			"language": "UK",
+			"value": "Стовпець"
+		},
+		{
+			"id": "Zeile",
+			"language": "UK",
+			"value": "Рядки таблиці"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "UK",
+			"value": "Налаштування"
+		},
+		{
+			"id": "fixedRow",
+			"language": "UK",
+			"value": "Перший рядок зафіксовано"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "UK",
+			"value": "Елементи згруповано за рядками"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "rowdefined",
+			"language": "UK",
+			"value": "Фіксований рядок"
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, правильне рішення знайдено!"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "UK",
+			"value": "Тут ви можете налаштувати інші параметри. Якщо вміст може записуватись у довільному порядку в кожному стовпці, зніміть перший прапорець."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "TR",
+			"value": "Listedeki kartlar en fazla 5 sütunu olan bir tabloda doğru yerleştirilmelidir."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Tabloda doğru eşleştirme"
+		},
+		{
+			"id": "Spalte",
+			"language": "TR",
+			"value": "Sütun"
+		},
+		{
+			"id": "Zeile",
+			"language": "TR",
+			"value": "Satırlar"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "TR",
+			"value": "Ayarlar"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "TR",
+			"value": "Burada bazı ayarları yapmanız mümkün. Eğer ögelerin bir bir sütunda sıralaması önemli değil ve rastgele bir sıralama ile girilebilecekse birinci noktanın işaretini kaldırın."
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "TR",
+			"value": "Burada tablonun satırlarını girin. Gerekli olmayan sütunları boş bırakmanız yeterli."
+		},
+		{
+			"id": "rowdefined",
+			"language": "TR",
+			"value": "Sütunu belirle"
+		},
+		{
+			"id": "fixedRow",
+			"language": "TR",
+			"value": "Birinci satırı belirle (Örneğin tablo başlığı olarak)"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "TR",
+			"value": "Ögeler satır olarak beraber olmalı. Yani her satırın ögeleri bir arada olmalı."
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüşüm"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Doğru çözüm bulunduğunda gösterilmesini istediğin bir metni girin."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Maşaallah! Doğru çözümü buldunuz."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ET",
+			"value": "Lohista kaardid õigesti tabelisse (kuni 5 tulpa)"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GE",
+			"value": "ბარათები სიიდან სწორად უნდა ჩაისვას 5 სვეტიან ცხრილში."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "ცხრილი"
+		},
+		{
+			"id": "Spalte",
+			"language": "GE",
+			"value": "სვეტი"
+		},
+		{
+			"id": "Zeile",
+			"language": "GE",
+			"value": "ცხრილის სტრიქონები"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ აქ ცხრილის ცალკეული სვეტები. დატოვეთ არასაჭირო სვეტები ცარიელი."
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "GE",
+			"value": "შეგიძლიათ აირჩიოთ სხვა პარამეტრები. თუ შინაარსი შეიძლება ჩაიწეროს ნებისმიერი თანმიმდევრობით ნებისმიერ სვეტში, მაშინ მოხსენით პირველი წერტილი."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "GE",
+			"value": "პარამეტრები"
+		},
+		{
+			"id": "rowdefined",
+			"language": "GE",
+			"value": "მიუთითეთ სვეტი"
+		},
+		{
+			"id": "fixedRow",
+			"language": "GE",
+			"value": "პირველი ხაზი, როგორც სათაური"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "GE",
+			"value": "ელემენტები ერთ ხაზზე"
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც ეკრანზე გამოჩნდება სწორი პასუხის შემთხვევაში."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "კარგია, თქვენ იპოვეთ სწორი პასუხი!"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "ES",
+			"value": "Configuración"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "ET",
+			"value": "Seaded"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Tabelarni raspored"
+		},
+		{
+			"id": "Spalte",
+			"language": "BS",
+			"value": "Stupac"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "BS",
+			"value": "Postavke"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BS",
+			"value": "Karte s liste trebaju biti pravilno raspoređene u tabelu s maksimalno pet stupaca."
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "BS",
+			"value": "Napravite ovdje redove u tabeli. Prazna polja jednostavno ostavite prazna."
+		},
+		{
+			"id": "Zeile",
+			"language": "BS",
+			"value": "Red u tabeli"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "BS",
+			"value": "Odredite preostale postavke ovdje. Ako sadržaj jednog polja može odgovarati svakom polju u svakom stupcu, onda deaktivirajte prvu tačku."
+		},
+		{
+			"id": "rowdefined",
+			"language": "BS",
+			"value": "Stupac je određen"
+		},
+		{
+			"id": "fixedRow",
+			"language": "BS",
+			"value": "Prvo polje je određeno (npr. kao zaglavlje)"
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "BS",
+			"value": "Elementi pripadaju zajedno u redovima"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Odlično, našli ste ispravno rješenje."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite feedback tekst koji će se pojaviti nakon pronalaska ispravnog rješenja."
+		},
+		{
+			"id": "Spalte",
+			"language": "ET",
+			"value": "tulp"
+		},
+		{
+			"id": "Zeile",
+			"language": "ET",
+			"value": "tabeli read"
+		},
+		{
+			"id": "rowdefined",
+			"language": "ET",
+			"value": "Tulp ette anda"
+		},
+		{
+			"id": "fixedRow",
+			"language": "ET",
+			"value": "Esimene rida ette anda"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "ET",
+			"value": "Elemendid kuuluvad ridade kaupa kokku"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Plaats op de juiste plaats in de tabel"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "NL",
+			"value": "Sleep en plaats de kaartjes in een tabel met maximum 5 kolommen."
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "NL",
+			"value": "Bepaal hier de verdere instellingen. Als de elementen in gelijk welke volgorde kunnen geplaatst worden in elke kolom deactiveer dan het eerste item."
+		},
+		{
+			"id": "rowdefined",
+			"language": "NL",
+			"value": "Kolom opgeven"
+		},
+		{
+			"id": "Spalte",
+			"language": "NL",
+			"value": "Kolom"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "NL",
+			"value": "Instellingen"
+		},
+		{
+			"id": "fixedRow",
+			"language": "NL",
+			"value": "De eerste rij is opgegeven (kop van de tabel)"
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Geef een tekst op die getoond zal worden als de oplossing gevonden is."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, u hebt de juiste oplossing gevonden."
+		},
+		{
+			"id": "Zeile",
+			"language": "NL",
+			"value": "Rijen van de tabel"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "NL",
+			"value": "Gegevens horen samen per rij."
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "NL",
+			"value": "Voorzie instructies die getoond worden bij de opstart van deze oefening. Indien niet nodig laat dit dan leeg."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "IT",
+			"value": "trascina le carte in una tabella con un massimo di 5 colonne."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": "πίνακας κατανομής"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Matriz de correspondência"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "GR",
+			"value": "Ρυθμίσεις"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "Σχόλιο"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "SV",
+			"value": "Skriv den text som visas när spelet är slut"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GR",
+			"value": "Δώστε ένα σχόλιο που εμφανίζεται όταν βρεθεί η λύση."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "SV",
+			"value": "Grattis, du har klarat av spelet!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GR",
+			"value": "Ωραία, βρήκες τη σωστή λύση"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Hozzárendeléses táblázat"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "Óptimo, encontrou a solução correcta"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "Fornecer um texto de feedback que é exibido quando a solução é encontrada."
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "PT",
+			"value": "Elementos pertencem juntos em linhas"
+		},
+		{
+			"id": "fixedRow",
+			"language": "PT",
+			"value": "A primeira linha é pré definida (cabeçalho da tabela)"
+		},
+		{
+			"id": "rowdefined",
+			"language": "PT",
+			"value": "A linha é pré definida"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "PT",
+			"value": "Definir novas configurações aqui. Se os itens podem ser colocados em qualquer ordem, em cada coluna  desactivar o primeiro ponto."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "PT",
+			"value": "configuração"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "PT",
+			"value": "Fornecer as linhas da tabela aqui. Deixe em branco as colunas não utilizadas."
+		},
+		{
+			"id": "Zeile",
+			"language": "PT",
+			"value": "linhas da tabela"
+		},
+		{
+			"id": "Spalte",
+			"language": "PT",
+			"value": "coluna"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PT",
+			"value": "Arraste e solte os cartões numa tabela com até cinco colunas."
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "FR",
+			"value": "Définir ici les lignes du tableau. Ne pas remplir les colonnes inutilisées"
+		},
+		{
+			"id": "Zeile",
+			"language": "FR",
+			"value": "Lignes du tableau"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "FR",
+			"value": "Configurez votre appli. Si les éléments peuvent être placés sans ordre particulier dans les colonnes, désactivez la première option."
+		},
+		{
+			"id": "rowdefined",
+			"language": "FR",
+			"value": "colonne définie (placée correctement au lancement)"
+		},
+		{
+			"id": "fixedRow",
+			"language": "FR",
+			"value": "la première ligne est pré-définie (haut du tableau)"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "FR",
+			"value": "éléments à mettre ensemble en ligne"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "HU",
+			"value": "Beállítások"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "HU",
+			"value": "Listában megadott képeket kell egy legfeljebb öt oszlopot tartalmazó táblázatba a megfelelő helyre beilleszteni."
+		},
+		{
+			"id": "Spalte",
+			"language": "HU",
+			"value": "Oszlop"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "HU",
+			"value": "Itt adja meg a táblázat egyes celláinak értékét. A nem szükséges oszlopokat egyszerűen hagyja üresen. "
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "HU",
+			"value": "Itt további beállításokra van lehetőség. Ha minden oszlop tartalma tetszőleges sorrendben beírható, akkor az első pontot inaktívvá kell tenni."
+		},
+		{
+			"id": "rowdefined",
+			"language": "HU",
+			"value": "Oszlop előzetes megadása"
+		},
+		{
+			"id": "fixedRow",
+			"language": "HU",
+			"value": "Első sor megadása (pl. mint táblázat fej)"
+		},
+		{
+			"id": "Zeile",
+			"language": "HU",
+			"value": "A táblázat sorai"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "HU",
+			"value": "Az elemek soronként összatartoznak"
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy üzenetet, mely a helyes megfejtés után megjelenik!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Nagyszerű! Megtaláltad a helyes megoldást."
+		},
+		{
+			"id": "Spalte",
+			"language": "BY",
+			"value": "Слупок"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "BY",
+			"value": "Наладкі"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "BY",
+			"value": "Вызначце іншыя параметры тут. Калі элементы табліцы могуць быць размешчаны ў выпадковым парадку, здыміце першую &amp;quot;галачку&amp;quot;."
+		},
+		{
+			"id": "rowdefined",
+			"language": "BY",
+			"value": "Слупок-загаловак (гатовы адказ)"
+		},
+		{
+			"id": "fixedRow",
+			"language": "BY",
+			"value": "Першы рад - загаловак табліцы."
+		},
+		{
+			"id": "rowsConnected",
+			"language": "BY",
+			"value": "Злучыць элементы радамі"
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BY",
+			"value": "Увядзіце тэкст, які будзе паказвацца пры правільным адказе."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BY",
+			"value": "Малайчына! Практыкаванне выканана"
+		},
+		{
+			"id": "Spalte",
+			"language": "RU",
+			"value": "Столбец"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "RU",
+			"value": "Настройки"
+		},
+		{
+			"id": "rowdefined",
+			"language": "RU",
+			"value": "Столбец закрепить (показывать уже заполненным)."
+		},
+		{
+			"id": "Zeile",
+			"language": "RU",
+			"value": "Ряды таблицы"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "RU",
+			"value": "Выберите нужные настройки. Если содержимое колонок можно вводить в произвольном порядке, снимите галочку с первого пункта."
+		},
+		{
+			"id": "fixedRow",
+			"language": "RU",
+			"value": "Закрепить первый ряд (например, в качестве заглавного ряда таблицы)."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BY",
+			"value": "Табліца адпаведнікаў"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BY",
+			"value": "Трэба размясціць карткі со спісу ў табліцы з максімум пяццю слупкамі."
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "BY",
+			"value": "Запоўніце асобные радкі табліцы. Слупкі, якія непатрэбныя, пакіньце пустымі."
+		},
+		{
+			"id": "Zeile",
+			"language": "BY",
+			"value": "Радок"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "UK",
+			"value": "Введіть в окремі рядки таблиці. Залиште непотрібні стовпці порожніми."
+		},
+		{
+			"id": "Spalte",
+			"language": "ES",
+			"value": "Columna"
+		},
+		{
+			"id": "Spalte",
+			"language": "IT",
+			"value": "colonna"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "IT",
+			"value": "impostazioni"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "IT",
+			"value": "Qui è possibile selezionare altre impostazioni. Se il contenuto può essere scritto in qualsiasi ordine in ciascuna colonna, deselezionare il primo punto."
+		},
+		{
+			"id": "rowdefined",
+			"language": "IT",
+			"value": "finta colonna"
+		},
+		{
+			"id": "fixedRow",
+			"language": "IT",
+			"value": "specificare prima linea (es come intestazione della tabella)"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "IT",
+			"value": "Gli elementi includono linea per linea insieme"
+		},
+		{
+			"id": "Feedback",
+			"language": "ES",
+			"value": "Retroalimentación"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "¡Enhorabuena! Lograste dar con la(s) respuesta(s) correcta(s)."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "CZ",
+			"value": "Přiřazovací tabulka"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "CZ",
+			"value": "Kartičky ze seznamu musejí být správně zařazeny do tabulky s maximálně pěti sloupci."
+		},
+		{
+			"id": "Spalte",
+			"language": "CZ",
+			"value": "Sloupec"
+		},
+		{
+			"id": "Zeile",
+			"language": "CZ",
+			"value": "Řádky tabulky "
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "CZ",
+			"value": "Zde zadejte jednotlivé řádky tabulky. Nepotřebné sloupce nechte prázdné."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "CZ",
+			"value": "Nastavení "
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "CZ",
+			"value": "Zde zvolte další nastavení. Pokud mohou být obsahy do jednotlivých sloupců zadávány v libovolném pořadí, deaktivujte první bod."
+		},
+		{
+			"id": "rowdefined",
+			"language": "CZ",
+			"value": "Zadejte sloupec"
+		},
+		{
+			"id": "fixedRow",
+			"language": "CZ",
+			"value": "Zadejte první řádek (např. jako záhlaví tabulky)"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "CZ",
+			"value": "Prvky patří po řádcích k sobě"
+		},
+		{
+			"id": "Feedback",
+			"language": "CZ",
+			"value": "Odezva"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "CZ",
+			"value": "Zadejte text, který se zobrazí, když je nalezeno správné řešení."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "CZ",
+			"value": "Výborně, našel jsi správné řešení."
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "ES",
+			"value": "Aquí puede elegir más parámetros. Si el orden de los contenidos en cada columna es indiferente, desactive el primer punto."
+		},
+		{
+			"id": "Zeile",
+			"language": "ES",
+			"value": "Filas de la tabla"
+		},
+		{
+			"id": "rowdefined",
+			"language": "ES",
+			"value": "Fijar la columna"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ES",
+			"value": "Asignar en una tabla"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "ES",
+			"value": "Indique aquí las filas de la tabla. Deje en blanco las columnas que no necesite."
+		},
+		{
+			"id": "fixedRow",
+			"language": "ES",
+			"value": "Fijar la primera fila (como cabecera de la tabla, por ejemplo)"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "ES",
+			"value": "Los elementos en cada fila van juntos"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ES",
+			"value": "Las fichas de una lista deben ser asignadas a una de un máximo de 5 columnas de una tabla "
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ES",
+			"value": "Introduzca un texto a mostrar cuando se solucione correctamente."
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "RU",
+			"value": "Каждый ряд разделён на 5 столбцов. Введите информацию для каждого столбца. Ненужные столбцы оставьте пустыми."
+		},
+		{
+			"id": "rowsConnected",
+			"language": "RU",
+			"value": "Не позволять произвольного порядка заполнения внутри столбцов. У каждой ячейки своё место."
+		},
+		{
+			"id": "Zeile",
+			"language": "IT",
+			"value": "righe della tabella"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "IT",
+			"value": "Indicate qui le singole righe della tabella.Lasciate vuote le colonne non necessarie"
+		},
+		{
+			"id": "Einstellungen",
+			"language": "GL",
+			"value": "Configuración"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "LT",
+			"value": "Kortelės iš sąrašo turi būti tinkamai išdėstytos lentelėje, kurioje yra ne daugiau kaip penki stulpeliai."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "LT",
+			"value": "Sudėlioti į lentelę"
+		},
+		{
+			"id": "Spalte",
+			"language": "LT",
+			"value": "Stulpelis"
+		},
+		{
+			"id": "Zeile",
+			"language": "LT",
+			"value": "Lentelės eilutės"
+		},
+		{
+			"id": "ZeileBeschreibung",
+			"language": "LT",
+			"value": "Čia įveskite atskiras lentelės eilutes. Tiesiog palikite nereikalingus stulpelius tuščius."
+		},
+		{
+			"id": "Einstellungen",
+			"language": "LT",
+			"value": "Nustatymai"
+		},
+		{
+			"id": "EinstellungenBeschreibung",
+			"language": "LT",
+			"value": "Čia pasirinkite kitus nustatymus. Jei kiekviename stulpelyje elementus galima sudėlioti bet kokia tvarka, nebūtinai iš eilės, tuomet išjunkite pirmąją nustatymų parinktį."
+		},
+		{
+			"id": "rowdefined",
+			"language": "LT",
+			"value": "Rodyti šio stulpelio įrašus"
+		},
+		{
+			"id": "fixedRow",
+			"language": "LT",
+			"value": "Rodyti pirmos eilutės įrašus (pvz., kaip lentelės antraštę)"
+		},
+		{
+			"id": "rowsConnected",
+			"language": "LT",
+			"value": "Elementai turi būti sudėlioti iš eilės, aukščiau numatyta tvarka, ir rodomi sujungti kartu."
+		},
+		{
+			"id": "Feedback",
+			"language": "LT",
+			"value": "Grįžtamasis ryšys"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "LT",
+			"value": "Įveskite tekstą, kuris bus rodomas, kai bus rastas teisingas sprendimas."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "LT",
+			"value": "Puiku, jūs radote tinkamą sprendimą."
+		}
+	],
+	"path": "https://learningapps.org/tools/270/10/",
+	"version": "10"
+};
