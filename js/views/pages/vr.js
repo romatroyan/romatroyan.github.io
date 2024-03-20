@@ -36,39 +36,33 @@ class Vr extends Component {
                     <div class="swiper-wrapper">
                     
                         <div class="swiper-slide">
-                            <img src="../../../img/vr/11.jpg" alt="">
+                            <img src="../../../img/vr/21.jpg" alt="">
                 
                         </div> 
                         <div class="swiper-slide">
-                            <img src="../../../img/vr/12.jpg" alt="">
+                            <img src="../../../img/vr/22.jpg" alt="">
+                
+                        </div>                 
+                        
+                        <div class="swiper-slide">
+                            <img src="../../../img/vr/23.jpg" alt="">
                 
                         </div>                 
                         <div class="swiper-slide">
-                            <img src="../../../img/vr/13.jpg" alt="">
+                            <img src="../../../img/vr/24.jpg" alt="">
                 
-                        </div> 
+                        </div>                 
+                                        
                         <div class="swiper-slide">
-                            <img src="../../../img/vr/14.jpg" alt="">
+                            <img src="../../../img/vr/25.jpg" alt="">
                 
                         </div>                 
                         <div class="swiper-slide">
-                            <img src="../../../img/vr/15.jpg" alt="">
+                            <img src="../../../img/vr/26.jpg" alt="">
                 
                         </div>                 
                         <div class="swiper-slide">
-                            <img src="../../../img/vr/16.jpg" alt="">
-                
-                        </div>                 
-                        <div class="swiper-slide">
-                            <img src="../../../img/vr/17.jpg" alt="">
-                
-                        </div>                 
-                        <div class="swiper-slide">
-                            <img src="../../../img/vr/18.jpg" alt="">
-                
-                        </div>                 
-                        <div class="swiper-slide">
-                            <img src="../../../img/vr/19.jpg" alt="">
+                            <img src="../../../img/vr/27.jpg" alt="">
                 
                         </div>                 
                       

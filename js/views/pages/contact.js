@@ -21,7 +21,7 @@ class Contact extends Component {
                     </div>
                 </div>
                 <div class="header-contact__button">
-                    <button class="button">Отправіть паведамленне</button>
+                    <button class="button">Адправіць паведамленне</button>
                 </div>
                 <div class="wrapper wrapper-none">
                     <form id="form" onsubmit="submitForm(event)">

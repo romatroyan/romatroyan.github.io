@@ -68,7 +68,7 @@ class Game extends Component {
                 <div class="subtitle-game">
                     <div class="title-text">
                         <h3>
-                            Крыжаванка _Беларускі мужчынскі і жаночы абутак
+                            Беларускі мужчынскі і жаночы абутак
                         </h3>
                     </div>
                     <div class="icon"><a href="../../../game/Крыжаванка _Беларускі мужчынскі і жаночы абутак_.html"><img src="../../../img/icon/free-icon-computer-game-720718.png" alt=""></a></div>
@@ -76,7 +76,7 @@ class Game extends Component {
                 <div class="subtitle-game">
                     <div class="title-text">
                         <h3>
-                            Крыжаванка
+                        Беларускія музычныя інструменты
                         </h3>
                     </div>
                     <div class="icon"><a href="../../../game/Крыжаванка.html"><img src="../../../img/icon/free-icon-computer-game-720718.png" alt=""></a></div>
@@ -84,7 +84,7 @@ class Game extends Component {
                 <div class="subtitle-game">
                     <div class="title-text">
                         <h3>
-                            Посуд, бандарныя і ганчарныя вырабы
+                        Бандарныя і ганчарныя вырабы
                         </h3>
                     </div>
                     <div class="icon"><a href="../../../game/Посуд, бандарныя і ганчарныя вырабы.html"><img src="../../../img/icon/free-icon-computer-game-720718.png" alt=""></a></div>
@@ -100,15 +100,7 @@ class Game extends Component {
                 <div class="subtitle-game">
                     <div class="title-text">
                         <h3>
-                            Свіслацкія папулярныя народныя стравы
-                        </h3>
-                    </div>
-                    <div class="icon"><a href="../../../game/Свіслацкія папулярныя народныя стравы.html"><img src="../../../img/icon/free-icon-computer-game-720718.png" alt=""></a></div>
-                </div>
-                <div class="subtitle-game">
-                    <div class="title-text">
-                        <h3>
-                            Складанка _Мужчынская і жаночая вопратка
+                        Беларускае мужчынскае і жаночае адзенне
                         </h3>
                     </div>
                     <div class="icon"><a href="../../../game/Складанка _Мужчынская і жаночая вопратка_.html"><img src="../../../img/icon/free-icon-computer-game-720718.png" alt=""></a></div>
@@ -116,7 +108,7 @@ class Game extends Component {
                 <div class="subtitle-game">
                     <div class="title-text">
                         <h3>
-                            Суаднясіце назвы посуду
+                            Посуд
                         </h3>
                     </div>
                     <div class="icon"><a href="../../../game/Суаднясіце назвы посуду..html"><img src="../../../img/icon/free-icon-computer-game-720718.png" alt=""></a></div>

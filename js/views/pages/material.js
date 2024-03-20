@@ -43,7 +43,7 @@ class Material extends Component {
             <div class="subtitle-material">
                 <div class="title-text">
                     <h3>
-                        Разнастайнасць беларускага арнамента і яго значэнне
+                        Разнастайнасць беларускага арнаменту і яго значэнне
                     </h3>
                 </div>
                 <div class="icon"><a href="../../../document/Разнастайнасць беларускага арнамента і яго значэнне.pdf"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
