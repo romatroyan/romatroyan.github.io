@@ -375,7 +375,7 @@ body {
 .header-home .header-title .header-headline {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 28px;
 }
 .header-home .header-title .header-headline h1.custom-color {
   color: #170f0f;
@@ -390,10 +390,10 @@ body {
 }
 .header-home .header-title .header-underText {
   display: flex;
-  gap: 20px;
+  gap: 18px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 .header-home .header-title .header-underText p {
   color: #170f0f;
@@ -487,6 +487,7 @@ body {
   margin: 25px 0 10px 0;
 }
 .wrapper-card .card-text p {
+  text-align: justify;
   font-size: 20px;
   line-height: 30px;
 }
@@ -584,10 +585,11 @@ body {
 }
 .wrapper-suitcase .suitcase-text {
   font-size: 20px;
+  padding: 20px;
 }
 .wrapper-suitcase .suitcase-text p {
-  margin: 20px;
-  text-indent: 15px;
+  text-align: justify;
+  text-indent: 20px;
 }
 
 .wrapper-game {
@@ -772,7 +774,7 @@ body {
   margin-bottom: 15px;
 }
 .wrapper-сooperation .text-сooperation p {
-  text-align: center;
+  text-align: justify;
   font-size: 22px;
   padding: 15px;
 }
