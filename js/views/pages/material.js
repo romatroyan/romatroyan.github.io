@@ -8,45 +8,47 @@ class Material extends Component {
             <div class="title-material">
                 <h1>Матэрыялы для цікаўных</h1>
             </div>
-            <div class="subtitle-material">
-                <div class="title-text">
-                    <h3>
-                        З гісторыі беларускага ручніка
-                    </h3>
+            <div class="inner-material">
+                <div class="subtitle-material">
+                    <div class="title-text">
+                        <h3>
+                            З гісторыі беларускага ручніка
+                        </h3>
+                    </div>
+                    <div class="icon"><a href="../../../document/З гісторыі беларускага ручніка.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
                 </div>
-                <div class="icon"><a href="../../../document/З гісторыі беларускага ручніка.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
-            </div>
-            <div class="subtitle-material">
-                <div class="title-text">
-                    <h3>
-                        Па слядах гісторыі. Якое адзенне было ў нашых продкаў
-                    </h3>
+                <div class="subtitle-material">
+                    <div class="title-text">
+                        <h3>
+                            Па слядах гісторыі. Якое адзенне было ў нашых продкаў
+                        </h3>
+                    </div>
+                    <div class="icon"><a href="../../../document/Па слядах гісторыі. Якое адзенне было ў нашых продкаў.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
                 </div>
-                <div class="icon"><a href="../../../document/Па слядах гісторыі. Якое адзенне было ў нашых продкаў.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
-            </div>
-            <div class="subtitle-material">
-                <div class="title-text">
-                    <h3>
-                        Простая ежа беларусаў
-                    </h3>
+                <div class="subtitle-material">
+                    <div class="title-text">
+                        <h3>
+                            Простая ежа беларусаў
+                        </h3>
+                    </div>
+                    <div class="icon"><a href="../../../document/Простая ежа беларусаў.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
                 </div>
-                <div class="icon"><a href="../../../document/Простая ежа беларусаў.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
-            </div>
-            <div class="subtitle-material">
-                <div class="title-text">
-                    <h3>
-                        Таямніца беларускага арнаменту
-                    </h3>
+                <div class="subtitle-material">
+                    <div class="title-text">
+                        <h3>
+                            Таямніца беларускага арнаменту
+                        </h3>
+                    </div>
+                    <div class="icon"><a href="../../../document/Таямніцы беларускага арнаменту.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
                 </div>
-                <div class="icon"><a href="../../../document/Таямніцы беларускага арнаменту.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
-            </div>
-            <div class="subtitle-material">
-                <div class="title-text">
-                    <h3>
-                        Разнастайнасць беларускага арнаменту і яго значэнне
-                    </h3>
+                <div class="subtitle-material">
+                    <div class="title-text">
+                        <h3>
+                            Разнастайнасць беларускага арнаменту і яго значэнне
+                        </h3>
+                    </div>
+                    <div class="icon"><a href="../../../document/Разнастайнасць беларускага арнамента і яго значэнне.pdf"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
                 </div>
-                <div class="icon"><a href="../../../document/Разнастайнасць беларускага арнамента і яго значэнне.pdf"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
             </div>
         </div>              
                 

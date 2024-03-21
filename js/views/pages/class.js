@@ -8,29 +8,31 @@ class Class extends Component {
             <div class="title-class">
                 <h1>Музейныя заняткі</h1>
             </div>
-            <div class="title-load">
-                <div class="title-text">
-                    <h3>
-                        Беларуская хатка
-                    </h3>
+            <div class="inner-class">
+                <div class="title-load">
+                    <div class="title-text">
+                        <h3>
+                            Беларуская хатка
+                        </h3>
+                    </div>
+                    <div class="icon"><a href="../../../document/Беларуская хатка.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
                 </div>
-                <div class="icon"><a href="../../../document/Беларуская хатка.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
-            </div>
-            <div class="title-load">
-                <div class="title-text">
-                    <h3>
-                        Размаўляючыя прадметы
-                    </h3>
+                <div class="title-load">
+                    <div class="title-text">
+                        <h3>
+                            Размаўляючыя прадметы
+                        </h3>
+                    </div>
+                    <div class="icon"><a href="../../../document/Размаўляючыя прадметы.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
                 </div>
-                <div class="icon"><a href="../../../document/Размаўляючыя прадметы.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
-            </div>
-            <div class="title-load">
-                <div class="title-text">
-                    <h3>
-                        Як жылі нашы прабабулі
-                    </h3>
+                <div class="title-load">
+                    <div class="title-text">
+                        <h3>
+                            Як жылі нашы прабабулі
+                        </h3>
+                    </div>
+                    <div class="icon"><a href="../../../document/Як жылі нашы прабабулі.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
                 </div>
-                <div class="icon"><a href="../../../document/Як жылі нашы прабабулі.docx"><img src="../../../img/icon/ms-word-icon-2048x2026-3u3jf850.png" alt=""></a></div>
             </div>
         </div>           
                           

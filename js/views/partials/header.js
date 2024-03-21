@@ -6,7 +6,8 @@ class Header extends Component {
 
         return new Promise(resolve => {
             resolve(`
-            <header class="header">                    
+            <header class="header">  
+            <div class="header-img"><img src="../../../img/15.png" alt=""></div>               
             <div class="header__link ${resource === '' ? 'active' : ''}">
                 <a  href="/#/">
                     ГАЛОЎНАЯ
@@ -73,7 +74,8 @@ class Header extends Component {
                 <a  href="/#/contact">
                 КАНТАКТЫ
             </a>    
-            </div>                                      
+            </div> 
+            <div class="header-img"><img src="../../../img/15.png" alt=""></div>                                     
         </header>
             `);
         });

@@ -1,13 +1,13 @@
 @import "reset";
 
 $grey: #170f0f;
-$headFoot: #47b8a7;
+$headFoot: #FFF8EE;
 $colorTitle: #170f0f;
 
 * {
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Arvo", serif;
+  font-family: "Roboto Slab", serif;
   color: $grey;
 }
 
@@ -28,6 +28,8 @@ body {
   align-items: center;
   height: 80px;
   background: $headFoot;
+  border-bottom: 10px solid;
+  border-image: url(../img/border.jpg) 100 round;
   
 }
 .footer-container{
@@ -39,6 +41,14 @@ body {
   max-width: 1024px;
   align-items: center;
   justify-content: center;
+  .header-img{
+    
+    img{
+      width: 75px;
+      height: 75px;
+      
+    }
+  }
 }
 
 .header__link,
@@ -54,7 +64,11 @@ body {
 
   &:hover,
   &.active {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
     color: white;
+    background-color: #a5a1a1;
+    border-radius: 15px;
+    padding: 10px;
   }
   .dropdown{
     position: relative;
@@ -106,9 +120,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-image: url('../img/background/1.jpg');
+  background-image: url('../img/background/d7d3314f64eebe5411b615eb9ckv-russkij-stil-rushnik-8.jpg');
   background-size: 100%;
   background-attachment: fixed;
+  
   .gp-gallery-picture-zoom {
     border: 1px solid #bbb;
     margin: -6px 0 0 -6px;
@@ -356,12 +371,15 @@ body {
     border-radius: 15px;
     box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
     margin-top: -50px;
+    
 
     
 
   .header-title{
     max-width: 650px;
     padding-top: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
     .header-headline{
       text-align: center;
@@ -394,6 +412,7 @@ body {
 
   }
   .swiper {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     max-width: 900px;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -458,8 +477,10 @@ body {
 
   .card-title{
     margin: 30px 0 60px 0;
+    
 
       h1{
+        
         text-align: center;
         font-size: 48px;
         font-weight: 600;
@@ -483,6 +504,9 @@ body {
       }
     }
     .card-info__title{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 15px;
+      padding: 5px;
 
       p{
         font-size: 25px;
@@ -577,6 +601,10 @@ body {
         font-size: 48px;
       }
     }
+    .inner-class,.inner-ecscurs{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     .title-load{
        width: 350px;
       .title-text{
@@ -594,6 +622,7 @@ body {
         }
       }
     }
+  }
 }
 .wrapper-suitcase{
   width: 900px;
@@ -678,6 +707,11 @@ body {
         font-size: 48px;
       }
     }
+    .inner-material{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
     .subtitle-material{
        width: 350px;
       .title-text{
@@ -695,6 +729,7 @@ body {
         }
       }
     }
+  }
 }
 .wrapper-vrmuzbel{ 
   width: 900px;
@@ -715,6 +750,10 @@ body {
         font-size: 48px;
       }
     }
+    .inner-vrmuzbel{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     .subtitle-vrmuzbel{
        width: 350px;
       .title-text{
@@ -732,6 +771,7 @@ body {
         }
       }
     }
+  }
 }
 
 .wrapper-achieving{
@@ -753,6 +793,7 @@ body {
     }
   }
   .swiper {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     max-width: 900px;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -768,6 +809,7 @@ body {
     }
     .swiper-pagination {
       font-size: 30px;
+
     }
   }
 }
@@ -801,6 +843,8 @@ body {
     }
   }
   .text-сooperation{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      border-radius: 15px;
     margin: 50px 0 25px 0;
     h3{
       font-size: 36px;
@@ -825,6 +869,7 @@ body {
     }
   }
   .swiper {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 900px;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -867,6 +912,10 @@ body {
         font-size: 48px;
       }
     }
+    .inner-materialwork{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     .subtitle-materialwork{
        width: 350px;
       .title-text{
@@ -884,6 +933,7 @@ body {
         }
       }
     }
+  }
 }
 
 .wrapper-vr{
