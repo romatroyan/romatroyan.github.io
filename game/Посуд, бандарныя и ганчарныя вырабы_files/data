@@ -1,0 +1,2803 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "question1=text%7C%D0%93%D0%BB%D1%96%D0%BD%D1%8F%D0%BD%D1%8B%20%D0%B3%D0%B0%D1%80%D1%88%D1%87%D0%BE%D0%BA%20%D0%BD%D0%B5%D0%B2%D1%8F%D0%BB%D1%96%D0%BA%D0%B0%D0%B3%D0%B0%20%D0%B0%D0%B1%E2%80%99%D1%91%D0%BC%D1%83.%20%D0%97%D0%B2%D1%8B%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%20%D1%9E%20%D1%8F%D0%B3%D0%BE%20%D0%B0%D0%B4%D0%BB%D1%96%D0%B2%D0%B0%D0%BB%D1%96%20%D0%B5%D0%B6%D1%83%2C%20%D1%88%D1%82%D0%BE%20%D0%B1%D1%80%D0%B0%D0%BB%D1%96%20%D0%B7%20%D1%81%D0%B0%D0%B1%D0%BE%D0%B9%20%D0%BF%D0%B0%D0%B4%D1%87%D0%B0%D1%81%20%D1%81%D0%B5%D0%BD%D0%B0%D0%BA%D0%BE%D1%81%D1%83%20%D1%86%D1%96%20%D0%B6%D0%BD%D1%96%D0%B2%D0%B0%7C&answer1_1=text%7C%D0%B0%D0%B4%D0%BB%D0%B5%D1%9E%D0%BD%D1%96%D0%BA%7C&right1_1=true&answer1_2=text%7C%D0%B2%D1%8F%D1%80%D1%8D%D0%BD%D1%8C%D0%BA%D0%B0%7C&answer1_3=text%7C%D0%B3%D0%B0%D1%80%D0%BB%D0%B0%D1%87%7C&answer1_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Favospa9r.png%7C&right1_4=true&answer1_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Ffeexhmwo.png%7C&question2=text%7C%D0%93%D0%BB%D1%96%D0%BD%D1%8F%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D1%81%D1%83%D0%B4%D0%B7%D1%96%D0%BD%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B3%D0%B0%D1%82%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%B3%D0%B0%D1%80%D0%B0%D1%87%D0%B0%D0%B9%20%D1%81%D1%82%D1%80%D0%B0%D0%B2%D1%8B%2C%20%D0%B7%D0%B0%D1%85%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D1%81%D1%8B%D0%BF%D0%BA%D1%96%D1%85%20%D1%80%D1%8D%D1%87%D1%8B%D0%B2%D0%B0%D1%9E%20%D1%96%20%D1%96%D0%BD%D1%88.%20%D0%AF%D0%B3%D0%BE%20%D1%84%D0%BE%D1%80%D0%BC%D0%B0%20%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%20%D0%BF%D1%80%D1%8B%D1%81%D1%82%D0%B0%D1%81%D0%B0%D0%B2%D0%B0%D0%BD%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%85%D1%83%D1%82%D0%BA%D0%B0%D0%B3%D0%B0%20%D1%96%20%D1%80%D0%B0%D1%9E%D0%BD%D0%B0%D0%BC%D0%B5%D1%80%D0%BD%D0%B0%D0%B3%D0%B0%20%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D1%9E%20%D0%BD%D0%B0%D0%BF%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0%D0%B9%20%D0%BF%D0%B5%D1%87%D1%8B%3A%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%20%D0%B7%20%D0%BF%D1%83%D0%BA%D0%B0%D1%82%D1%8B%D0%BC%D1%96%20%D0%B1%D0%B0%D0%BA%D0%B0%D0%BC%D1%96%2C%20%D0%B7%D0%B2%D1%83%D0%B6%D0%B0%D0%BD%D1%8B%D0%BC%20%D0%BF%D0%BB%D0%BE%D1%81%D0%BA%D1%96%D0%BC%20%D0%B4%D0%BD%D0%BE%D0%BC%20%D1%96%20%D0%B2%D1%83%D1%87%D1%86%D0%B5%D0%BC%2C%20%D0%B0%D0%B1%D0%BA%D1%80%D1%83%D0%B6%D0%B0%D0%BD%D1%8B%D0%BC%20%D0%B2%D0%B5%D0%BD%D1%86%D0%B0%D0%BC%20%28%D0%BD%D1%8F%D1%80%D1%8D%D0%B4%D0%BA%D0%B0%20%D0%B7%20%D0%BD%D0%B0%D0%BA%D1%80%D1%8B%D1%9E%D0%BA%D0%B0%D0%B9%20%D1%96%201-2%20%D1%80%D1%83%D1%87%D0%BA%D0%B0%D0%BC%D1%96%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D1%80%D1%83%D1%87%D0%BD%D0%B0%D1%81%D1%86%D1%96%20%D0%BA%D0%B0%D1%80%D1%8B%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F%29.%20.%7C&answer2_1=text%7C%D0%B3%D0%BB%D1%8F%D0%BA%7C&answer2_2=text%7C%D0%B3%D0%B0%D1%80%D1%88%D1%87%D0%BE%D0%BA%7C&right2_2=true&answer2_3=text%7C%D0%B3%D0%B0%D1%80%D0%BB%D0%B0%D1%87%7C&answer2_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fp2n1u9oa.png%7C&right2_4=true&answer2_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fdunatmx.png%7C&question3=text%7C%D0%93%D0%B0%D1%81%D0%BF%D0%B0%D0%B4%D0%B0%D1%80%D1%87%D1%8B%20%D0%BF%D0%BE%D1%81%D1%83%D0%B4%2C%20%D0%BF%D1%80%D1%8B%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B0%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BA%D0%B0%D1%80%D0%BE%D1%9E%20%D1%96%20%D1%81%D1%96%D0%BC%D0%B2%D0%B0%D0%BB%D1%96%D1%87%D0%BD%D0%B0%20%D0%B7%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D1%8B%20%D0%B7%20%D1%96%D1%85%20%D0%BF%D1%80%D0%B0%D0%B4%D1%83%D0%BA%D1%82%D1%8B%D1%9E%D0%BD%D0%B0%D1%81%D1%86%D1%8E%7C&answer3_1=text%7C%D0%B4%D0%B7%D1%8F%D0%B6%D0%B0%7C&answer3_2=text%7C%D0%B4%D0%B0%D1%91%D0%BD%D0%BA%D0%B0%7C&right3_2=true&answer3_3=text%7C%D0%B2%D1%8F%D0%B4%D1%80%D0%BE%7C&answer3_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fveqxovy.png%7C&right3_4=true&answer3_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fwiihumhf.png%7C&question4=text%7C%D0%A3%20%D0%BA%D0%BE%D0%BB%D1%96%D1%88%D0%BD%D1%96%D0%BC%20%D1%81%D1%8F%D0%BB%D1%8F%D0%BD%D1%81%D0%BA%D1%96%D0%BC%20%D0%BF%D0%BE%D0%B1%D1%8B%D1%86%D0%B5%20%D0%BF%D0%B0%D1%81%D1%83%D0%B4%D0%B7%D1%96%D0%BD%D0%B0%20%28%D0%BD%D0%B0%D0%B9%D1%87%D0%B0%D1%81%D1%86%D0%B5%D0%B9%20%D0%B4%D1%80%D0%B0%D1%9E%D0%BB%D1%8F%D0%BD%D0%B0%D1%8F%29%20%D0%B7%20%D1%80%D1%83%D1%87%D0%BA%D0%B0%D0%B9%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D1%87%D1%8D%D1%80%D0%BF%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D1%96%20%D0%BF%D1%96%D1%86%D1%86%D1%8F%20%D0%B2%D0%B0%D0%B4%D1%8B%2C%20%D0%BA%D0%B2%D0%B0%D1%81%D1%83%20%D1%96%20%D1%96%D0%BD%D1%88.%7C&answer4_1=text%7C%D0%BA%D0%B0%D1%80%D1%87%D0%B0%D0%B3%D0%B0%7C&answer4_2=text%7C%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%7C&answer4_3=text%7C%D0%BA%D0%B0%D1%80%D1%8D%D1%86%7C&right4_3=true&answer4_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Flnefvauh.png%7C&right4_4=true&answer4_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fa9cwbb4t.png%7C&question5=text%7C%D0%94%D1%80%D0%B0%D1%9E%D0%BB%D1%8F%D0%BD%D0%B0%D1%8F%20%D0%B2%D1%8B%D0%B4%D0%B7%D0%B5%D1%9E%D0%B1%D0%B0%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D1%81%D1%83%D0%B4%D0%B7%D1%96%D0%BD%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B5%D1%80%D0%B0%D1%81%D1%8B%D0%BF%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%B7%D0%B1%D0%BE%D0%B6%D0%B6%D0%B0%2C%20%D0%BC%D1%83%D0%BA%D1%96%3B%20%D0%BD%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%8E%D1%86%D1%8C%20%D1%82%D0%B0%D0%BA%D1%81%D0%B0%D0%BC%D0%B0%20%D1%87%D0%B0%D1%80%D0%BF%D0%B0%D0%BA%D0%BE%D0%BC.%20%D0%9C%D0%B0%D0%B5%20%D0%B4%D0%BE%D1%9E%D0%B3%D1%83%D1%8E%20%D0%B0%D0%B1%D0%BE%20%D0%BA%D0%B0%D1%80%D0%BE%D1%82%D0%BA%D1%83%D1%8E%20%D1%80%D1%83%D1%87%D0%BA%D1%83.%20%D0%94%D0%BE%D1%9E%D0%B3%D0%B0%D1%8F%20%D1%80%D1%83%D1%87%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%BD%D1%87%D0%B2%D0%B0%D0%B5%D1%86%D1%86%D0%B0%20%D0%B7%D0%B0%D0%BA%D1%80%D1%83%D1%87%D0%B0%D0%BD%D1%8B%D0%BC%20%D1%83%D0%BD%D1%96%D0%B7%20%D0%BA%D0%B0%D0%BD%D1%86%D0%BE%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%B4%D0%B2%D0%B5%D1%88%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20%D0%BA%D0%B0%D1%80%D0%BE%D1%82%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%B0%D0%B5%20%D1%9E%D0%BD%D1%96%D0%B7%D0%B5%20%D1%81%D0%BA%D1%80%D0%B0%D0%B7%D0%BD%D1%83%D1%8E%20%D0%B0%D0%B4%D1%82%D1%83%D0%BB%D1%96%D0%BD%D1%83%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BB%D1%8C%D1%86%D0%B0%D1%9E%7C&answer5_1=text%7C%D0%BA%D0%BE%D1%9E%D1%88%7C&right5_1=true&answer5_2=text%7C%D0%BA%D0%BE%D0%BD%D0%B0%D1%9E%D0%BA%D0%B0%7C&answer5_3=text%7C%D0%BA%D1%83%D0%B1%D0%B5%D0%BB%7C&answer5_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Ffo3tlwp7.png%7C&right5_4=true&answer5_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fhxyxwiol.png%7C&question6=text%7C%D0%91%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D0%BD%D1%8B%20%D0%B2%D1%8B%D1%80%D0%B0%D0%B1%2C%20%D0%BF%D1%80%D1%8B%D0%B7%D0%BD%D0%B0%D1%87%D0%B0%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D1%85%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D1%81%D0%B0%D0%BB%D0%B0%20%D1%96%20%D0%BC%D1%8F%D1%81%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%B0%D0%B4%D1%83%D0%BA%D1%82%D0%B0%D1%9E.%20%D0%A0%D0%B0%D0%B1%D1%96%D1%9E%D1%81%D1%8F%20%D0%B7%20%D0%B4%D1%83%D0%B1%D0%BE%D0%B2%D1%8B%D1%85%2C%20%D1%80%D0%B0%D0%B4%D0%B7%D0%B5%D0%B9%20%D0%B0%D1%81%D1%96%D0%BD%D0%B0%D0%B2%D1%8B%D1%85%2C%20%D0%B0%D0%BB%D1%8C%D1%85%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BA%D0%BB%D1%91%D0%BF%D0%B0%D0%BA%2C%20%D1%81%D1%86%D1%8F%D0%B3%D0%BD%D1%83%D1%82%D1%8B%D1%85%20%D0%B6%D0%B0%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%BC%D1%96%20%D1%86%D1%96%20%D0%B4%D1%80%D0%B0%D1%9E%D0%BB%D1%8F%D0%BD%D1%8B%D0%BC%D1%96%20%28%D0%B4%D1%83%D0%B1%D0%BE%D0%B2%D1%8B%D0%BC%D1%96%2C%20%D0%B0%D1%80%D1%8D%D1%85%D0%B0%D0%B2%D1%8B%D0%BC%D1%96%29%20%D0%B0%D0%B1%D1%80%D1%83%D1%87%D0%B0%D0%BC%D1%96.%20%D0%9C%D0%B5%D1%9E%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%83%D1%8E%20%D0%BD%D0%B0%D0%BA%D1%80%D1%8B%D1%9E%D0%BA%D1%83%2C%20%D1%8F%D0%BA%D0%B0%D1%8F%20%D0%BF%D1%80%D1%8B%D1%86%D1%96%D1%81%D0%BA%D0%B0%D0%BB%D0%B0%D1%81%D1%8F%20%D0%B7%D0%B0%D1%81%D0%B0%D1%9E%D0%BA%D0%B0%D0%B9%2C%20%D0%BF%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%83%D1%82%D0%B0%D0%B9%20%D0%BF%D1%80%D0%B0%D0%B7%20%D0%B2%D1%83%D1%88%D0%BA%D1%96%20%D0%B4%D0%B7%D0%B2%D1%8E%D1%85%20%D0%B4%D0%B0%D1%9E%D0%B6%D1%8D%D0%B9%D1%88%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D1%86%D1%96%D0%BB%D0%B5%D0%B3%D0%BB%D1%8B%D1%85%20%D0%BA%D0%BB%D1%91%D0%BF%D0%B0%D0%BA.%7C&answer6_1=text%7C%D0%BA%D1%83%D0%B1%D0%B5%D0%BB%D0%B5%D1%86%7C&right6_1=true&answer6_2=text%7C%D0%BA%D1%83%D0%B1%D0%B5%D0%BB%7C&answer6_3=text%7C%D0%BA%D1%83%D0%B1%D0%B5%D0%BB%D1%8C%D1%87%D1%8B%D0%BA%7C&answer6_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fhpk9rfr.png%7C&right6_4=true&answer6_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fqvxocfg.png%7C&question7=text%7C%D0%93%D0%B0%D0%BD%D1%87%D0%B0%D1%80%D0%BD%D1%8B%20%D0%B2%D1%8B%D1%80%D0%B0%D0%B1%3B%20%D0%B3%D0%BB%D1%8B%D0%B1%D0%BE%D0%BA%D0%B0%D1%8F%20%D0%B3%D0%BB%D1%96%D0%BD%D1%8F%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D1%81%D1%83%D0%B4%D0%B7%D1%96%D0%BD%D0%B0%20%D1%81%D0%B0%20%D1%81%D0%BB%D0%B0%D0%B1%D0%B0%D0%BF%D1%80%D0%B0%D1%84%D1%96%D0%BB%D1%8F%D0%B2%D0%B0%D0%BD%D1%8B%D0%BC%20%D1%82%D1%83%D0%BB%D0%B0%D0%B2%D0%B0%D0%BC%20%D1%96%20%D1%88%D1%8B%D1%80%D0%BE%D0%BA%D1%96%D0%BC%20%D0%B2%D1%83%D1%81%D1%86%D0%B5%D0%BC%2C%20%D1%87%D0%B0%D1%81%D0%B0%D0%BC%20%D0%B7%201-2%20%D0%B2%D1%83%D1%88%D0%BA%D0%B0%D0%BC%D1%96%2C%20%D1%8F%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BB%D1%83%D0%B6%D1%8B%D0%BB%D0%B0%20%D0%BF%D0%B5%D1%80%D0%B0%D0%B2%D0%B0%D0%B6%D0%BD%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%80%D0%B0%D1%81%D1%86%D1%96%D1%80%D0%B0%D0%BD%D0%BD%D1%8F%20%D0%BC%D0%B0%D0%BA%D1%83%20%D1%96%20%D1%96%D0%BD%D1%88%D1%8B%D1%85%20%D0%BF%D1%80%D0%B0%D0%B4%D1%83%D0%BA%D1%82%D0%B0%D1%9E.%7C&answer7_1=text%7C%D0%BC%D0%B0%D0%BA%D0%B0%D1%86%D1%91%D1%80%7C&right7_1=true&answer7_2=text%7C%D0%BC%D1%96%D1%81%D0%BA%D0%B0%7C&answer7_3=text%7C%D0%BC%D1%8F%D0%B4%D0%BD%D1%96%D1%86%D0%B0%7C&answer7_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2F6euco2i9.png%7C&right7_4=true&answer7_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fxu8wvzfn.png%7C&question8=text%7C%D0%93%D0%BB%D1%96%D0%BD%D1%8F%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D1%81%D1%83%D0%B4%D0%B7%D1%96%D0%BD%D0%B0%20%D0%B7%20%D0%B4%D0%B2%D1%83%D1%85%20%D1%86%D1%96%20%D1%82%D1%80%D0%BE%D1%85%20%D0%B3%D0%B0%D1%80%D1%88%D0%BA%D0%BE%D1%9E%20%28%D0%B7%D1%80%D1%8D%D0%B4%D0%BA%D1%83%20%D1%96%20%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%86%D1%8B%29%20%D0%B0%D0%B4%D0%BD%D0%BE%D0%BB%D1%8C%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D0%B0%20%D1%86%D1%96%20%D1%80%D0%BE%D0%B7%D0%BD%D0%B0%D0%B3%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%80%D1%83%2C%20%D0%B7%D0%BC%D0%B0%D1%86%D0%B0%D0%B2%D0%B0%D0%BD%D1%8B%D1%85%20%D1%80%D1%83%D1%87%D0%BA%D0%B0%D0%B9%20.%7C&answer8_1=text%7C%D1%81%D0%BF%D0%B0%D1%80%D1%8B%D1%88%7C&right8_1=true&answer8_2=text%7C%D0%B4%D0%B2%D0%B0%D0%B9%D0%BD%D1%96%D1%87%D0%BA%D1%96%7C&right8_2=true&answer8_3=text%7C%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D0%BA%D1%96%7C&answer8_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Ftccisrqt.png%7C&answer8_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fccbyqgnh.png%7C&right8_5=true&question9=text%7C%D0%A8%D1%8B%D1%80%D0%BE%D0%BA%D0%B0%D1%8F%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D0%B0%D1%8F%20%D0%B4%D1%80%D0%B0%D1%9E%D0%BB%D1%8F%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D1%81%D1%83%D0%B4%D0%B7%D1%96%D0%BD%D0%B0%20%D0%B7%20%D0%BA%D0%BB%D1%91%D0%BF%D0%B0%D0%BA%20%D0%B7%20%D0%B4%D0%B2%D1%83%D0%BC%D0%B0%20%D0%B2%D1%83%D1%88%D0%BA%D0%B0%D0%BC%D1%96.%7C&answer9_1=text%7C%D1%86%D1%8D%D0%B1%D0%B0%D1%80%7C&right9_1=true&answer9_2=text%7C%D0%B4%D0%B7%D1%8F%D0%B6%D0%B0%7C&answer9_3=text%7C%D0%B2%D1%8F%D0%B4%D1%80%D0%BE%7C&answer9_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fp4ihorpv.png%7C&right9_4=true&answer9_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fh0rdj6xz.png%7C&question10=text%7C%D0%9C%D0%B5%D0%B4%D0%BD%D0%B0%D1%8F%20%D0%B0%D0%B1%D0%BE%20%D0%B3%D0%BB%D1%96%D0%BD%D1%8F%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D1%81%D1%83%D0%B4%D0%B7%D1%96%D0%BD%D0%B0%20%D0%BD%D0%B0%D0%BA%D1%88%D1%82%D0%B0%D0%BB%D1%82%20%D0%BC%D1%96%D1%81%D0%BA%D1%96%20%D1%91%D0%BC%D1%96%D1%81%D1%82%D0%B0%D1%81%D1%86%D1%8E%208-12%20%D0%BB%20%D0%B4%D0%BB%D1%8F%20%D1%9E%D0%BC%D1%8B%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20%D1%96%20%D0%BC%D1%8B%D1%86%D1%86%D1%8F%20%D0%BF%D0%BE%D1%81%D1%83%D0%B4%D1%83%7C&answer10_1=text%7C%D0%BC%D0%B0%D0%BA%D0%B0%D1%86%D1%91%D1%80%7C&answer10_2=text%7C%D0%BC%D1%96%D1%81%D0%BA%D0%B0%7C&answer10_3=text%7C%D0%BC%D1%8F%D0%B4%D0%BD%D1%96%D1%86%D0%B0%7C&right10_3=true&answer10_4=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Ftuawyi3q.png%7C&right10_4=true&answer10_5=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fys1ku9wj.png%7C&right11_1=true&right12_1=true&right12_2=true&right13_1=true&right14_1=true&right14_2=true&right14_3=true&right15_1=true&right16_1=true&right17_1=true&right18_1=true&right19_1=true&right20_1=true&right20_2=true&right20_3=true&order=%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA&allowhits=true&feedback=%D0%A6%D1%83%D0%B4%D0%BE%D1%9E%D0%BD%D0%B0%21%20%D0%9D%D0%B0%20%D1%9E%D1%81%D0%B5%20%D0%BF%D1%8B%D1%82%D0%B0%D0%BD%D0%BD%D1%96%20%D1%82%D1%8B%20%D0%B4%D0%B0%D1%9E%20%D0%BF%D1%80%D0%B0%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D1%8B%D1%8F%20%D0%B0%D0%B4%D0%BA%D0%B0%D0%B7%D1%8B%21%21%20&backgroundImage=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2F3u88v9qf.jpg",
+	"title": "Посуд, бандарныя і ганчарныя вырабы",
+	"tool": "105",
+	"helptext": "",
+	"tasktext": "Праверце, на колькі добра вы ведаеце беларускі посуд.",
+	"formlanguage": "RU",
+	"language": "BY",
+	"parameters": [
+		{
+			"t": "list",
+			"label": "%Fragen%",
+			"description": "%FragenBeschreibung%",
+			"name": "questions",
+			"min": "1",
+			"max": 20,
+			"addtext": "%addQuestion%",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "question#",
+					"label": "%Frage% #",
+					"type": "media",
+					"description": "",
+					"media": "image|video|audio|text|speech",
+					"usehint": "true"
+				},
+				{
+					"t": "space",
+					"value": "10"
+				},
+				{
+					"t": "list",
+					"label": "",
+					"description": "",
+					"name": "answers#",
+					"min": "2",
+					"max": 5,
+					"addtext": "%addAnswer%",
+					"children": [
+						{
+							"t": "parameter",
+							"value": "",
+							"width": "",
+							"height": "",
+							"name": "answer#_#",
+							"label": "%Antwort% $",
+							"type": "media",
+							"description": "",
+							"media": "image|video|audio|text|speech",
+							"usehint": "true"
+						},
+						{
+							"t": "parameter",
+							"value": "false",
+							"width": "",
+							"height": "",
+							"name": "right#_#",
+							"label": "%RichtigeAntwort%",
+							"type": "check",
+							"description": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "%geordnet%|%zufällige%",
+			"width": "",
+			"height": "",
+			"name": "order",
+			"label": "%Sortieren%",
+			"type": "select",
+			"description": "%SortierenBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "false",
+			"width": "",
+			"height": "",
+			"name": "eval",
+			"label": "%Auswertung%",
+			"type": "check",
+			"description": "%AuswertungBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "true",
+			"width": "",
+			"height": "",
+			"name": "allowhits",
+			"label": "%Lösungshinweise%",
+			"type": "check",
+			"description": "%LösungshinweiseBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "",
+			"width": "",
+			"height": "",
+			"name": "backgroundImage",
+			"label": "%Hintergrundbild%",
+			"type": "media",
+			"description": "%HintergrundbildBeschreibung%",
+			"media": "image"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Auswahl Quiz"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Select Quiz"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "QCM (plusieurs bonnes réponses possibles)"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "IT",
+			"value": "Scelta del quiz"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "DE",
+			"value": "Klassische Multiple-Choice Aufgaben mit multimedialen Inhalten, wobei mehrere Antworten richtig sein können. Verwenden Sie die Vorlage Multiple-Choice Quiz, wenn immer nur genau eine Antwort richtig ist."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "EN",
+			"value": "Classical multiple-choice quiz with multimedia elements. Multiple answers can be correct."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "FR",
+			"value": "Questionnaire QCM avec un contenu multimédia où plusieurs bonnes réponses peuvent être possibles. "
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "IT",
+			"value": "Compito classico a scelta multipla con contenuti multimediali in cui possono essere corrette più risposte."
+		},
+		{
+			"id": "Ende",
+			"language": "DE",
+			"value": "Quiz beenden"
+		},
+		{
+			"id": "Ende",
+			"language": "EN",
+			"value": "finish Quiz"
+		},
+		{
+			"id": "Ende",
+			"language": "FR",
+			"value": "Finir le Quiz"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "DE",
+			"value": "richtig zugeordnet"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "EN",
+			"value": "correctly assigned"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "DE",
+			"value": "Auch bei falscher Antwort geht es zur nächsten Frage. Die richtige(n) Antwort(en) werden dann farblich hervorgehoben. Am Ende gibt es eine Zusammenfassung wieviele richtigen Antworten gegeben wurden. Ohne Auswertung wird bei jeder Frage solange ausgewählt, bis die richtige Antwort gefunden ist."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "EN",
+			"value": "Even from a false answer it goes to the next question. The right answer(s) will be color highlited. There is a summary how many right answers were given at the end. Without evaluation you have to chose as long as you found the right answer."
+		},
+		{
+			"id": "Auswertung",
+			"language": "DE",
+			"value": "Auswertung am Ende"
+		},
+		{
+			"id": "Auswertung",
+			"language": "EN",
+			"value": "Evaluation at the end"
+		},
+		{
+			"id": "Fragen",
+			"language": "DE",
+			"value": "Fragen"
+		},
+		{
+			"id": "Fragen",
+			"language": "EN",
+			"value": "Questions"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie jeweils eine Frage und bis zu 5 Antwortmöglichkeiten an und wählen Sie aus, ob es sich um eine richtige oder falsche Antwort handelt."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "EN",
+			"value": "Provide up to 5 answers per question and select whether they are true or false."
+		},
+		{
+			"id": "Sortieren",
+			"language": "DE",
+			"value": "Fragen sortieren"
+		},
+		{
+			"id": "Sortieren",
+			"language": "EN",
+			"value": "Sort questions"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "DE",
+			"value": "Die Fragen können wahlweise zufällig oder geordnet gestellt werden."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "EN",
+			"value": "Questions can either be displayed randomly or in order."
+		},
+		{
+			"id": "zufällige",
+			"language": "DE",
+			"value": "zufällige Reihenfolge"
+		},
+		{
+			"id": "zufällige",
+			"language": "EN",
+			"value": "random order"
+		},
+		{
+			"id": "geordnet",
+			"language": "DE",
+			"value": "geordnet wie oben angegeben"
+		},
+		{
+			"id": "geordnet",
+			"language": "EN",
+			"value": "ordered like listed above"
+		},
+		{
+			"id": "Frage",
+			"language": "DE",
+			"value": "Frage"
+		},
+		{
+			"id": "Frage",
+			"language": "EN",
+			"value": "Question"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "DE",
+			"value": "Richtig?"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "EN",
+			"value": "right?"
+		},
+		{
+			"id": "Antwort",
+			"language": "DE",
+			"value": "Antwort"
+		},
+		{
+			"id": "Antwort",
+			"language": "EN",
+			"value": "answer"
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "auswahl",
+			"language": "DE",
+			"value": "Wähle zunächst eine Antwort von oben aus."
+		},
+		{
+			"id": "auswahl",
+			"language": "EN",
+			"value": "Select on of the answers first."
+		},
+		{
+			"id": "Prüfen",
+			"language": "DE",
+			"value": "Lösung überprüfen"
+		},
+		{
+			"id": "Prüfen",
+			"language": "EN",
+			"value": "Check solution"
+		},
+		{
+			"id": "Skip",
+			"language": "DE",
+			"value": "Lösung anzeigen"
+		},
+		{
+			"id": "Skip",
+			"language": "EN",
+			"value": "Show solution"
+		},
+		{
+			"id": "Weiter",
+			"language": "DE",
+			"value": "nächste Frage"
+		},
+		{
+			"id": "Weiter",
+			"language": "EN",
+			"value": "next question"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "DE",
+			"value": "Lösungen anzeigen erlauben"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "EN",
+			"value": "Allow display of correct solutions"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "DE",
+			"value": "Nach einer falschen Lösung kann die richtige auf Wunsch eingeblendet werden."
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "EN",
+			"value": "After a false solution, the right can be displayed upon request."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "DE",
+			"value": "Leider noch nicht richtig."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "EN",
+			"value": "This is not the right solution."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "DE",
+			"value": "Prima, richtig."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "EN",
+			"value": "Great, that's right!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text an, der am Ende der Übung eingeblendet wird."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a feedback text which is displayed when all questions were answered."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast alle Fragen gelöst."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Great, you answered all questions."
+		},
+		{
+			"id": "Antwort",
+			"language": "RU",
+			"value": "Ответ "
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RU",
+			"value": "Традиционные вопросы множественного выбора с мультимедийным контентом, причем правильным\nможет быть не только один ответ."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Викторина "
+		},
+		{
+			"id": "auswahl",
+			"language": "RU",
+			"value": "Выбери сначала ответ вверху "
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Задайте текст, который будет высвечиваться, если все ответы были верны. "
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "RU",
+			"value": "К сожалению, неверно. "
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "RU",
+			"value": "Здорово! Все правильно! "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Отлично, ты ответил на все вопросы верно! "
+		},
+		{
+			"id": "Frage",
+			"language": "RU",
+			"value": "Вопрос "
+		},
+		{
+			"id": "Fragen",
+			"language": "RU",
+			"value": "Вопросы "
+		},
+		{
+			"id": "Prüfen",
+			"language": "RU",
+			"value": "Проверить ответ"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "RU",
+			"value": "Правильно? "
+		},
+		{
+			"id": "Weiter",
+			"language": "RU",
+			"value": "Следующий вопрос "
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RU",
+			"value": "Задайте один вопрос и до 5 ответов возможных, не забывая указать правильный и все неверные ответы"
+		},
+		{
+			"id": "auswahl",
+			"language": "FR",
+			"value": "D'abord, sélectionnez une réponse d'en haut."
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Saisissez un texte qui apparaîtra lorsque toutes les réponses sont correctes."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "FR",
+			"value": "Ce n'est pas la bonne réponse."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "IT",
+			"value": "Purtroppo non ancora corretto."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "FR",
+			"value": "Super !"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Bravo, vous avez répondu à toutes les questions correctement."
+		},
+		{
+			"id": "Frage",
+			"language": "FR",
+			"value": "Question"
+		},
+		{
+			"id": "Frage",
+			"language": "IT",
+			"value": "Domanda"
+		},
+		{
+			"id": "Fragen",
+			"language": "FR",
+			"value": "Questions"
+		},
+		{
+			"id": "Fragen",
+			"language": "IT",
+			"value": "Domande"
+		},
+		{
+			"id": "Prüfen",
+			"language": "FR",
+			"value": "Vérifier la solution"
+		},
+		{
+			"id": "Prüfen",
+			"language": "IT",
+			"value": "Verifica la soluzione"
+		},
+		{
+			"id": "Weiter",
+			"language": "FR",
+			"value": "question suivante"
+		},
+		{
+			"id": "Antwort",
+			"language": "FR",
+			"value": "Réponse"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "FR",
+			"value": "Veuillez indiquer une question et à chaque fois jusqu'à 5 réponses et choisir s'il s'agit d'une réponse correcte ou incorrecte."
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "FR",
+			"value": "Correct ?"
+		},
+		{
+			"id": "Antwort",
+			"language": "IT",
+			"value": "Risposta"
+		},
+		{
+			"id": "auswahl",
+			"language": "IT",
+			"value": "Scegli innanzitutto una risposta tra quelle sopra elencate."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Indichi un testo che verrà inserito quando si avrà risposto correttamente a tutte le domande."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "IT",
+			"value": "Fantastico, giusto."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Fantastico! Hai risposto correttamente a tutte le domande."
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "IT",
+			"value": "Indichi per ogni domanda fino a cinque possibilità di risposta e scelga se si tratta di una risposta corretta o sbagliata."
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "IT",
+			"value": "Esatto?"
+		},
+		{
+			"id": "Weiter",
+			"language": "IT",
+			"value": "prossima domanda"
+		},
+		{
+			"id": "geordnet",
+			"language": "FR",
+			"value": "Mis dans l'ordre comme ci-dessus"
+		},
+		{
+			"id": "geordnet",
+			"language": "IT",
+			"value": "nell'ordine di cui sopra"
+		},
+		{
+			"id": "geordnet",
+			"language": "RU",
+			"value": "расположено как задано"
+		},
+		{
+			"id": "Sortieren",
+			"language": "FR",
+			"value": "Trier les questions"
+		},
+		{
+			"id": "Sortieren",
+			"language": "IT",
+			"value": "Ordinare le domande"
+		},
+		{
+			"id": "Sortieren",
+			"language": "RU",
+			"value": "Сортировать вопросы"
+		},
+		{
+			"id": "zufällige",
+			"language": "FR",
+			"value": "Ordre aléatoire"
+		},
+		{
+			"id": "zufällige",
+			"language": "IT",
+			"value": "Sequenza casuale"
+		},
+		{
+			"id": "zufällige",
+			"language": "RU",
+			"value": "случайный порядок"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "FR",
+			"value": "Permettre l'affichage des bonnes solutions"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "FR",
+			"value": "Après une mauvaise réponse, la bonne solution peut être affichée"
+		},
+		{
+			"id": "Skip",
+			"language": "FR",
+			"value": "Indiquer la bonne solution"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RM",
+			"value": "Exercezis da multiple-choice cun cuntegns multimedials. Pliras rispostas san esser endretgas. Fagei diever dil muster &quot;Quiz da multiple-choice&quot; sche mintgamai mo ina risposta ei correcta."
+		},
+		{
+			"id": "Sortieren",
+			"language": "RM",
+			"value": "Far uorden cullas damondas"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RM",
+			"value": "Endatei mintgamai ina damonda cun maximal 5 pusseivlas rispostas ed elegi, sch'ei sectracta dalla correcta ni fallida risposta."
+		},
+		{
+			"id": "Fragen",
+			"language": "RM",
+			"value": "Damondas"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Eleger in quiz"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "RM",
+			"value": "correct?"
+		},
+		{
+			"id": "Frage",
+			"language": "RM",
+			"value": "Damonda"
+		},
+		{
+			"id": "geordnet",
+			"language": "RM",
+			"value": "ordinau sco indicau sisu"
+		},
+		{
+			"id": "zufällige",
+			"language": "RM",
+			"value": "ordinaziun tenor casualitad"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "RM",
+			"value": "Las damondas san vegnidas ordinadas tenor giavisch ni tenor casualitad."
+		},
+		{
+			"id": "Skip",
+			"language": "RM",
+			"value": "Mussar la sligiaziun"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RM",
+			"value": "Controllar la sligiaziun"
+		},
+		{
+			"id": "auswahl",
+			"language": "RM",
+			"value": "Igl emprem elegia ina risposta da sisu."
+		},
+		{
+			"id": "Antwort",
+			"language": "RM",
+			"value": "risposta"
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "RM",
+			"value": "Bravo, endretg!"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "RM",
+			"value": "Quei ei buc aunc correct."
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "RM",
+			"value": "Suenter ina sligiaziun fallida sa la correcta sligiaziun vegnir mussada."
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "RM",
+			"value": "Lubiu da mussar las sligiaziuns"
+		},
+		{
+			"id": "Weiter",
+			"language": "RM",
+			"value": "proxima damonda"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "RO",
+			"value": "Din păcate nu e totul corect"
+		},
+		{
+			"id": "Weiter",
+			"language": "RO",
+			"value": "Următoarea întrebare"
+		},
+		{
+			"id": "Frage",
+			"language": "RO",
+			"value": "Întrebare"
+		},
+		{
+			"id": "Antwort",
+			"language": "RO",
+			"value": "Răspuns"
+		},
+		{
+			"id": "Skip",
+			"language": "RO",
+			"value": "Arată soluție"
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "RO",
+			"value": "Super, corect"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "RO",
+			"value": "Permite afișare soluții"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "RO",
+			"value": "După o soluție greșită, cea corectă poate fi inserată/vizibilă la cerere"
+		},
+		{
+			"id": "Prüfen",
+			"language": "RO",
+			"value": "Verifică soluție"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, ai rezolvat toate intrebările corect"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "RO",
+			"value": "Corect?"
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "Sortieren",
+			"language": "RO",
+			"value": "Sortează intrebări"
+		},
+		{
+			"id": "Fragen",
+			"language": "RO",
+			"value": "Întrebări"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Quiz cu alegere"
+		},
+		{
+			"id": "zufällige",
+			"language": "RO",
+			"value": "Ordine aleatoare"
+		},
+		{
+			"id": "geordnet",
+			"language": "RO",
+			"value": "ordonat cum e indicat mai sus"
+		},
+		{
+			"id": "auswahl",
+			"language": "RO",
+			"value": "Alege mai intâi un răspuns de mai sus."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Introduceți un text care este vizibil atunci când la toate intrebările s-a răspuns corect."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "RO",
+			"value": "Întrebările pot fi puse la alegere aleator sau în ordine."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatei in text che duei vegnir mussaus sche tuttas damondas ein vegnidas rispundidas correctameinl."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, ti has sligiau tut endretg!"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "RO",
+			"value": "Indicați câte o întrebare și până la 5 variante de răspuns și alegeți dacă este vorba despre un răspuns corect sau greșit."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RO",
+			"value": "Teme clasice cu alegere multiplă cu conținuturi multimediale la care mai multe răspunsuri pot fi corecte. Utilizați modelul Quiz cu alegere multiplă când mereu numai un răspuns este corect."
+		},
+		{
+			"id": "Auswertung",
+			"language": "FR",
+			"value": "Évaluation à la fin"
+		},
+		{
+			"id": "Sortieren",
+			"language": "PL",
+			"value": "Sortuj pytania"
+		},
+		{
+			"id": "zufällige",
+			"language": "PL",
+			"value": "przypadkowa kolejność"
+		},
+		{
+			"id": "geordnet",
+			"language": "PL",
+			"value": "uporządkowane jak wyżej "
+		},
+		{
+			"id": "Frage",
+			"language": "GL",
+			"value": "Cuestión"
+		},
+		{
+			"id": "Frage",
+			"language": "PL",
+			"value": "Pytanie"
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "Prüfen",
+			"language": "ES",
+			"value": "Ver solución"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GL",
+			"value": "Comprobar a solución"
+		},
+		{
+			"id": "Prüfen",
+			"language": "PL",
+			"value": "Sprawdź rozwiązanie."
+		},
+		{
+			"id": "Skip",
+			"language": "GL",
+			"value": "Mirar a solución"
+		},
+		{
+			"id": "Weiter",
+			"language": "GL",
+			"value": "Seguinte pregunta"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "GL",
+			"value": "Non é a solución correcta."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "GL",
+			"value": "Moi ben, correcto!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GL",
+			"value": "Moi ben, contestaches correctamente a todas!"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PL",
+			"value": "Klasyczny test wielokrotnego wyboru z elementami multimedialnymi. Może być kilka odpowiedzi  prawidłowych."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Test wielokrotnego wyboru"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "PL",
+			"value": "poprawnie przypisane "
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "PL",
+			"value": "Pytania mogą być wyświetlane losowo lub w kolejności. "
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "PL",
+			"value": "Prawda?"
+		},
+		{
+			"id": "Antwort",
+			"language": "PL",
+			"value": "Odpowiedź"
+		},
+		{
+			"id": "Skip",
+			"language": "PL",
+			"value": "Pokaż rozwiązanie "
+		},
+		{
+			"id": "auswahl",
+			"language": "PL",
+			"value": "Najpierw zaznacz odpowiedzi na powyższe."
+		},
+		{
+			"id": "Weiter",
+			"language": "PL",
+			"value": "następne pytanie"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "PL",
+			"value": "Zezwalaj na wyświetlanie poprawnych rozwiązań "
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "PL",
+			"value": "Nawet w przypadku błędnej odpowiedzi, przechodzimy do następnego pytania. Prawidłowe odpowiedzi są wtedy podświetlane. Na końcu znajduje się podsumowanie ile poprawnych odpowiedzi zostało podanych. Bez oceny, wybierasz tak długo, aż znajdziesz właściwą odpowiedź."
+		},
+		{
+			"id": "Auswertung",
+			"language": "PL",
+			"value": "Ocena po zakończeniu "
+		},
+		{
+			"id": "Fragen",
+			"language": "PL",
+			"value": "Pytania"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "PL",
+			"value": "Wprowadź pytanie i do 5 możliwych odpowiedzi. Zaznacz odpowiedzi prawdziwe."
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "PL",
+			"value": "Po błędnym rozwiązaniu, na życzenie, może być wyświetlane prawidłowe ."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "PL",
+			"value": "Świetnie, tak jest!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Wpisz tekst, który pojawi się, gdy wszystkie odpowiedzi będą poprawne. "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Świetnie, odpowiedziałeś na wszystkie pytania prawidłowo! "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Mitmikvalikuga viktoriin"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "FR",
+			"value": "réponses justes"
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "ET",
+			"value": "Tubli, õige!"
+		},
+		{
+			"id": "Weiter",
+			"language": "ET",
+			"value": "järgmine küsimus"
+		},
+		{
+			"id": "Prüfen",
+			"language": "ET",
+			"value": "Kontrolli vastust"
+		},
+		{
+			"id": "Skip",
+			"language": "ET",
+			"value": "Näita vastust"
+		},
+		{
+			"id": "Frage",
+			"language": "ET",
+			"value": "Küsimus"
+		},
+		{
+			"id": "Antwort",
+			"language": "ET",
+			"value": "Vastus"
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "Tagasiside"
+		},
+		{
+			"id": "zufällige",
+			"language": "ET",
+			"value": "suvalises järjekorras"
+		},
+		{
+			"id": "Fragen",
+			"language": "ET",
+			"value": "Küsimused"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "ET",
+			"value": "Sisesta kuni 5 vastusevarianti ühe küsimuse kohta ja märgista õige vastus linnukesega."
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "ET",
+			"value": "Õige?"
+		},
+		{
+			"id": "geordnet",
+			"language": "ET",
+			"value": "jäta küsimused sisestamise järjekorda"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "ET",
+			"value": "See ei ole õige lahendus"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ET",
+			"value": "Klassikaline valikvastustega multimeedia elemente toetav äpp: mitu vastust võivad olla õiged. "
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "ET",
+			"value": "täiesti õigesti vastatud."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "ET",
+			"value": "Isegi vale vastuse korral on võimalik liikuda edasi järgmise küsimuse juurde. Õiged vastused on rohelisega märgistatud. Lõpus on kokkuvõte, kui palju täielikult õigeid vastuseid anti. Ilma hindamiseta variandi korral pead valima niikaua, kuni oled leidnud õiged vastused."
+		},
+		{
+			"id": "Auswertung",
+			"language": "ET",
+			"value": "Kontrollimine testi lõpus"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "ET",
+			"value": "Küsimused võivad olla kuvatud juhuslikus või määratud järjekorras."
+		},
+		{
+			"id": "Sortieren",
+			"language": "ET",
+			"value": "Järjesta küsimused"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "ET",
+			"value": "Luba õigeid vastuseid näidata "
+		},
+		{
+			"id": "auswahl",
+			"language": "ET",
+			"value": "Vali kõigepealt vastus."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Sisesta tagasiside tekst, mis kuvatakse, kui kõik küsimused on vastatud."
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "ET",
+			"value": "Pärast vale vastust võib soovi korral vaadata õiget."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ET",
+			"value": "Tubli, Sa oled testi sooritanud! Soovi korral saad testi uuesti täita."
+		},
+		{
+			"id": "Auswertung",
+			"language": "RM",
+			"value": "Evaluaziun alla fin"
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "Skip",
+			"language": "IT",
+			"value": "Far vedere la soluzione"
+		},
+		{
+			"id": "Skip",
+			"language": "RU",
+			"value": "Показать ответ"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "IT",
+			"value": "Permettere la visualizzazione delle soluzioni"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "RU",
+			"value": "Разрешить просмотр правильных ответов"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "RU",
+			"value": "При неправильном ответе верное решение может быть показано по запросу."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "PL",
+			"value": "To nie jest jeszcze dobre rozwiązanie. "
+		},
+		{
+			"id": "Frage",
+			"language": "ES",
+			"value": "Pregunta"
+		},
+		{
+			"id": "Antwort",
+			"language": "ES",
+			"value": "Respuesta"
+		},
+		{
+			"id": "auswahl",
+			"language": "ES",
+			"value": "Marca una respuesta."
+		},
+		{
+			"id": "Skip",
+			"language": "ES",
+			"value": "Mostrar solución"
+		},
+		{
+			"id": "Weiter",
+			"language": "ES",
+			"value": "Siguiente pregunta"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "ES",
+			"value": "La respuesta no es correcta."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "ES",
+			"value": "¡Muy bien!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "Muy bien. Está todo correcto."
+		},
+		{
+			"id": "Auswertung",
+			"language": "RU",
+			"value": "Оценка в конце"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "RU",
+			"value": "Вопросы могут показываться в постоянном или случайном порядке."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "UK",
+			"value": "Традиційні питання з множинними відповідями та мультимедійним вмістом. Правильними можуть бути кілька варіантів відповідей."
+		},
+		{
+			"id": "Auswertung",
+			"language": "UK",
+			"value": "Оцінка в кінці"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "UK",
+			"value": "Навіть при неправильній відповіді відбувається перехід до наступного питання. Правильна відповідь буде виділена кольором. В кінці є підсумок про кількість правильних відповідей. Інакше, потрібно дати правильну відповідь для переходу до наступного запитання."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "UK",
+			"value": "Питання можна показувати впорядковано чи випадково"
+		},
+		{
+			"id": "Sortieren",
+			"language": "UK",
+			"value": "Сортувати питання"
+		},
+		{
+			"id": "Fragen",
+			"language": "UK",
+			"value": "Питання"
+		},
+		{
+			"id": "zufällige",
+			"language": "UK",
+			"value": "випадковий порядок"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "UK",
+			"value": "Правильно?"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "UK",
+			"value": "Запишіть до 5 відповідей на кожне питання і вкажіть, які з них правильні."
+		},
+		{
+			"id": "Antwort",
+			"language": "UK",
+			"value": "Відповідь"
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "geordnet",
+			"language": "UK",
+			"value": "порядок, показаний вище"
+		},
+		{
+			"id": "Frage",
+			"language": "UK",
+			"value": "Питання"
+		},
+		{
+			"id": "Prüfen",
+			"language": "UK",
+			"value": "Перевірити відповідь"
+		},
+		{
+			"id": "auswahl",
+			"language": "UK",
+			"value": "Спочатку виберіть відповідь"
+		},
+		{
+			"id": "Weiter",
+			"language": "UK",
+			"value": "Наступне питання"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "UK",
+			"value": "На жаль, неправильно."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "UK",
+			"value": "Чудово! Правильно!"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "UK",
+			"value": "При неправильній відповіді можна дозволити просити показати правильну"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "UK",
+			"value": "Дозволити перегляд правильних відповідей"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, відповіді правильні!"
+		},
+		{
+			"id": "Skip",
+			"language": "UK",
+			"value": "Показати відповідь"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Вікторина (множинні відповіді)"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "UK",
+			"value": "правильно впорядковано"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "TR",
+			"value": "Seçmeli şıkları bulunan klasik test gibi olmakla beraber, soruların bir den çok doğru cevabı olabilmektedir. Yani soruların sadece bir şıkkı doğru olmak zorunda değil. Sorular ve şıklar metin, resim, ses ve film dosyası olabilir. Şayet soruların tek doğru cevabı olacaksa şu uygulamayı kullanın: Test (Klasik tek doğrulu şıklarla)"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "TR",
+			"value": "Doğru eşleştirildi"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "TR",
+			"value": "Cevaplar yanlış da olsa, diğer soruya geçilecektir. Bu durumda doğru cevaplar farklı renkle gösterilmektedir. En sonunda kaç sorunun doğru cevaplandırıldığı gösterilemektedir. Değerlendirme olmadan, her soruda doğru cevap bulununcaya kadar şıkları seçmeye devam edilecektir. Doğru cevap bulunmadan diğer soruya geçmek mümkün olmayacaktır."
+		},
+		{
+			"id": "Auswertung",
+			"language": "TR",
+			"value": "Değerlendirme sonunda"
+		},
+		{
+			"id": "Fragen",
+			"language": "TR",
+			"value": "Sorular"
+		},
+		{
+			"id": "Sortieren",
+			"language": "TR",
+			"value": "Soruları guruplandır"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Test (Birden çok doğrulu) "
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "TR",
+			"value": "Doğru olarak mı işaretlensin?"
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüşüm"
+		},
+		{
+			"id": "Antwort",
+			"language": "TR",
+			"value": "Cevap"
+		},
+		{
+			"id": "auswahl",
+			"language": "TR",
+			"value": "Öncelikle yukarıdan bir cevap seç"
+		},
+		{
+			"id": "Weiter",
+			"language": "TR",
+			"value": "Sonraki soru"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "TR",
+			"value": "Her bir soruya 5'e Kadar cevap şıkkı giriniz. Her bir şıkkı girerken, doğru olup olmadığını belirleyin. "
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "TR",
+			"value": "Sorular isterseniz girdiğiniz sıra ile, isterseniz rastgele bir sıra ile gösterilmektedir."
+		},
+		{
+			"id": "zufällige",
+			"language": "TR",
+			"value": "Rastgele bir sıra ile "
+		},
+		{
+			"id": "geordnet",
+			"language": "TR",
+			"value": "Yukarıda girilen sıra ile"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Tüm sorular doğru cevaplandırıldığında gösterilmesini istediğiniz bir metni buraya giriniz"
+		},
+		{
+			"id": "Frage",
+			"language": "TR",
+			"value": "Soru"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Maşaallah! Tüm soruları doğru cevaplandırdın."
+		},
+		{
+			"id": "Skip",
+			"language": "TR",
+			"value": "Çözümü göster"
+		},
+		{
+			"id": "Prüfen",
+			"language": "TR",
+			"value": "Çözümü kontrol et"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "TR",
+			"value": "Yanlış cevaptan sonra, istek üzere doğru cevap gösterilebilir"
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "TR",
+			"value": "Tebrikler, doğru cevap!"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "TR",
+			"value": "Çözümün gösterilmesine izin ver"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "TR",
+			"value": "Malesef, henüz doğru değil."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "DE",
+			"value": "Hintergrundbild"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "EN",
+			"value": "Background image"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie optional ein Hintergrundbild für dieses Rätsel aus."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "EN",
+			"value": "Select a background image for the crossword if you like."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "ვიქტორინა "
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GE",
+			"value": "კლასიკური ვიქტორინა რამდენიმე მულტიმედიური კონტენტის არჩევით. შესაძლებელია რამდენიმე სწორი პასუხის არსებობა. გამოიყენეთ ვიქტორინის მრავალჯერადი შერჩევის შაბლონი.\n"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "GE",
+			"value": "დავალების შინაარსი"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "GE",
+			"value": "არასწორი პასუხის შემთხვევაში ვიქტორინა გადაინაცვლებს მომდევნო კითხვაზე. სწორი პასუხი ნაჩვენები იქნება. სწორი პასუხების რაოდენობაზე რეზიუმე კეთდება ბოლოს. საბოლოო შეფასება არ განხორციელდება ვიდრე თითოეულ კითხვაზე არ იქნება ნაპოვნი სწორი პასუხი."
+		},
+		{
+			"id": "Auswertung",
+			"language": "GE",
+			"value": "რეზიუმე გაკეთდეს ბოლოს"
+		},
+		{
+			"id": "Fragen",
+			"language": "GE",
+			"value": "დასვით კითხვა"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "GE",
+			"value": "ყოველ ცალკეულ კითხვაზე აირჩიეთ პასუხის 5 შესაძლო ვარიანტი. მიუთითედ სწორი პასუხი."
+		},
+		{
+			"id": "Sortieren",
+			"language": "GE",
+			"value": "კითხვების დახარისხება"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "GE",
+			"value": "კითხვები შეიძლება დაისვას შერჩევით ან დადგენილი თანმიმდევრობით."
+		},
+		{
+			"id": "zufällige",
+			"language": "GE",
+			"value": "შემთხვევითი თანმიმდევრობა"
+		},
+		{
+			"id": "geordnet",
+			"language": "GE",
+			"value": "დადგენილი თანმიმდევრობა"
+		},
+		{
+			"id": "Frage",
+			"language": "GE",
+			"value": "კითხვა"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "GE",
+			"value": "ასე არ არის?"
+		},
+		{
+			"id": "Antwort",
+			"language": "GE",
+			"value": "პასუხი"
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "auswahl",
+			"language": "GE",
+			"value": "თავდაპირველად აირჩიეთ მოცემული პასუხებიდან."
+		},
+		{
+			"id": "Prüfen",
+			"language": "GE",
+			"value": "პასუხის შემოწმება"
+		},
+		{
+			"id": "Skip",
+			"language": "GE",
+			"value": "პასუხის ჩვენება"
+		},
+		{
+			"id": "Weiter",
+			"language": "GE",
+			"value": "შემდეგი კითხვა"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "GE",
+			"value": "მცდარი პასუხების ნახვა შესაძლებელია"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "GE",
+			"value": "სამწუხაროდ ჯერჯერობით არ გამოგდით."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "GE",
+			"value": "ყოჩაღ! სწორია!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც ეკრანზე აისახება სწორი პასუხის შემთხვევაში."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "ყოჩაღ! თქვენ ყველა კითხვაზე სწორი პასუხი გაეცით!"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "GE",
+			"value": "თუ აუცილებელია აირჩიეთ ფონი ამ თავსატეხისათვის"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GE",
+			"value": "ფონი"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "GE",
+			"value": "პასუხის ნახვა ნებადართულია"
+		},
+		{
+			"id": "addQuestion",
+			"language": "DE",
+			"value": "weitere Frage hinzufügen"
+		},
+		{
+			"id": "addQuestion",
+			"language": "EN",
+			"value": "add another question"
+		},
+		{
+			"id": "addAnswer",
+			"language": "DE",
+			"value": "weitere Antwortoption hinzufügen"
+		},
+		{
+			"id": "addAnswer",
+			"language": "EN",
+			"value": "add another answer option"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "ES",
+			"value": "respuestas correctas"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "BG",
+			"value": "правилно определен"
+		},
+		{
+			"id": "Auswertung",
+			"language": "ES",
+			"value": "Evaluación al final"
+		},
+		{
+			"id": "Auswertung",
+			"language": "BG",
+			"value": "Оценка накрая"
+		},
+		{
+			"id": "Fragen",
+			"language": "ES",
+			"value": "Preguntas"
+		},
+		{
+			"id": "Fragen",
+			"language": "BG",
+			"value": "Въпроси"
+		},
+		{
+			"id": "Sortieren",
+			"language": "BG",
+			"value": "Подреждане на въпросите"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "BG",
+			"value": "Въпросите могат да бъдат показвани случайно или целенасочено."
+		},
+		{
+			"id": "zufällige",
+			"language": "ES",
+			"value": "orden aleatorio"
+		},
+		{
+			"id": "zufällige",
+			"language": "BG",
+			"value": "произволен ред"
+		},
+		{
+			"id": "geordnet",
+			"language": "BG",
+			"value": "подреждане като изброените по-горе"
+		},
+		{
+			"id": "Frage",
+			"language": "BG",
+			"value": "Въпрос"
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна връзка"
+		},
+		{
+			"id": "auswahl",
+			"language": "BG",
+			"value": "Изберете отговор."
+		},
+		{
+			"id": "Prüfen",
+			"language": "BG",
+			"value": "Проверете отговора "
+		},
+		{
+			"id": "Skip",
+			"language": "BG",
+			"value": "Покажете решението"
+		},
+		{
+			"id": "Weiter",
+			"language": "BG",
+			"value": "Следващ въпрос "
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "BG",
+			"value": "Разрешете показването на правилните отговори"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "BG",
+			"value": "След неправилно решение правилният отговор може да бъде показан при поискване."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "BG",
+			"value": "Това не е верният отговор."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "BG",
+			"value": "Браво, точно така!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Въведете текст, който ще се появи, ако на всички въпроси е отговорено правилно."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Страхотно! Всички отговори са верни."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "FR",
+			"value": "Image d'arrière-plan"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "IT",
+			"value": "Immagine di sfondo"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RU",
+			"value": "Фоновая картинка"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RM",
+			"value": "Maletg davostier"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "RO",
+			"value": "Imagine fundal"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "PL",
+			"value": "Tapeta "
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BG",
+			"value": "Фоново изображение"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "ET",
+			"value": "Taustapilt"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "TR",
+			"value": "Arkaplan resmi"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "UK",
+			"value": "Фонове зображення"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "FR",
+			"value": "Choisissez une image d'arrière-plan"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RU",
+			"value": "Выберите фоновую картинку для кроссворда,если желаете."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RM",
+			"value": "Elegi opziunalmein in maletg davos il legn cruschau."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "RO",
+			"value": "Alegeți opțional o imagine de fundal pentru acest rebus"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "PL",
+			"value": "Opcjonalnie, można wybrać obraz tła."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BG",
+			"value": "Изберете фоново изображение за кръстословицата, ако желаете."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "TR",
+			"value": "İsterseniz arkaplan resmi belirleyebilirsiniz"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "UK",
+			"value": "Можете обрати фонове зображення для кросворду"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Odaberite kviz"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BS",
+			"value": "Klasični kviz sa višestrukim mogućnostima uz multimedijalne elemente. Višestruki odgovori mogu biti tačni."
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "BS",
+			"value": "Čak i nakon pogrešnog odgovora ide na sljedeće pitanje. Tačan odgovor ili odgovori će biti naglašeni drugom bojom. Na kraju će biti sažetak sa brojem tačnih odgovora. Bez evaluacije morate birati sve dok ne pronađete tačan odgovor."
+		},
+		{
+			"id": "Auswertung",
+			"language": "BS",
+			"value": "Ocjena na kraju"
+		},
+		{
+			"id": "Fragen",
+			"language": "BS",
+			"value": "Pitanja"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "BS",
+			"value": "Ponudite za svako pitanje do pet mogućih odgovora i odaberite da li su tačni ili pogrešni."
+		},
+		{
+			"id": "Sortieren",
+			"language": "BS",
+			"value": "Sortiraj pitanja"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "BS",
+			"value": "Pitanja mogu biti po redu ili slučajno prikazana."
+		},
+		{
+			"id": "zufällige",
+			"language": "BS",
+			"value": "Slučajni redoslijed"
+		},
+		{
+			"id": "geordnet",
+			"language": "BS",
+			"value": "Poredano onako kako je gore navedeno"
+		},
+		{
+			"id": "auswahl",
+			"language": "BS",
+			"value": "Odaberi prvo jedan od ponuđenih odgovora"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BS",
+			"value": "Provjeri rješenje"
+		},
+		{
+			"id": "Skip",
+			"language": "BS",
+			"value": "Prikaži rješenje"
+		},
+		{
+			"id": "Weiter",
+			"language": "BS",
+			"value": "Sljedeće pitanje"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "BS",
+			"value": "Dozvoli prikazivanje tačnog rješenja"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "BS",
+			"value": "Nakon pogrešnog rješenja, tačno će biti prikazano na zahtjev."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Napišite tekst koji će se prikazati nakon što sva pitanja budu tačno odgovorena."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Odlično! Na sva pitanja ste odgovorili tačno."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BS",
+			"value": "Pozadinska slika"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BS",
+			"value": "Odaberite pozadinsku sliku za aplikaciju &quot;Ukrštene riječi&quot;, ako želite."
+		},
+		{
+			"id": "addQuestion",
+			"language": "BS",
+			"value": "Dodajte novo pitanje"
+		},
+		{
+			"id": "addAnswer",
+			"language": "BS",
+			"value": "Dodajte novu opciju odgovora"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "BS",
+			"value": "Ispravno raspoređeno"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "BS",
+			"value": "Da li je tačno?"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "BS",
+			"value": "Nažalost, još nije tačno."
+		},
+		{
+			"id": "Frage",
+			"language": "BS",
+			"value": "Pitanje"
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "BS",
+			"value": "Odlično, tačan odgovor."
+		},
+		{
+			"id": "Antwort",
+			"language": "BS",
+			"value": "Odgovor"
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback"
+		},
+		{
+			"id": "addQuestion",
+			"language": "ET",
+			"value": "Lisa veel küsimusi"
+		},
+		{
+			"id": "addAnswer",
+			"language": "ET",
+			"value": "Lisa veel üks vastusevariant"
+		},
+		{
+			"id": "addQuestion",
+			"language": "TR",
+			"value": "soru ekle"
+		},
+		{
+			"id": "addAnswer",
+			"language": "TR",
+			"value": "cevap şıkkı/seçeneği ekle"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Meerkeuze"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "NL",
+			"value": "Standaardquiz met meerkeuze en multimedia waarbij meerdere antwoorden juist kunnen zijn. Kies voor de meerkeuzequiz als er slechts één antwoord juist kan zijn."
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "NL",
+			"value": "Juist toegewezen"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "NL",
+			"value": "Ook bij een fout antwoord, gaat de oefening naar de volgende vraag. De juiste antwoord(en) worden dan gemarkeerd. Op het einde is er dan een overzicht van het aantal juiste antwoorden. Zonder evaluatie moet je blijven verder kiezen tot je het juiste antwoord hebt gevonden."
+		},
+		{
+			"id": "Auswertung",
+			"language": "NL",
+			"value": "Evaluatie op het einde"
+		},
+		{
+			"id": "Fragen",
+			"language": "NL",
+			"value": "Vragen"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "NL",
+			"value": "Geef telkens één vraag en tot 5 antwoordmogelijkheden op. Geef ook telkens aan of het over een juist of fout antwoord gaat."
+		},
+		{
+			"id": "Sortieren",
+			"language": "NL",
+			"value": "Vragen rangschikken"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "NL",
+			"value": "De vragen kunnen willekeurig of in volgorde gesteld worden."
+		},
+		{
+			"id": "zufällige",
+			"language": "NL",
+			"value": "Willekeurige volgorde"
+		},
+		{
+			"id": "geordnet",
+			"language": "NL",
+			"value": "Volgorde zoals hierboven aangegeven."
+		},
+		{
+			"id": "auswahl",
+			"language": "NL",
+			"value": "Selecteer hierboven een antwoord."
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "Antwort",
+			"language": "NL",
+			"value": "Antwoord"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "NL",
+			"value": "Juist?"
+		},
+		{
+			"id": "Frage",
+			"language": "NL",
+			"value": "Vraag"
+		},
+		{
+			"id": "Prüfen",
+			"language": "NL",
+			"value": "Antwoord controleren"
+		},
+		{
+			"id": "Skip",
+			"language": "NL",
+			"value": "Antwoord tonen"
+		},
+		{
+			"id": "Weiter",
+			"language": "NL",
+			"value": "Volgende vraag"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "NL",
+			"value": "Oplossing tonen mogelijk maken"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "NL",
+			"value": "Bij een foute oplossing wordt op verzoek de juiste oplossing getoond."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "NL",
+			"value": "Helaas niet juist."
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "NL",
+			"value": "Prima, juist."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Voer een tekst in die wordt weergegeven als de oefening beëindigd is."
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "NL",
+			"value": "Achtergrondafbeelding"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, u heeft alle oefeningen opgelost."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "NL",
+			"value": "Selecteer desgewenst een achtergrondafbeelding voor deze oefening."
+		},
+		{
+			"id": "addAnswer",
+			"language": "NL",
+			"value": "Andere antwoordmogelijkheden toevoegen"
+		},
+		{
+			"id": "addQuestion",
+			"language": "NL",
+			"value": "Andere vraag toevoegen"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": "Избор Quiz"
+		},
+		{
+			"id": "addAnswer",
+			"language": "PL",
+			"value": "dodaj kolejną opcję odpowiedzi"
+		},
+		{
+			"id": "addQuestion",
+			"language": "PL",
+			"value": "dodaj jeszcze jedno pytanie "
+		},
+		{
+			"id": "Sortieren",
+			"language": "SV",
+			"value": "Sortera frågor"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "FR",
+			"value": "Les questions peuvent être affichées aléatoirement ou dans l'ordre."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "IT",
+			"value": "Le domande possono essere poste casualmente o in un ordine prestabilito."
+		},
+		{
+			"id": "Frage",
+			"language": "SV",
+			"value": "Fråga"
+		},
+		{
+			"id": "Antwort",
+			"language": "SV",
+			"value": "Svar"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "Σχόλιο"
+		},
+		{
+			"id": "Prüfen",
+			"language": "GR",
+			"value": "Έλεγξε τη λύση"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "IT",
+			"value": "Dopo una risposta sbagliata può essere visualizzata la risposta corretta."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "GR",
+			"value": "Δεν είναι η σωστή απάντηση"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "SV",
+			"value": "Bakgrundsbild"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "GR",
+			"value": "Η εικόνα φόντου"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "IT",
+			"value": "Scegli un'immagine come fondo di questo quiz."
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "ET",
+			"value": "Võite selle mõistatuse jaoks valida taustapildi."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Kiválasztásos kvíz"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Sellecionar questionário"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PT",
+			"value": "Questionário de múltipla escolha com elementos multimédia. Respostas de múltipla escolha podem estar corretas."
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "PT",
+			"value": "correctamente atribuído"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "PT",
+			"value": "Mesmo a partir de uma falsa resposta continua  para a próxima pergunta. A resposta certa (s) ficará com a cor destacada. Há um resumo sobre quantos acertos foram feitos no final. Sem avaliação tem que escolher, desde que você encontre a resposta certa."
+		},
+		{
+			"id": "Auswertung",
+			"language": "PT",
+			"value": "Avaliação no final"
+		},
+		{
+			"id": "Fragen",
+			"language": "PT",
+			"value": "Questões"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "PT",
+			"value": "Fornecer até 5 respostas para cada pergunta e selecione se elas são verdadeiras ou falsas."
+		},
+		{
+			"id": "Sortieren",
+			"language": "PT",
+			"value": "Organizar perguntas"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "PT",
+			"value": "As perguntas podem ser exibidas de forma aleatória ou em ordem."
+		},
+		{
+			"id": "zufällige",
+			"language": "PT",
+			"value": "ordem aleatória"
+		},
+		{
+			"id": "geordnet",
+			"language": "PT",
+			"value": "ordenado como listado acima"
+		},
+		{
+			"id": "Frage",
+			"language": "PT",
+			"value": "questão"
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "PT",
+			"value": "certo?"
+		},
+		{
+			"id": "Antwort",
+			"language": "PT",
+			"value": "resposta"
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "auswahl",
+			"language": "PT",
+			"value": "Seleccione as respostas primeiro."
+		},
+		{
+			"id": "Prüfen",
+			"language": "PT",
+			"value": "Verificar solução"
+		},
+		{
+			"id": "Skip",
+			"language": "PT",
+			"value": "Mostrar solução"
+		},
+		{
+			"id": "Weiter",
+			"language": "PT",
+			"value": "próxima questão"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "PT",
+			"value": "Permitir exibição de soluções correctas"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "PT",
+			"value": "Depois de uma falsa solução, a correcta pode ser exibida se solicitado."
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "PT",
+			"value": "esta não é a solução correcta"
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "PT",
+			"value": "óptimo, está certo!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "Fornecer um texto de feedback que é exibido quando a solução é encontrada."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "óptimo, respondeu a todas as questões"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "PT",
+			"value": "Imagem de fundo"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "PT",
+			"value": "seleccione imagem de fundo para as palavras cruzadas se quiser"
+		},
+		{
+			"id": "addQuestion",
+			"language": "PT",
+			"value": "adicionar mais uma questão"
+		},
+		{
+			"id": "addAnswer",
+			"language": "PT",
+			"value": "adicionar outra opção de resposta"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "FR",
+			"value": "Même si la réponse est fausse, le joueur passe à la question suivante. La bonne réponse sera surlignée. Un récapitulatif du score apparaît à la fin. Sans évaluation vous devez choisir tant que vous n'avez pas trouvé la bonne réponse."
+		},
+		{
+			"id": "addQuestion",
+			"language": "FR",
+			"value": "Ajouter une nouvelle question"
+		},
+		{
+			"id": "addAnswer",
+			"language": "FR",
+			"value": "Ajouter une nouvelle option de réponse"
+		},
+		{
+			"id": "Ende",
+			"language": "TR",
+			"value": "Testi sonlandır!"
+		},
+		{
+			"id": "Ende",
+			"language": "RU",
+			"value": "Завершить викторину"
+		},
+		{
+			"id": "Ende",
+			"language": "HU",
+			"value": "Kvíz befejezése"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "RU",
+			"value": "правильно составлено"
+		},
+		{
+			"id": "Fragen",
+			"language": "HU",
+			"value": "Kérdések"
+		},
+		{
+			"id": "Sortieren",
+			"language": "BY",
+			"value": "Сартаваць пытанні"
+		},
+		{
+			"id": "Sortieren",
+			"language": "HU",
+			"value": "Kérdések rendezése"
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "BY",
+			"value": "Пытанні можна паказваць у выпадковым ці зададзеным парадку."
+		},
+		{
+			"id": "SortierenBeschreibung",
+			"language": "HU",
+			"value": "Lehetőség van a kérdések véletlenszerű, vagy sorrendben történő feltevésére."
+		},
+		{
+			"id": "zufällige",
+			"language": "BY",
+			"value": "выпадковая паслядоўнасць"
+		},
+		{
+			"id": "zufällige",
+			"language": "HU",
+			"value": "véletlenszerű sorrend"
+		},
+		{
+			"id": "geordnet",
+			"language": "BY",
+			"value": "як зададзена вышэй"
+		},
+		{
+			"id": "geordnet",
+			"language": "HU",
+			"value": "a fent megadott sorrend szerinti rendezés"
+		},
+		{
+			"id": "Frage",
+			"language": "BY",
+			"value": "Пытанне"
+		},
+		{
+			"id": "Frage",
+			"language": "HU",
+			"value": "Kérdés"
+		},
+		{
+			"id": "Antwort",
+			"language": "BY",
+			"value": "Адказ"
+		},
+		{
+			"id": "Antwort",
+			"language": "HU",
+			"value": "Válasz"
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "Prüfen",
+			"language": "BY",
+			"value": "Праверыць рашэнне"
+		},
+		{
+			"id": "Prüfen",
+			"language": "HU",
+			"value": "Megoldás ellenőrzése "
+		},
+		{
+			"id": "Skip",
+			"language": "HU",
+			"value": "Megoldás mutatása"
+		},
+		{
+			"id": "Weiter",
+			"language": "HU",
+			"value": "következő kérdés"
+		},
+		{
+			"id": "Lösungshinweise",
+			"language": "HU",
+			"value": "Megoldások megmutatásának engedélyezése"
+		},
+		{
+			"id": "LösungshinweiseBeschreibung",
+			"language": "HU",
+			"value": "Hibás válasz után engedélyezhető a helyes megoldás felvillantása"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "HU",
+			"value": "Sajnos ez még nem helyes!"
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "HU",
+			"value": "Nagyszerű, ez helyes!"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "HU",
+			"value": "Háttérkép"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "HU",
+			"value": "A feladványhoz háttérkép kiválasztására van lehetőség."
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "HU",
+			"value": "Helyes?"
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "HU",
+			"value": "helyes sorrendbe rendezve"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "HU",
+			"value": "Klasszikus kiválasztásos feladatok multimédiás tartalmakkal, melyekben több helyes válasz is adható. Válassza a kiválasztásos kvíz sablont, ha mindig csak egy helyes választ fogad el!"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "HU",
+			"value": "Hibás válasz esetén is a következő kérdésre tér át. A helyes válasz(ok) színessel lesz kiemelve. A végén megjelenik egy összefoglalás, hogy hány helyes válasz született. Minden egyes kérdés esetén kiértékelés nélkül addig lehet próbálkozni a válaszadással, míg a helyes választ meg nem találja a játékos."
+		},
+		{
+			"id": "Auswertung",
+			"language": "HU",
+			"value": "Kiértékelés a végén"
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "HU",
+			"value": "Minden kérdéshez adjon meg legfeljebb 5 válaszlehetőséget és jelölje meg, hogy a helyes, vagy a hamis választ kell-e keresni."
+		},
+		{
+			"id": "auswahl",
+			"language": "HU",
+			"value": "Először válassz  a fenti  lehetőségek közül."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy üzenetet, amely a feladat megoldása után megjelenik!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Nagyszerű! Minden kérdést megválaszoltál."
+		},
+		{
+			"id": "addQuestion",
+			"language": "HU",
+			"value": "További kérdés hozzáadása"
+		},
+		{
+			"id": "addAnswer",
+			"language": "HU",
+			"value": "További válaszlehetőség hozzáadása"
+		},
+		{
+			"id": "Ende",
+			"language": "NL",
+			"value": "Quiz afsluiten"
+		},
+		{
+			"id": "Ende",
+			"language": "PL",
+			"value": "Zakończ quiz"
+		},
+		{
+			"id": "addQuestion",
+			"language": "IT",
+			"value": "Inserire un'altra domanda"
+		},
+		{
+			"id": "addAnswer",
+			"language": "IT",
+			"value": "Inserire altre opzioni di risposta"
+		},
+		{
+			"id": "Ende",
+			"language": "IT",
+			"value": "uscita Quiz"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BG",
+			"value": "Традиционни въпроси с множествени избираеми отговори с използване на мултимедийни компоненти. Правилните отговори на един въпрос може да са повече от един. "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Тест с множествени отговори"
+		},
+		{
+			"id": "Ende",
+			"language": "BG",
+			"value": "Край на теста"
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "BG",
+			"value": "Дори при неправилен отговор се преминава към следващия въпрос. Правилните отговори са подчертани. Накрая се появява резюме с броя на правилните отговори.  "
+		},
+		{
+			"id": "FragenBeschreibung",
+			"language": "BG",
+			"value": "Посочете един въпрос и до 5 възможни отговора, като определите правилните и грешните отговори."
+		},
+		{
+			"id": "RichtigeAntwort",
+			"language": "BG",
+			"value": "Правилно ли е?"
+		},
+		{
+			"id": "Antwort",
+			"language": "BG",
+			"value": "Отговор"
+		},
+		{
+			"id": "addQuestion",
+			"language": "RU",
+			"value": ""
+		},
+		{
+			"id": "addAnswer",
+			"language": "RU",
+			"value": ""
+		},
+		{
+			"id": "addQuestion",
+			"language": "BG",
+			"value": "добавете друг въпрос"
+		},
+		{
+			"id": "addAnswer",
+			"language": "BG",
+			"value": "добавете друг отговор"
+		},
+		{
+			"id": "Ende",
+			"language": "UK",
+			"value": "завершити вікторину"
+		},
+		{
+			"id": "addQuestion",
+			"language": "UK",
+			"value": "додати питання"
+		},
+		{
+			"id": "addAnswer",
+			"language": "UK",
+			"value": "додати варіант відповіді"
+		},
+		{
+			"id": "Fragen",
+			"language": "BY",
+			"value": "Пытанні"
+		},
+		{
+			"id": "Weiter",
+			"language": "BY",
+			"value": "Наступнае пытанне"
+		},
+		{
+			"id": "feedbackFalse",
+			"language": "BY",
+			"value": "Паказаць рашэнне"
+		},
+		{
+			"id": "feedbackTrue",
+			"language": "BY",
+			"value": "Цудоўна, правільна!"
+		},
+		{
+			"id": "Hintergrundbild",
+			"language": "BY",
+			"value": "Фонавая выява"
+		},
+		{
+			"id": "HintergrundbildBeschreibung",
+			"language": "BY",
+			"value": "Абярыце фонавую выяву для гэтага практыкавання."
+		},
+		{
+			"id": "Auswertung",
+			"language": "IT",
+			"value": "Alla fine "
+		},
+		{
+			"id": "AuswertungBeschreibung",
+			"language": "IT",
+			"value": "Anche per una risposta sbagliata, si va alla domanda successiva. Le risposta a destra vengono quindi evidenziati. Alla fine c'è un riassunto di quanti sono stati dato risposte corrette. Senza valutazione, per ogni domanda selezionata fino a quando la risposta corretta viene trovato."
+		},
+		{
+			"id": "richtigZugeordnet",
+			"language": "IT",
+			"value": "assegnato correttamente"
+		}
+	],
+	"path": "https://learningapps.org/tools/105/6/",
+	"fromCache": 1,
+	"version": "6"
+};

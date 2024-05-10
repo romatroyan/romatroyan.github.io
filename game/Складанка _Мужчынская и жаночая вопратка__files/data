@@ -1,0 +1,2607 @@
+var AppClientAppData = {
+	"result": "SUCCESS",
+	"initparameters": "mediaurl=image%7Chttps%3A%2F%2Fdbimg.eu%2Fi%2Fqh9igq4w.jpg&cluster1=text%7C%D0%96%D0%B0%D0%BD%D0%BE%D1%87%D0%B0%D1%8F%20%D0%B2%D0%BE%D0%BF%D1%80%D0%B0%D1%82%D0%BA%D0%B0&v1_1=text%7C%D0%90%D0%BD%D0%B4%D0%B0%D1%80%D0%B0%D0%BA&v1_2=text%7C%D0%91%D1%83%D1%80%D0%BD%D0%BE%D1%81&v1_3=text%7C%20%D0%9A%D0%B0%D1%82%D0%B0%D0%BD%D0%BA%D1%96&v1_4=text%7C%D0%9A%D0%B0%D1%80%D1%81%D1%8D%D1%82&v1_5=text%7C%D0%9B%D0%B0%D1%82%D1%83%D1%85%D0%B0&v1_6=text%7C%D0%9D%D0%B0%D1%81%D0%BE%D1%9E%20%28%D0%B1%D0%B0%D0%BB%D0%B0%D1%85%D0%BE%D0%BD%29&v1_7=text%7C%D0%9F%D0%B0%D0%BD%D1%91%D0%B2%D0%B0&v1_8=text%7C%D0%9F%D1%83%D0%BB%D1%8C%D1%81%D1%8D%D1%82%D0%BA%D1%96&v1_9=text%7C%D0%A1%D0%B0%D1%8F%D0%BD&v1_10=text%7C%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D0%BA&v1_11=text%7C%D0%A4%D0%B0%D1%80%D1%82%D1%83%D1%85&v1_12=text%7C%D0%A1%D1%83%D0%BA%D0%B5%D0%BD%D0%BA%D0%B0&v1_13=text%7C%D0%A1%D0%BF%D0%B0%D0%B4%D0%BD%D1%96%D1%86%D0%B0&cluster2=text%7C%D0%9C%D1%83%D0%B6%D1%87%D1%8B%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B2%D0%BE%D0%BF%D1%80%D0%B0%D1%82%D0%BA%D0%B0&v2_1=text%7C%D0%9F%D0%B0%D0%BB%D1%96%D1%82%D0%BE&v2_2=text%7C%20%D0%9A%D1%83%D0%BD%D1%82%D1%83%D1%88&v2_3=text%7C%20%D0%9A%D0%B0%D1%84%D1%82%D0%B0%D0%BD&v2_4=text%7C%D0%9A%D0%B0%D1%88%D1%83%D0%BB%D1%8F&v2_5=text%7C%D0%9A%D0%B0%D0%BC%D1%96%D0%B7%D1%8D%D0%BB%D1%8C%D0%BA%D0%B0&v2_6=text%7C%D0%91%D1%83%D1%80%D0%BA%D0%B0&v2_7=text%7C%D0%91%D0%B5%D0%BA%D0%B5%D1%88%D0%B0&v2_8=text%7C%D0%A1%D1%8F%D1%80%D0%BC%D1%8F%D0%B3%D0%B0&v2_9=text%7C%D0%A8%D0%B2%D1%8D%D0%B4%D0%B0%D1%80&v2_10=text%7C%D0%9D%D0%B0%D0%B3%D0%B0%D0%B2%D1%96%D1%86%D1%8B&v2_11=text%7C%D0%91%D1%80%D0%B0%D0%B2%D1%8D%D1%80%D0%BA%D0%B0&size=%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80&feedback=%D0%9C%D0%B0%D0%BB%D0%B0%D0%B9%D1%87%D1%8B%D0%BD%D0%B0%21%20%D0%A2%D1%8B%20%D1%9E%D1%81%D1%91%20%D1%80%D0%B0%D1%81%D0%BC%D1%8F%D1%81%D1%86%D1%96%D1%9E%20%D0%BD%D0%B0%20%D1%81%D0%B2%D0%B0%D0%B5%20%D0%BC%D0%B5%D1%81%D1%86%D1%8B%21",
+	"title": "Складанка \"Мужчынская і жаночая вопратка\"",
+	"tool": "5",
+	"helptext": "",
+	"tasktext": "Размясці паняцці па групах",
+	"formlanguage": "RU",
+	"language": "BY",
+	"parameters": [
+		{
+			"t": "parameter",
+			"value": "",
+			"width": "",
+			"height": "",
+			"name": "mediaurl",
+			"label": "%Hintergrund%",
+			"type": "media",
+			"description": "%HintergrundBeschreibung%",
+			"media": "image|video"
+		},
+		{
+			"t": "list",
+			"label": "%Begriffsgruppen%",
+			"description": "%GruppenBeschreibung%",
+			"name": "clusters",
+			"min": "2",
+			"max": 6,
+			"addtext": "%weitereGruppe%",
+			"children": [
+				{
+					"t": "parameter",
+					"value": "",
+					"width": "",
+					"height": "",
+					"name": "cluster#",
+					"label": "%Gruppe% #",
+					"type": "media",
+					"description": "",
+					"media": "image|text"
+				},
+				{
+					"t": "list",
+					"label": "",
+					"description": "",
+					"name": "clusteritems#",
+					"min": "2",
+					"max": 20,
+					"addtext": "Добавить следующий элемент",
+					"children": [
+						{
+							"t": "parameter",
+							"value": "",
+							"width": "",
+							"height": "",
+							"name": "v#_#",
+							"label": "%Gruppe% # %Element% #",
+							"type": "media",
+							"description": "",
+							"media": "image|text"
+						}
+					]
+				}
+			]
+		},
+		{
+			"t": "parameter",
+			"value": "%mittel%|%gross%|%klein%",
+			"width": "",
+			"height": "",
+			"name": "size",
+			"label": "%Kartengröße%",
+			"type": "select",
+			"description": "%KartengrößeBeschreibung%"
+		},
+		{
+			"t": "parameter",
+			"value": "%FeedbackValue%",
+			"width": "",
+			"height": "",
+			"name": "feedback",
+			"label": "%Feedback%",
+			"type": "textarea",
+			"description": "%FeedbackBeschreibung%"
+		}
+	],
+	"translation": [
+		{
+			"id": "APP_TITLE",
+			"language": "DE",
+			"value": "Gruppen-Puzzle"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "EN",
+			"value": "Group-Puzzle"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "DE",
+			"value": "In einem Puzzle sollen Begriffe verschiedenen Begriffsgruppen zugeordnet werden. Jeder erfolgreich zugeordnete Begriff legt ein Teil des darunterliegenden Bildes oder Videos frei."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "EN",
+			"value": "The pieces of a puzzle must be assigned to topics. Each successful assignment will uncover a part of an underlying image or video."
+		},
+		{
+			"id": "Kartengröße",
+			"language": "DE",
+			"value": "Kartengröße"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "EN",
+			"value": "Card size"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "DE",
+			"value": "Wählen Sie die Größe der Spielkarten."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "EN",
+			"value": "Select the size of the game cards."
+		},
+		{
+			"id": "gross",
+			"language": "DE",
+			"value": "Große Kärtchen"
+		},
+		{
+			"id": "gross",
+			"language": "EN",
+			"value": "large cards"
+		},
+		{
+			"id": "mittel",
+			"language": "DE",
+			"value": "Mittlere Kärtchen"
+		},
+		{
+			"id": "mittel",
+			"language": "EN",
+			"value": "medium cards"
+		},
+		{
+			"id": "klein",
+			"language": "DE",
+			"value": "Kleine Kärtchen"
+		},
+		{
+			"id": "klein",
+			"language": "EN",
+			"value": "small cards"
+		},
+		{
+			"id": "OK",
+			"language": "DE",
+			"value": "OK"
+		},
+		{
+			"id": "OK",
+			"language": "EN",
+			"value": "OK"
+		},
+		{
+			"id": "falsch",
+			"language": "DE",
+			"value": "gehört nicht zur Kategorie"
+		},
+		{
+			"id": "falsch",
+			"language": "EN",
+			"value": "does not belong to the category"
+		},
+		{
+			"id": "Element",
+			"language": "DE",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "EN",
+			"value": "Element"
+		},
+		{
+			"id": "Elemente",
+			"language": "DE",
+			"value": "Elemente"
+		},
+		{
+			"id": "Elemente",
+			"language": "EN",
+			"value": "Elements"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "DE",
+			"value": "Gruppe hinzufügen"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "EN",
+			"value": "add another group"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "FR",
+			"value": "Ajouter un autre groupe."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "DE",
+			"value": "Versuch es noch einmal."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "EN",
+			"value": "Try again."
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "DE",
+			"value": "Begriffsgruppen und Begriffe"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "EN",
+			"value": "Topics and Terms"
+		},
+		{
+			"id": "Gruppe",
+			"language": "DE",
+			"value": "Gruppe"
+		},
+		{
+			"id": "Gruppe",
+			"language": "EN",
+			"value": "Topic"
+		},
+		{
+			"id": "Begriffe",
+			"language": "DE",
+			"value": "Begriffe"
+		},
+		{
+			"id": "Begriffe",
+			"language": "EN",
+			"value": "Terms"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie bis zu 6 Begriffsgruppen an. Geben Sie zu jeder Gruppe die einzelnen Begriffe ein. Diese werden dann zufällig im Puzzle verteilt."
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "EN",
+			"value": "Provide up to 6 topic groups. Enter the individual terms that belong to each topic. They are distributed randomly in the puzzle."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "DE",
+			"value": "Hintergrund"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "EN",
+			"value": "Background"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "DE",
+			"value": "Hinter dem Puzzle liegt ein Bild oder Video, welches freigelegt werden soll."
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "EN",
+			"value": "Behind the puzzle is a picture or a video that is to be uncovered."
+		},
+		{
+			"id": "Feedback",
+			"language": "DE",
+			"value": "Feedback"
+		},
+		{
+			"id": "Feedback",
+			"language": "EN",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "DE",
+			"value": "Geben Sie einen Text an, der eingeblendet wird, wenn die richtige Lösung gefunden wurde."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "EN",
+			"value": "Provide a feedback text which is displayed when the solution is found."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "DE",
+			"value": "Prima, du hast alles richtig zugeordnet."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "EN",
+			"value": "Great, you found the right solution."
+		},
+		{
+			"id": "falsch",
+			"language": "FR",
+			"value": "n'appartient pas à la catégorie"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "FR",
+			"value": "Pour réaliser ce puzzle, il faut classer des termes dans différents groupes. Chaque terme bien classé révèle une partie de l'image ou de la vidéo masquée."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "FR",
+			"value": "Puzzle de classement"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "FR",
+			"value": "Groupes de termes"
+		},
+		{
+			"id": "Feedback",
+			"language": "FR",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "FR",
+			"value": "Saisissez le texte qui s'affichera lorsque la bonne solution aura été trouvée."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "FR",
+			"value": "Super, tu as réussi à tout classer !"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "FR",
+			"value": "Saisissez un maximum de 6 groupes de termes. Dans chaque groupe, vous pouvez entrer des termes individuels. Les termes sont ensuite répartis au hasard dans le puzzle."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "FR",
+			"value": "Arrière-plan"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "FR",
+			"value": "Le puzzle masque une image ou une vidéo qui doit être révélée."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "FR",
+			"value": "Retente ta chance."
+		},
+		{
+			"id": "OK",
+			"language": "FR",
+			"value": "OK"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "IT",
+			"value": "In un puzzle si devono assegnare le parole ai diversi gruppi. Per ogni parola correttamente assegnata verrà visualizzata una parte della foto o del video sottostante."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "IT",
+			"value": "Puzzle da riordinare"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "IT",
+			"value": "Gruppi e Parole"
+		},
+		{
+			"id": "falsch",
+			"language": "IT",
+			"value": "non appartiene alla categoria"
+		},
+		{
+			"id": "Feedback",
+			"language": "IT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "IT",
+			"value": "Indica un testo che verrà inserito quando verrà trovata la soluzione corretta."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "IT",
+			"value": "Fantastico! Hai ordinato tutto nel modo esatto."
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "IT",
+			"value": "Indica qui fino a un massimo di sei gruppi. In ogni gruppo può inserire le parole individuali. Le parole vengono poi distribuite in modo casuale nel puzzle."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "IT",
+			"value": "Sfondo"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "IT",
+			"value": "Dietro al puzzle si nasconde un'immagine o un video che devi riuscire a visualizzare."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "IT",
+			"value": "Prova di nuovo."
+		},
+		{
+			"id": "OK",
+			"language": "IT",
+			"value": "OK"
+		},
+		{
+			"id": "Begriffe",
+			"language": "FR",
+			"value": "Termes"
+		},
+		{
+			"id": "Begriffe",
+			"language": "IT",
+			"value": "Parole"
+		},
+		{
+			"id": "Gruppe",
+			"language": "FR",
+			"value": "Groupe"
+		},
+		{
+			"id": "Gruppe",
+			"language": "IT",
+			"value": "Gruppo"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "FR",
+			"value": "Masquer"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "IT",
+			"value": "Nascondere"
+		},
+		{
+			"id": "Feedback",
+			"language": "RU",
+			"value": "Обратная связь"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RU",
+			"value": "Задайте текст, который будет появляться при правильном решении. "
+		},
+		{
+			"id": "Gruppe",
+			"language": "RU",
+			"value": "Группа "
+		},
+		{
+			"id": "Hintergrund",
+			"language": "RU",
+			"value": "Задний фон "
+		},
+		{
+			"id": "OK",
+			"language": "RU",
+			"value": "Ок"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "RU",
+			"value": "Попытайся еще раз! "
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "RU",
+			"value": "Под этим пазлом может лежать картинка или видео! Оно откроется, если правильно собран пазл. "
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "RU",
+			"value": "Задайте до 6 групп с названиями. К каждой группе задайте отдельные термины. Они будут расположены как пазл в беспорядке. Задайте множество терминов, разделяя их знаком &quot;;&quot; (точка с запятой)"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RU",
+			"value": "Здорово, ты все правильно расставил по местам! "
+		},
+		{
+			"id": "falsch",
+			"language": "RU",
+			"value": "Не принадлежит к категории "
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "RU",
+			"value": "Группа терминов и термины "
+		},
+		{
+			"id": "Begriffe",
+			"language": "RU",
+			"value": "Термины "
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RU",
+			"value": "Пазл &quot;Угадай-ка&quot;"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RU",
+			"value": "В одном пазле должны быть назначены различные группы понятий. Каждый найденный термин показывает  часть основного изображения или видео."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "RM",
+			"value": "Emprova aunc inagada."
+		},
+		{
+			"id": "falsch",
+			"language": "RM",
+			"value": "fa buca part dalla categoria"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RM",
+			"value": "Cumbiniala da gruppa"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RM",
+			"value": "En ina cumbiniala san ins attribuir noziuns a differentas gruppas da noziuns. Mintga noziun che vegn attribuida correctamein muossa ina part dil maletg che sesanfla suten."
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "RM",
+			"value": "Endateischa maximal 6 gruppas da noziuns. Endatescha tier mintga gruppa las singulas noziuns. Quellas vegnan repartidas tenor casualitad ella cumbiniala."
+		},
+		{
+			"id": "Begriffe",
+			"language": "RM",
+			"value": "Noziuns"
+		},
+		{
+			"id": "Gruppe",
+			"language": "RM",
+			"value": "Gruppa"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "RM",
+			"value": "Gruppas da noziuns e noziuns"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "RM",
+			"value": "Davos la cumbiniala sesanfla in maletg ni in video che duei vegnir scuvretgs."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "RM",
+			"value": "Maletg da funs"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RM",
+			"value": "Bravo, ti has sligiau tut correctamein!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RM",
+			"value": "Endatescha in text che vegn mussaus sche la sligiaziun ei correcta."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "RO",
+			"value": "Fundal"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "RO",
+			"value": "Puzzle - Grupe"
+		},
+		{
+			"id": "OK",
+			"language": "RO",
+			"value": "Ok"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "RO",
+			"value": "Încearcă incă o dată."
+		},
+		{
+			"id": "falsch",
+			"language": "RO",
+			"value": "Nu aparține categoriei"
+		},
+		{
+			"id": "Gruppe",
+			"language": "RO",
+			"value": "Grupă"
+		},
+		{
+			"id": "Begriffe",
+			"language": "RO",
+			"value": "Noțiuni"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "RO",
+			"value": "Grupe de noțiuni și noțiuni"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "RO",
+			"value": "Indicați până la 6 grupe de noțiuni.Introduceți la fiecare grupă noțiuni individuale. Acestea se impart apoi aleator in puzzle."
+		},
+		{
+			"id": "Feedback",
+			"language": "RO",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "RO",
+			"value": "Introduceți un text care este vizibil atunci când soluția este corectă. "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "RO",
+			"value": "Super, ai ordonat totul corect!   "
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "EN",
+			"value": "Here you receive some hints!"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "RM",
+			"value": "Ti survegns entgins indezis!"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "RO",
+			"value": "Într-un puzzle trebuie să fie ordonate noțiuni la diferite grupe de noțiuni. Fiecare noțiune ordonată cu succes descoperă o parte a imaginii sau a video-ului de dedesubt."
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "RO",
+			"value": "În spatele puzzle-ului este o imagine sau un video care trebuie descoperit."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "GL",
+			"value": "Proba outra vez"
+		},
+		{
+			"id": "falsch",
+			"language": "GL",
+			"value": "Non pertence a esta categoría."
+		},
+		{
+			"id": "Gruppe",
+			"language": "GL",
+			"value": "Grupo"
+		},
+		{
+			"id": "Feedback",
+			"language": "PL",
+			"value": "Informacja zwrotna."
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "RO",
+			"value": "Aici poți găsi câteva indicații!!"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "RU",
+			"value": "Здесь вы получите некоторые подсказки"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PL",
+			"value": "Odsłoń obrazek"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PL",
+			"value": "Kawałki układanki muszą być przypisane do odpowiednich kategorii. Każdy prawidłowy wybór odsłania część bazowego obrazu lub filmu."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "PL",
+			"value": "Spróbuj jeszcze raz. "
+		},
+		{
+			"id": "falsch",
+			"language": "PL",
+			"value": "nie należy do kategorii "
+		},
+		{
+			"id": "Gruppe",
+			"language": "PL",
+			"value": "Grupa"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "PL",
+			"value": "Grupy i terminy"
+		},
+		{
+			"id": "Begriffe",
+			"language": "PL",
+			"value": "Terminy"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "PL",
+			"value": "Wprowadź do 6 grup tematycznych. Wprowadź indywidualne terminy, które należą do każdego tematu. Będą one rozmieszczone losowo w układance."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "PL",
+			"value": "Tło"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "PL",
+			"value": "Pod układanką jest zdjęcie lub wideo, które ma zostać odsłonięte."
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "PL",
+			"value": "Tutaj otrzymasz kilka wskazówek! "
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PL",
+			"value": "Świetnie, znalazłeś odpowiednie rozwiązanie."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PL",
+			"value": "Podaj tekst, który będzie wyświetlany, gdy zostanie znalezione rozwiązanie."
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "DE",
+			"value": "Hier erhältst du einige Tipps!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ET",
+			"value": "Grupeerimise pusle"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ET",
+			"value": "Igale pusle tükile saab määrata teemasid. Iga eduka ülesande lahendusega paljastub osa pildist või videost."
+		},
+		{
+			"id": "Gruppe",
+			"language": "ET",
+			"value": "rühm"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "ET",
+			"value": "päritolu"
+		},
+		{
+			"id": "Feedback",
+			"language": "RM",
+			"value": "Resun"
+		},
+		{
+			"id": "Feedback",
+			"language": "ET",
+			"value": "tagasiside"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BG",
+			"value": "Групи в пъзел"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BG",
+			"value": "Парчетата на пъзела трябва да бъдат съотнесени към едно от условията/групата/категорията. Всяко правилно поставено парче от пъзела ще разкрие част от скритото изображение или видео."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "BG",
+			"value": "Опитай отново."
+		},
+		{
+			"id": "falsch",
+			"language": "BG",
+			"value": "не принадлежи към категорията"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "BG",
+			"value": "Теми и условия"
+		},
+		{
+			"id": "Gruppe",
+			"language": "BG",
+			"value": "Тема"
+		},
+		{
+			"id": "Begriffe",
+			"language": "BG",
+			"value": "Условия"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "BG",
+			"value": "Създайте до 6 тематични групи. Въведете отделните елементи, които принадлежат към всяка тема. Те ще се разпределят на случаен принцип в пъзела. Използвайте в качеството на разделител на думите. "
+		},
+		{
+			"id": "Hintergrund",
+			"language": "BG",
+			"value": "Фон"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "BG",
+			"value": "Изображението или видеото, което ще се разкрие след правилното подреждане на пъзела. "
+		},
+		{
+			"id": "Feedback",
+			"language": "BG",
+			"value": "Обратна връзка"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BG",
+			"value": "Осигурете текстова обратна връзка, която се показва, когато се намери решение."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BG",
+			"value": "Браво! Това е правилното решение!"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "BG",
+			"value": "Тук ще получите няколко съвета!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "UK",
+			"value": "Пазл"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "UK",
+			"value": "У пазлі розміщено кілька груп понять. Кожен правильно названий термін відкриває частину основного зображення чи відео-ролика."
+		},
+		{
+			"id": "Gruppe",
+			"language": "UK",
+			"value": "Група"
+		},
+		{
+			"id": "Begriffe",
+			"language": "UK",
+			"value": "Терміни"
+		},
+		{
+			"id": "OK",
+			"language": "UK",
+			"value": "ОК"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "UK",
+			"value": "Група термінів та терміни"
+		},
+		{
+			"id": "falsch",
+			"language": "UK",
+			"value": "Не належить до категорій"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "UK",
+			"value": "Спробуй ще раз!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "UK",
+			"value": "Напишіть текст зворотнього зв'язку, який з'явиться, коли правильне рішення буде знайдено."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "UK",
+			"value": "Чудово, правильне рішення знайдено!"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "UK",
+			"value": "За пазлом розміщено зображення або відео, котрі потрібно відкрити."
+		},
+		{
+			"id": "Feedback",
+			"language": "UK",
+			"value": "Зворотній зв'язок"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "UK",
+			"value": "Тут можна отримати підказку!"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "UK",
+			"value": "Тло"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "UK",
+			"value": "Введіть до 6 груп термінів. Дайте кожній групі одну тематичну назву. Потім вони будуть випадковим чином розподілені в головоломку."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "TR",
+			"value": "Bu yap bozda çeşitli kelime veya kavramlar belli kavram guruplarına doğru olarak eşleştirilmesi gerekmektedir. Her bir doğru eşleştirmede, yap boz parçalarının altında saklı olan resim veya film adım adım ortaya çıkacaktır."
+		},
+		{
+			"id": "OK",
+			"language": "TR",
+			"value": "Tamam"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "TR",
+			"value": "Gruplu yapboz "
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "TR",
+			"value": "Tekrar dene!"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "TR",
+			"value": "Kavram grupları ve kavramlar/kelimeler"
+		},
+		{
+			"id": "falsch",
+			"language": "TR",
+			"value": "Kategoriye uymuyor"
+		},
+		{
+			"id": "Gruppe",
+			"language": "TR",
+			"value": "Grup"
+		},
+		{
+			"id": "Begriffe",
+			"language": "TR",
+			"value": "Kavramlar/kelimeler"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "TR",
+			"value": "6 taneye kadar kavram grubu belirleyebilirsiniz. Her bir gruba uyan kavram/kelimeleri giriniz. Bunlar daha sonra yapboz olanına rastgele yerleştirilecektir."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "TR",
+			"value": "Arka plan"
+		},
+		{
+			"id": "Feedback",
+			"language": "TR",
+			"value": "Geri dönüt"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "TR",
+			"value": "Yapboz parçalarının arkasında sorular doğru çözüldükçe ortaya çıkan resim veya film bulunuyor."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "TR",
+			"value": "Tebrikler, hepsi doğru!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "TR",
+			"value": "Burada doğru çözüldüğünde gösterilmesini istediğiniz bir metni girin."
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "TR",
+			"value": "Burada bazı ipuçları bulabilirsin."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GE",
+			"value": "თავსატეხები"
+		},
+		{
+			"id": "falsch",
+			"language": "GE",
+			"value": "არ ეკუთვნის კატეგორიას"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "GE",
+			"value": "კიდევ სცადეთ გახსნა."
+		},
+		{
+			"id": "Gruppe",
+			"language": "GE",
+			"value": "ჯგუფი"
+		},
+		{
+			"id": "Begriffe",
+			"language": "GE",
+			"value": "პირობა"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "GE",
+			"value": "პირობათა და ტერმინთა ჯგუფები"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტერმინთა 6 ჯგუფი. მიუსადაგეთ ყოველ ჯგუფს კონკრეტული პირობა. ჯგუფები შემთხვევითი თანმიმდევრობით განლაგდებიან თავსატეხში."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "GE",
+			"value": "ფონი"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "GE",
+			"value": "თავსატეხის უკან იმალება გამოსახულება ან ვიდეო, რომელიც უნდა გაიხსნას."
+		},
+		{
+			"id": "Feedback",
+			"language": "GE",
+			"value": "უკუკავშირი"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "GE",
+			"value": "შეიყვანეთ ტექსტი, რომელიც აისახება ეკრანზე სწორი პასუხის შემთხვევაში."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "GE",
+			"value": "სწორია, თქვენ ყველაფერი სწორად გააკეთეთ!"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "GE",
+			"value": "რამდენიმე რჩევა თქვენთვის!"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "GE",
+			"value": "თავსატეხები პირობითად აღნიშნავს სხვადასხვა შინაარსის კონცეპტუალურ ჯგუფებს. ყოველი სწორი პასუხი ხსნის ძირითადი გამოსახულების ან ვიდეოს გარკვეულ ნაწილს."
+		},
+		{
+			"id": "OK",
+			"language": "GE",
+			"value": "კარგი"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "ES",
+			"value": "¡Vuelve a intentarlo!"
+		},
+		{
+			"id": "falsch",
+			"language": "ES",
+			"value": "Esta tarjeta no corresponde a esta categoría."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BS",
+			"value": "U jednoj puzli različiti pojmovi mogu biti u više grupa raspoređeni. Svako pravilno povezivanje grupe sa odgovarajućim pojmom otkriva jedno polje slike ili videa."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BS",
+			"value": "Puzla"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "BS",
+			"value": "Teme i pojmovi"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "BS",
+			"value": "Pokušajte još jednom"
+		},
+		{
+			"id": "falsch",
+			"language": "BS",
+			"value": "Ne pripada toj kategoriji"
+		},
+		{
+			"id": "Begriffe",
+			"language": "BS",
+			"value": "Pojmovi"
+		},
+		{
+			"id": "Gruppe",
+			"language": "BS",
+			"value": "Grupe"
+		},
+		{
+			"id": "OK",
+			"language": "BS",
+			"value": "OK"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "BS",
+			"value": "Unesite do šest tematskih grupa. Unesite za svaku grupu odgovarajuće pojmove koji će biti u okviru puzle slučajno raspoređeni. Koristite znak tačka-zarez &quot;;&quot; kako bi razdvojili pojmove."
+		},
+		{
+			"id": "Feedback",
+			"language": "BS",
+			"value": "Feedback"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "BS",
+			"value": "Iza puzle se nalazi slika ili video koji će biti na kraju otkriveni."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "BS",
+			"value": "Pozadina"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BS",
+			"value": "Unesite feedback tekst koji će se pojaviti nakon što se pronađe tačno rješenje."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "BS",
+			"value": "Bravo, sva polja ste pravilno rasporedili"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "BS",
+			"value": "Ovdje ćete dobiti malu pomoć."
+		},
+		{
+			"id": "falsch",
+			"language": "SV",
+			"value": "Tillhör ej denna kategori"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "SV",
+			"value": "I det här pusslet ska du para ihop pusselbitarna med rätt kategori. Klicka på en av flikarna (=kategorier) och därefter på de pusselbitar som hör i hop med den. "
+		},
+		{
+			"id": "Gruppe",
+			"language": "SV",
+			"value": "Grupp"
+		},
+		{
+			"id": "OK",
+			"language": "SV",
+			"value": "Ok"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "SV",
+			"value": "Grupperingspussel"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "SV",
+			"value": "Bra! Du har löst pusslet rätt!"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "SV",
+			"value": "Bakom pusslet ligger en bild eller en video som friläggs när pusslet löses. "
+		},
+		{
+			"id": "Hintergrund",
+			"language": "SV",
+			"value": "Bakgrund"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "SV",
+			"value": "Här kan du få tips!"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "SV",
+			"value": "Försök en gång till"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "NL",
+			"value": "Voer een tekst in die wordt weergegeven wanneer de juiste oplossing is gevonden."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "NL",
+			"value": "Groepeer-oefening"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "NL",
+			"value": "In een puzzel zoek je naar de delen die bij de respectievelijke groep thuishoren. Naarmate je juist selecteerd/oplost komt er een prent of film vrij."
+		},
+		{
+			"id": "OK",
+			"language": "NL",
+			"value": "OK"
+		},
+		{
+			"id": "falsch",
+			"language": "NL",
+			"value": "Hoort niet thuis bij deze categorie."
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "NL",
+			"value": "Begrippenverzameling en begrippen"
+		},
+		{
+			"id": "Gruppe",
+			"language": "NL",
+			"value": "Groep"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "NL",
+			"value": "Bepaal vooraf maximaal 6 begrippenverzamelingen. Geef bij elke verzameling enkele begrippen op. Deze worden dan willekeurig aangeboden in de puzzel."
+		},
+		{
+			"id": "Begriffe",
+			"language": "NL",
+			"value": "Begrip"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "NL",
+			"value": "Probeer opnieuw"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "NL",
+			"value": "Achtergrond"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "NL",
+			"value": "Achter de puzzel ligt een prent of film die steeds verder zal getoond worden naarmate de puzzelstukjes verdwijnen."
+		},
+		{
+			"id": "Feedback",
+			"language": "NL",
+			"value": "Feedback"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "NL",
+			"value": "Hier krijg je enkele tips!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "NL",
+			"value": "Prima, u heeft alles juist opgelost."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "GR",
+			"value": "Ομάδες παζλ"
+		},
+		{
+			"id": "Gruppe",
+			"language": "GR",
+			"value": "Ομάδα"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "GR",
+			"value": "Φόντο"
+		},
+		{
+			"id": "Feedback",
+			"language": "GR",
+			"value": "Σχόλιο"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ET",
+			"value": "Sisestage tekst, mis kuvatakse õige vastuse korral."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "PT",
+			"value": "Puzzle grupo"
+		},
+		{
+			"id": "OK",
+			"language": "PT",
+			"value": "Ok"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "PT",
+			"value": "As peças de um puzzle devem ser atribuídas a temas. Cada atribuição de sucesso vai revelar uma parte de uma imagem ou vídeo subjacente."
+		},
+		{
+			"id": "falsch",
+			"language": "PT",
+			"value": "não pertence à categoria"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "PT",
+			"value": "tente novamente"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "PT",
+			"value": "Tópicos e Termos"
+		},
+		{
+			"id": "Begriffe",
+			"language": "PT",
+			"value": "Termo"
+		},
+		{
+			"id": "Gruppe",
+			"language": "PT",
+			"value": "Tópico"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "PT",
+			"value": "Fornecer até 6 grupos temáticos. Digite os termos individuais que pertencem a cada tópico. Eles são distribuídos aleatoriamente no quebra-cabeça."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "PT",
+			"value": "Fundo"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "PT",
+			"value": "Atrás do puzzle há uma imagem ou um vídeo que para ser descoberto."
+		},
+		{
+			"id": "Feedback",
+			"language": "PT",
+			"value": "Feedback"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "PT",
+			"value": "&quot;Fornecer um texto de feedback que é exibido quando for encontrada a solução.&quot;"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "PT",
+			"value": "Aqui  recebe algumas dicas!"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "PT",
+			"value": "Óptimo, encontrou a solução correcta"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "HU",
+			"value": "Csoportosítós kirakó"
+		},
+		{
+			"id": "Feedback",
+			"language": "BY",
+			"value": "Зваротная сувязь"
+		},
+		{
+			"id": "Feedback",
+			"language": "HU",
+			"value": "Visszajelzés"
+		},
+		{
+			"id": "OK",
+			"language": "HU",
+			"value": "Ok"
+		},
+		{
+			"id": "falsch",
+			"language": "HU",
+			"value": "Nem tartozik a kiválasztott kategóriába."
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "HU",
+			"value": "Fogalmak és fogalomcsoportok"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "HU",
+			"value": "A kirakós játékban fogalmakat kell csoportokba rendezni. Minden sikeres hozzárendelés esetén felfedjük az eltakart kép vagy videó egy részletét."
+		},
+		{
+			"id": "Gruppe",
+			"language": "HU",
+			"value": "Csoport"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "HU",
+			"value": "Próbáld meg újra!"
+		},
+		{
+			"id": "Begriffe",
+			"language": "HU",
+			"value": "Fogalmak"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg legfeljebb 6 fogalomcsoportot! Minden fogalomcsoporthoz  adja meg a fogalmakat. Ezek aztán Puzzle-kirakó formában fognak megjelenni."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "HU",
+			"value": "Háttér"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "HU",
+			"value": "Itt néhány ötletet olvashatsz!"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "HU",
+			"value": "A Puzzle mögött egy kép vagy videó van, amelyet a megoldás során felfedünk."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "HU",
+			"value": "Nagyszerű, az összes hozzárendelésed helyes!"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "HU",
+			"value": "Adjon meg egy üzenetet, amely a helyes megoldás után megjelenik!"
+		},
+		{
+			"id": "OK",
+			"language": "PL",
+			"value": "OK"
+		},
+		{
+			"id": "OK",
+			"language": "BG",
+			"value": "ОК"
+		},
+		{
+			"id": "Gruppe",
+			"language": "BY",
+			"value": "Група"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "BY",
+			"value": "Фонавая выява"
+		},
+		{
+			"id": "Feedback",
+			"language": "ES",
+			"value": "Retroalimentación"
+		},
+		{
+			"id": "OK",
+			"language": "ES",
+			"value": "OK"
+		},
+		{
+			"id": "Gruppe",
+			"language": "ES",
+			"value": "Grupos"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "FR",
+			"value": "Taille de la carte"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "IT",
+			"value": "Dimensione dei cartoncini"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "RU",
+			"value": "Размер карточек."
+		},
+		{
+			"id": "Kartengröße",
+			"language": "RM",
+			"value": "Grondezia dallas cartas"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "RO",
+			"value": "Mărime cartonașe"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "PL",
+			"value": "Rozmiar karty"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "BG",
+			"value": "Размер на картите"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "ET",
+			"value": "Kaardi suurus"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "NL",
+			"value": "Grootte van de kaart"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "TR",
+			"value": "Kartların büyüklüğü"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "UK",
+			"value": "Розмір картор"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "GE",
+			"value": "ბარათის ზომა"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "BS",
+			"value": "Velićina kartica"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "SV",
+			"value": "Storlek på kort"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "BY",
+			"value": "Памер картак"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "GR",
+			"value": "Μέγεθος κάρτας"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "HU",
+			"value": "Kártyaméret"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "PT",
+			"value": "Tamanho do cartão"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "FR",
+			"value": "Sélectionnez la taille des cartes de jeu."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "IT",
+			"value": "Selezioni la grandezza delle carte da gioco."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "RU",
+			"value": "Выберите размер карточек"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "RM",
+			"value": "Elegia la grondezia dallas cartas."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "RO",
+			"value": "Alegeți mărimea cărților de joc."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "PL",
+			"value": "Wybierz rozmiar kart do gry. "
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "BG",
+			"value": "Избери размера на картите"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "ET",
+			"value": "Vali mängu kaardi suurus"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "NL",
+			"value": "Selecteer de grootte van de speelkaarten"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "TR",
+			"value": "Oyundaki kartların büyüklüğünü seçin"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "UK",
+			"value": "Оберіть розмір ігрових карток"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "GE",
+			"value": "აირჩიეთ სათამაშო ბარათის ზომა."
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "BS",
+			"value": "Odaberi veličinu karata"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "SV",
+			"value": "Välj storlek på korten"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "BY",
+			"value": "Выберыце памер картак"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "GR",
+			"value": "Επιλογή μεγέθους για το παιχνίδι"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "HU",
+			"value": "Válassza ki a kártya méretét!"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "PT",
+			"value": "Seleccionar o tamnho dos cartões do jogo"
+		},
+		{
+			"id": "gross",
+			"language": "FR",
+			"value": "Grandes cartes"
+		},
+		{
+			"id": "gross",
+			"language": "IT",
+			"value": "Cartoncini grandi"
+		},
+		{
+			"id": "gross",
+			"language": "RU",
+			"value": "Большой размер"
+		},
+		{
+			"id": "gross",
+			"language": "RM",
+			"value": "Cartas grondas"
+		},
+		{
+			"id": "gross",
+			"language": "RO",
+			"value": "Cartonașe mari"
+		},
+		{
+			"id": "gross",
+			"language": "PL",
+			"value": "duże karty "
+		},
+		{
+			"id": "gross",
+			"language": "BG",
+			"value": "Големи карти"
+		},
+		{
+			"id": "gross",
+			"language": "ET",
+			"value": "suured kaardid"
+		},
+		{
+			"id": "gross",
+			"language": "NL",
+			"value": "Grote kaarten"
+		},
+		{
+			"id": "gross",
+			"language": "TR",
+			"value": "Büyük boy kart"
+		},
+		{
+			"id": "gross",
+			"language": "UK",
+			"value": "великі картки"
+		},
+		{
+			"id": "gross",
+			"language": "GE",
+			"value": "დიდი ზომის"
+		},
+		{
+			"id": "gross",
+			"language": "BS",
+			"value": "Velike karte"
+		},
+		{
+			"id": "gross",
+			"language": "SV",
+			"value": "Stora kort"
+		},
+		{
+			"id": "gross",
+			"language": "BY",
+			"value": "Вялікія карткі"
+		},
+		{
+			"id": "gross",
+			"language": "GR",
+			"value": "Μεγάλες κάρτες"
+		},
+		{
+			"id": "gross",
+			"language": "HU",
+			"value": "Nagy méretű kártyák"
+		},
+		{
+			"id": "gross",
+			"language": "PT",
+			"value": "cartões grandes"
+		},
+		{
+			"id": "mittel",
+			"language": "FR",
+			"value": "Cartes moyennes"
+		},
+		{
+			"id": "mittel",
+			"language": "IT",
+			"value": "Cartoncini medi"
+		},
+		{
+			"id": "mittel",
+			"language": "RU",
+			"value": "Средний размер"
+		},
+		{
+			"id": "mittel",
+			"language": "RM",
+			"value": "Cartas mesaunas"
+		},
+		{
+			"id": "mittel",
+			"language": "RO",
+			"value": "Cartonașe medii"
+		},
+		{
+			"id": "mittel",
+			"language": "PL",
+			"value": "średnie karty "
+		},
+		{
+			"id": "mittel",
+			"language": "BG",
+			"value": "Средни карти"
+		},
+		{
+			"id": "mittel",
+			"language": "ET",
+			"value": "keskmised kaardid"
+		},
+		{
+			"id": "mittel",
+			"language": "NL",
+			"value": "Medium kaarten"
+		},
+		{
+			"id": "mittel",
+			"language": "TR",
+			"value": "Orta boy kart"
+		},
+		{
+			"id": "mittel",
+			"language": "UK",
+			"value": "середні картки"
+		},
+		{
+			"id": "mittel",
+			"language": "GE",
+			"value": "საშუალო ზომის"
+		},
+		{
+			"id": "mittel",
+			"language": "BS",
+			"value": "Srednje karte"
+		},
+		{
+			"id": "mittel",
+			"language": "SV",
+			"value": "Mellankort"
+		},
+		{
+			"id": "mittel",
+			"language": "BY",
+			"value": "Сярэднія карткі"
+		},
+		{
+			"id": "mittel",
+			"language": "GR",
+			"value": "Μεσαίες κάρτες"
+		},
+		{
+			"id": "mittel",
+			"language": "HU",
+			"value": "Közepes méretű kártyák"
+		},
+		{
+			"id": "mittel",
+			"language": "PT",
+			"value": "cartões médios"
+		},
+		{
+			"id": "klein",
+			"language": "FR",
+			"value": "Petites cartes"
+		},
+		{
+			"id": "klein",
+			"language": "IT",
+			"value": "Cartoncini piccoli"
+		},
+		{
+			"id": "klein",
+			"language": "RU",
+			"value": "Малый размер"
+		},
+		{
+			"id": "klein",
+			"language": "RM",
+			"value": "Cartas pintgas"
+		},
+		{
+			"id": "klein",
+			"language": "RO",
+			"value": "Cartonașe mici"
+		},
+		{
+			"id": "klein",
+			"language": "PL",
+			"value": "małe karty "
+		},
+		{
+			"id": "klein",
+			"language": "BG",
+			"value": "Малки карти"
+		},
+		{
+			"id": "klein",
+			"language": "ET",
+			"value": "väikesed kaardid"
+		},
+		{
+			"id": "klein",
+			"language": "NL",
+			"value": "Kleine kaarten"
+		},
+		{
+			"id": "klein",
+			"language": "TR",
+			"value": "Küçük boy kart"
+		},
+		{
+			"id": "klein",
+			"language": "UK",
+			"value": "малі картки"
+		},
+		{
+			"id": "klein",
+			"language": "GE",
+			"value": "მცირე ზომის"
+		},
+		{
+			"id": "klein",
+			"language": "BS",
+			"value": "Male karte"
+		},
+		{
+			"id": "klein",
+			"language": "SV",
+			"value": "Små kort"
+		},
+		{
+			"id": "klein",
+			"language": "BY",
+			"value": "Маленькія карткі"
+		},
+		{
+			"id": "klein",
+			"language": "GR",
+			"value": "Μικρές κάρτες"
+		},
+		{
+			"id": "klein",
+			"language": "HU",
+			"value": "Kis méretű kártyák"
+		},
+		{
+			"id": "klein",
+			"language": "PT",
+			"value": "cartões pequenos"
+		},
+		{
+			"id": "Element",
+			"language": "FR",
+			"value": "Elément"
+		},
+		{
+			"id": "Element",
+			"language": "IT",
+			"value": "Elemento"
+		},
+		{
+			"id": "Element",
+			"language": "RU",
+			"value": "Элемент "
+		},
+		{
+			"id": "Element",
+			"language": "ES",
+			"value": "Elemento"
+		},
+		{
+			"id": "Element",
+			"language": "RM",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "RO",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "GL",
+			"value": "Elemento"
+		},
+		{
+			"id": "Element",
+			"language": "PL",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "BG",
+			"value": "Елемент"
+		},
+		{
+			"id": "Element",
+			"language": "ET",
+			"value": "element"
+		},
+		{
+			"id": "Element",
+			"language": "NL",
+			"value": "Onderdeel"
+		},
+		{
+			"id": "Element",
+			"language": "TR",
+			"value": "Ögeler"
+		},
+		{
+			"id": "Element",
+			"language": "UK",
+			"value": "Елемент"
+		},
+		{
+			"id": "Element",
+			"language": "GE",
+			"value": "ელემენტი"
+		},
+		{
+			"id": "Element",
+			"language": "BS",
+			"value": "Element"
+		},
+		{
+			"id": "Element",
+			"language": "BY",
+			"value": "Элемент"
+		},
+		{
+			"id": "Element",
+			"language": "GR",
+			"value": "Στοιχείο"
+		},
+		{
+			"id": "Element",
+			"language": "HU",
+			"value": "Elem"
+		},
+		{
+			"id": "Element",
+			"language": "PT",
+			"value": "elementos"
+		},
+		{
+			"id": "Elemente",
+			"language": "FR",
+			"value": "Eléments"
+		},
+		{
+			"id": "Elemente",
+			"language": "IT",
+			"value": "Elementi"
+		},
+		{
+			"id": "Elemente",
+			"language": "RU",
+			"value": "Элементы "
+		},
+		{
+			"id": "Elemente",
+			"language": "ES",
+			"value": "Elementos"
+		},
+		{
+			"id": "Elemente",
+			"language": "RM",
+			"value": "Elements"
+		},
+		{
+			"id": "Elemente",
+			"language": "RO",
+			"value": "Elemente"
+		},
+		{
+			"id": "Elemente",
+			"language": "GL",
+			"value": "Elementos"
+		},
+		{
+			"id": "Elemente",
+			"language": "PL",
+			"value": "Elementy"
+		},
+		{
+			"id": "Elemente",
+			"language": "BG",
+			"value": "Елементи"
+		},
+		{
+			"id": "Elemente",
+			"language": "ET",
+			"value": "elementi"
+		},
+		{
+			"id": "Elemente",
+			"language": "NL",
+			"value": "Onderdelen"
+		},
+		{
+			"id": "Elemente",
+			"language": "TR",
+			"value": "Ögeler"
+		},
+		{
+			"id": "Elemente",
+			"language": "UK",
+			"value": "Елементи"
+		},
+		{
+			"id": "Elemente",
+			"language": "GE",
+			"value": "ელემენტები"
+		},
+		{
+			"id": "Elemente",
+			"language": "BS",
+			"value": "Elementi"
+		},
+		{
+			"id": "Elemente",
+			"language": "BY",
+			"value": "Элементы"
+		},
+		{
+			"id": "Elemente",
+			"language": "GR",
+			"value": "Στοιχεία"
+		},
+		{
+			"id": "Elemente",
+			"language": "HU",
+			"value": "Elemek"
+		},
+		{
+			"id": "Elemente",
+			"language": "PT",
+			"value": "Elementos"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "IT",
+			"value": "Aggiungi gruppo"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "RU",
+			"value": "Добавить группу."
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "PL",
+			"value": "Dodaj kolejną grupę"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "BG",
+			"value": "добавете група "
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "NL",
+			"value": "Groep toevoegen"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "TR",
+			"value": "Grup ekle"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "UK",
+			"value": "Додати групу"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "BS",
+			"value": "Dodati novu grupu"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "BY",
+			"value": "Дабавіць группу"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "GR",
+			"value": "προσθέστε άλλη ομάδα"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "HU",
+			"value": "Csoport hozzáadása"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "PT",
+			"value": "adicionar grupo"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "ES",
+			"value": "Tamaño de las tarjetas"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "ES",
+			"value": "¡Elige una de las categorías!"
+		},
+		{
+			"id": "gross",
+			"language": "ES",
+			"value": "Tarjetas grandes"
+		},
+		{
+			"id": "mittel",
+			"language": "ES",
+			"value": "Tarjetas medianas"
+		},
+		{
+			"id": "klein",
+			"language": "ES",
+			"value": "Tarjetas pequeñas"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "ES",
+			"value": "Añadir un grupo"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "ES",
+			"value": "Grupos y palabras / conceptos"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "ES",
+			"value": "Fondo"
+		},
+		{
+			"id": "Begriffe",
+			"language": "ES",
+			"value": "Palabras / Conceptos"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "ES",
+			"value": "¡Muy bien!"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "ES",
+			"value": "¿Necesitas ayuda?"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "GE",
+			"value": "ჯგუფის დამატება"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "RM",
+			"value": "Aschuntar gruppa"
+		},
+		{
+			"id": "OK",
+			"language": "RM",
+			"value": "OK"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "CZ",
+			"value": "Skupinové puzzle"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "CZ",
+			"value": "Vyberte velikost hracích karet."
+		},
+		{
+			"id": "gross",
+			"language": "CZ",
+			"value": "Velké kartičky"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "CZ",
+			"value": "Velikost karet"
+		},
+		{
+			"id": "falsch",
+			"language": "CZ",
+			"value": "Nepatří do kategorie"
+		},
+		{
+			"id": "Element",
+			"language": "CZ",
+			"value": "Prvek"
+		},
+		{
+			"id": "mittel",
+			"language": "CZ",
+			"value": "Střední kartičky"
+		},
+		{
+			"id": "OK",
+			"language": "CZ",
+			"value": "OK"
+		},
+		{
+			"id": "Elemente",
+			"language": "CZ",
+			"value": "Prvky"
+		},
+		{
+			"id": "klein",
+			"language": "CZ",
+			"value": "Malé kartičky"
+		},
+		{
+			"id": "Gruppe",
+			"language": "CZ",
+			"value": "Skupina"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "CZ",
+			"value": "Zkusit to ještě jednou."
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "CZ",
+			"value": "Přidat skupinu"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "CZ",
+			"value": "Vložte text, který se zobrazí po správném vyřešení úlohy."
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "CZ",
+			"value": "Skvěle, vše je správně přiřazeno!"
+		},
+		{
+			"id": "Feedback",
+			"language": "CZ",
+			"value": "Zpětná vazba"
+		},
+		{
+			"id": "Hintergrund",
+			"language": "CZ",
+			"value": "Pozadí"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "CZ",
+			"value": "Vytvořte až 6 skupin výrazů. Zadejte jednotlivé výrazy pro dané skupiny, které budou v Puzzle náhodně rozmístěny."
+		},
+		{
+			"id": "Begriffe",
+			"language": "CZ",
+			"value": "Výrazy"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "CZ",
+			"value": "Výrazy a skupiny výrazů"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "CZ",
+			"value": "V pozadí Puzzle se ukrývá obrázek nebo video, které má být odkryto."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "CZ",
+			"value": "V této hře musí být různé výrazy zařazeny do správné skupiny. Každý úspěšně přidělený termín způsobí odkrytí části podkladového obrázku nebo videa."
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "CZ",
+			"value": "Zde je několik tipů!"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "BY",
+			"value": "Групоўка-Пазл"
+		},
+		{
+			"id": "OK",
+			"language": "BY",
+			"value": "ОК"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "BY",
+			"value": "Групы і тэрмін"
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "BY",
+			"value": "Паспрабуйце яшчэ раз."
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "BY",
+			"value": "Вы можаце ўвесці да 6 груп тэрмінаў. Калі ласка, увядзіце тэрміны для кожнай групы (асобна). У гульні яны будуць размеркаваны ў вольным парадку."
+		},
+		{
+			"id": "falsch",
+			"language": "BY",
+			"value": "не адносіцца да катэгорыі"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "BY",
+			"value": "У гэтай гульні кожны элемент патрэбна аднесці да адпаведнай катэгорыі. Кожны паспяхова аднесены тэрмін адкрые частку схаванага малюнка або відэафайла."
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "BY",
+			"value": "За полем з тэрмінамі можа знаходзіцца фотаздымак (малюнак) або відэаролік, які вы можаце дадаць."
+		},
+		{
+			"id": "Begriffe",
+			"language": "BY",
+			"value": "Тэрміны"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "BY",
+			"value": "Укажыце тэкст, які з'явіцца пры правільным выкананні гульні."
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "RO",
+			"value": "Adaugă grupă"
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "ES",
+			"value": "Puzle de preguntas"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "ES",
+			"value": "Detrás del puzle hay una imagen o un vídeo que hay que conseguir destapar."
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "ES",
+			"value": "Puedes crear un máximo de seis grupos. Añade entonces los conceptos pertenecientes a cada grupo. Los conceptos aparecen distribuidos aleatoriamente en el puzle."
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "ES",
+			"value": "En el puzle aparecen distintos conjuntos que hay que ordenar en grupos. Cuando atribuye correctamente un concepto a un grupo se destapa una de las piezas del puzle dejando al descubierto una parte de la imagen o del vídeo de fondo."
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "ES",
+			"value": "Este texto aparecerá cuando se haya resuelto la tarea correctamente."
+		},
+		{
+			"id": "APP_TITLE",
+			"language": "LT",
+			"value": "Dėlionė pagal grupes"
+		},
+		{
+			"id": "Kartengröße",
+			"language": "LT",
+			"value": "Kortelės dydis"
+		},
+		{
+			"id": "APP_DESCRIPTION",
+			"language": "LT",
+			"value": "Dėlionės kortelės turi būti priskiriamos tam tikroms teminėms grupėms. Kiekvienas teisingas priskyrimas atidengia vieną dėlionės dalį. Taip pamažu atidengiamas paslėptas vaizdas arba vaizdo įrašas."
+		},
+		{
+			"id": "mittel",
+			"language": "LT",
+			"value": "vidutinės kortelės"
+		},
+		{
+			"id": "OK",
+			"language": "LT",
+			"value": "OK"
+		},
+		{
+			"id": "klein",
+			"language": "LT",
+			"value": "mažos kortelės"
+		},
+		{
+			"id": "KartengrößeBeschreibung",
+			"language": "LT",
+			"value": "Pasirinkite žaidimo kortelių dydį"
+		},
+		{
+			"id": "Elemente",
+			"language": "LT",
+			"value": "Elementai"
+		},
+		{
+			"id": "weitereGruppe",
+			"language": "LT",
+			"value": "pridėti kitą grupę"
+		},
+		{
+			"id": "gross",
+			"language": "LT",
+			"value": "didelės kortelės"
+		},
+		{
+			"id": "Element",
+			"language": "LT",
+			"value": "Elementas"
+		},
+		{
+			"id": "Begriffsgruppen",
+			"language": "LT",
+			"value": "Teminės grupės ir joms priklausantys terminai"
+		},
+		{
+			"id": "falsch",
+			"language": "LT",
+			"value": "nepriklauso kategorijai"
+		},
+		{
+			"id": "GruppenBeschreibung",
+			"language": "LT",
+			"value": "Pateikite iki 6 teminių grupių. Įrašykite terminus, kurie priklauso kiekvienai teminei grupei. Dėlionėje jie pateikiami atsitiktine tvarka."
+		},
+		{
+			"id": "Hintergrund",
+			"language": "LT",
+			"value": "Fonas"
+		},
+		{
+			"id": "HintergrundBeschreibung",
+			"language": "LT",
+			"value": "Už dėlionės paslėptas vaizdas arba vaizdo įrašas, kuris turės būti atidengtas."
+		},
+		{
+			"id": "Gruppe",
+			"language": "LT",
+			"value": "Teminės grupės"
+		},
+		{
+			"id": "Begriffe",
+			"language": "LT",
+			"value": "Terminai (žodžiai)"
+		},
+		{
+			"id": "FeedbackValue",
+			"language": "LT",
+			"value": "Puiku, labai gerai išsprendei!"
+		},
+		{
+			"id": "BegriffeBeschreibung",
+			"language": "LT",
+			"value": "Štai tau keletas užuominų!"
+		},
+		{
+			"id": "Feedback",
+			"language": "LT",
+			"value": "Grįžtamasis ryšys"
+		},
+		{
+			"id": "FeedbackBeschreibung",
+			"language": "LT",
+			"value": "Pateikite grįžtamojo ryšio tekstą, kuris bus rodomas teisingai išsprendus užduotį."
+		},
+		{
+			"id": "Neuversuchen",
+			"language": "LT",
+			"value": "Bandykite iš naujo."
+		}
+	],
+	"path": "https://learningapps.org/tools/5/31/",
+	"fromCache": 1,
+	"version": "31"
+};

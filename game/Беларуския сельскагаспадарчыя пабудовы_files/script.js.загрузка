@@ -1,0 +1,278 @@
+
+AppClient.onInit = function(){
+		// von LearningApps bekommen wir das Objekt AppClient
+		// darüber können wir auf die Werte zugreifen, die
+		// ein Nutzer im Formular eingestellt hat
+        var Elemente = new Array();
+
+          var id = ""; 
+        var boxopened = null;    
+        var imgopened = "";
+        var idopened = "";
+        var count = 0;
+        var found =  0;
+
+        function randomFromTo(from, to){
+            return Math.floor(Math.random() * (to - from + 1) + from);
+        }
+		
+		function getSpeechLanguage(id){
+		  for(var i = 0; i < Elemente.length; i++){
+		   if(Elemente[i].id1 == id) return Elemente[i].lang1;
+		   if(Elemente[i].id2 == id) return Elemente[i].lang2;		     
+		  }
+		}
+		
+		function getType(id) {
+		 for(var i = 0; i < Elemente.length; i++){
+		  if(Elemente[i].id1 == id) return Elemente[i].type1;
+		  if(Elemente[i].id2 == id) return Elemente[i].type2;
+		 }
+		}
+		function getHint(id) {
+		 for(var i = 0; i < Elemente.length; i++){
+		  if(Elemente[i].id1 == id) return Elemente[i].hint1;
+		  if(Elemente[i].id2 == id) return Elemente[i].hint2;
+		 }
+		}
+
+        function shuffle() {
+            var children = $("#boxcard").children();
+            var child = $("#boxcard div:first-child");
+
+            var array_img = new Array();
+
+            for (i=0; i<children.length; i++) {
+                array_img[i] = $("#"+child.attr("id")).html();
+                child = child.next();
+            }
+
+            var child = $("#boxcard div:first-child");
+
+            for (z=0; z<children.length; z++) {
+                randIndex = randomFromTo(0, array_img.length - 1);
+
+                // set new image
+                $("#"+child.attr("id")).html(array_img[randIndex]);
+                array_img.splice(randIndex, 1);
+
+                child = child.next();
+            }
+            $('#counter').text(AppClient.getTranslation("versuche")+" "+count);
+        }
+
+        function resetGame() {
+            shuffle();
+            $("#boxcard div").removeClass("flipped flippedDone fadeout");
+            count = 0;
+            $("#msg").remove();
+            $('#counter').text(AppClient.getTranslation("versuche")+" "+count);
+            boxopened = null;
+            imgopened = "";
+            found = 0;
+            return false;
+        }
+          
+        var closeOnNextClick = null;
+  
+		// Kärtchen in unterschiedlicher Größe anbieten
+		var s = AppClient.getParameter("cardsize");
+		var cardPixel = 100;
+                css = '<style type="text/css">';
+		if(AppClient.isTranslationOf("gross",s)){
+		 css += "#boxcard > div {width:180px;height:180px} #boxcard > div > div > div {width:180px;height:180px} #boxcard > div img {max-width:170px;max-height:170px}";
+		 cardPixel = 180;
+		}
+		if(AppClient.isTranslationOf("klein",s)){
+		 css += "#boxcard > div {width:50px;height:50px} #boxcard > div > div > div {width:50px;height:50px} #boxcard > div img {max-width:40px;max-height:40px}";
+		 cardPixel = 50;
+		}
+                css += '</style>';
+		document.getElementById("cssAddon").innerHTML = css;
+
+		// Wir sagen mal der Nutzer darf bis zu 15 Elemente auswählen
+		for(var i=1; i < 16; i++){
+		 // Abfragen was der Benutzer  ausgewählt hat
+		 var e1 = AppClient.getParameter("media"+i+"_1");
+		 var t1 = AppClient.getParameterType("media"+i+"_1");
+		 var s1 = "";
+		 var h1 = "";
+         if(t1 == "speech")
+	         if(e1.indexOf("|") > 0) {var x = e1.split("|"); e1 = x[0]; s1 = x[1];}
+         if(t1 == "image")
+	         if(e1.indexOf("|") > 0) {var x = e1.split("|"); e1 = x[0]; h1 = x[1];}
+		 
+		 var e2 = AppClient.getParameter("media"+i+"_2");
+		 var t2 = AppClient.getParameterType("media"+i+"_2");
+		 var s2 = "";
+		 var h2 = "";
+         if(t2 == "speech")
+	         if(e2.indexOf("|") > 0) {var x = e2.split("|"); e2 = x[0]; s2 = x[1];}
+         if(t2 == "image")
+	         if(e2.indexOf("|") > 0) {var x = e2.split("|"); e2 = x[0]; h2 = x[1];}
+		 
+		 var o = new Object();
+		 o.type1  = t1;
+		 o.value1 = e1;
+		 o.lang1 = s1;
+		 o.hint1 = h1;
+		 o.type2  = t2;
+		 o.value2 = e2;
+		 o.lang2 = s2;
+		 o.hint2 = h2;
+		 
+		 // Bilder doppeln, wenn nur ein Bild angegeben wurde
+		 if((e1 == "" || e1 == "|") && e2 != "" && t2 == "image"){o.value1 = e2; o.type1 = t2; e1 = e2; t1 = t2;}
+		 if((e2 == "" || e2 == "|") && e1 != "" && t1 == "image"){o.value2 = e1; o.type2 = t1; e2 = e1; t2 = t1;}		 
+	 
+         if(e1 != "" && e1 != "|" && e2 != "" && e2 != "|") Elemente.push(o);	
+		}
+		
+		// jetzt generieren wir uns das HTML für die cards
+		var html = "";
+		for(var i=0; i < Elemente.length; i++){  
+		 // erste Karte mit ID i
+          Elemente[i].id1 = "e"+i+"_1";
+		 if(Elemente[i].type1 == "image")
+ 		  html += '<div id="card'+i+'_1"><div id="e'+i+'_1" class="flipper"><div class="front"></div><div class="back"><div class="cardInner"><div><img src="'+Elemente[i].value1+'" alt=""/></div></div></div></div></div>';
+		 if(Elemente[i].type1 == "text" || Elemente[i].type1 == "speech")
+ 		  html += '<div id="card'+i+'_1"><div id="e'+i+'_1" class="flipper"><div class="front"></div><div class="back"><div class="cardInner"><div>'+Elemente[i].value1.replace(/\n/g,'<br>')+'</div></div></div></div></div>';
+		 // zweite Karte mit ID i
+         Elemente[i].id2 = "e"+i+"_2";
+		 if(Elemente[i].type2 == "image")
+ 		  html += '<div id="card'+i+'_2"><div id="e'+i+'_2" class="flipper"><div class="front"></div><div class="back"><div class="cardInner"><div><img src="'+Elemente[i].value2+'" alt=""/></div></div></div></div></div>';
+		 if(Elemente[i].type2 == "text" || Elemente[i].type2 == "speech")
+ 		  html += '<div id="card'+i+'_2"><div id="e'+i+'_2" class="flipper"><div class="front"></div><div class="back"><div class="cardInner"><div>'+Elemente[i].value2+'</div></div></div></div></div>';
+		}
+		// jetzt füllen wir dieses HTML in boxcard
+		var d = document.getElementById("boxcard");
+		d.innerHTML = html;
+				
+		// wenn wir zum Beispiel 8 Bilder verwenden ergeben sich 16 Kärtchen
+		// das wären 2 5er Reihen und ein einzelnes Bild. Deshalb passen wir die 
+		// Anzahl von Kärtchen pro Reihe an:
+
+		if(Elemente.length == 2) d.style.maxWidth = "490px";
+		if(Elemente.length == 3) d.style.maxWidth = "740px";
+		if(Elemente.length == 4) d.style.maxWidth = "490px";
+		if(Elemente.length == 5) d.style.maxWidth = "625px";
+		if(Elemente.length == 6) d.style.maxWidth = "740px";
+		if(Elemente.length == 7) d.style.maxWidth = "860px";
+		if(Elemente.length == 8) d.style.maxWidth = "490px";
+		if(Elemente.length == 9) d.style.maxWidth = "740px";
+		if(Elemente.length ==10) d.style.maxWidth = "625px";
+		if(Elemente.length ==11) d.style.maxWidth = "625px";
+		if(Elemente.length ==12) d.style.maxWidth = "625px";
+		if(Elemente.length ==13) d.style.maxWidth = "860px";
+		if(Elemente.length ==14) d.style.maxWidth = "860px";
+		if(Elemente.length ==15) d.style.maxWidth = "625px";
+
+		if(cardPixel == 180) d.style.maxWidth = "860px";
+
+
+        $(document).bind("click",function() {
+          if(closeOnNextClick){
+            closeOnNextClick();
+            closeOnNextClick = null;
+          }
+        });
+
+
+        shuffle();
+          
+        function openCard(event) {
+              if(event) event.stopPropagation();
+              
+                id = $(this).attr("id");
+
+                if ($(this).hasClass("flipped") == false && $(this).hasClass("flippedDone") == false) {
+
+                    $(this).addClass('flipped');
+
+                    if (boxopened == null) {
+						boxopened = $(this);
+                        idopened = $("#"+id+" > div").attr("id");
+                        imgopened = $(this).html();
+						if(imgopened.indexOf("<img") == -1 && getType(idopened) == "speech") 
+							AppClient.textToSpeech($('#'+idopened).text(), getSpeechLanguage(idopened));
+						if(getType(idopened) == "image" && getHint(idopened) != '') 
+							AppClient.textToSpeech(getHint(idopened));
+                    } else {
+                        $("#boxcard > div").unbind("click");
+                        var correct = false;
+						var idcurrent = $("#"+id+" > div").attr("id");
+                        var currentbox = $(this);
+                        currentopened = $(this).html();
+						if(currentopened.indexOf("<img") == -1 && getType(idcurrent) == "speech") 
+							AppClient.textToSpeech($('#'+idcurrent).text(), getSpeechLanguage(idcurrent));
+						if(getType(idcurrent) == "image" && getHint(idcurrent) != '') 
+							AppClient.textToSpeech(getHint(idcurrent));
+
+                        for(var x = 0; x < Elemente.length; x++){
+			          	 if(Elemente[x].id1 == idopened){
+			          	 	correct = Elemente[x].id2 == idcurrent;
+			          	 }else
+			          	 if(Elemente[x].id2 == idopened){
+			          	 	correct = Elemente[x].id1 == idcurrent;
+			          	 }
+			          	 if(correct) break;
+                        }
+                        count++;
+                        $('#counter').text(AppClient.getTranslation("versuche")+" "+count);
+                        if (!correct) {
+                            // close again
+                            closeOnNextClick = function(){
+                                boxopened.removeClass('flipped');
+								currentbox.removeClass('flipped');
+
+                                boxopened = null;
+                                imgopened = "";
+                                $("#boxcard > div").bind("click",openCard);
+                            };
+                        } else {
+                            // found
+                            currentbox.addClass("flippedDone");
+                            boxopened.addClass("flippedDone");
+
+    						var hide = AppClient.getParameter("cardsfadeout");
+
+	  						if(AppClient.isTranslationOf("hide",hide)){
+                              closeOnNextClick = function(){
+                                currentbox.addClass("fadeout");
+                                boxopened.addClass("fadeout");
+	                            $("#boxcard > div").bind("click",openCard);
+                                boxopened = null;
+                              };
+                            }else{
+	                          $("#boxcard > div").bind("click",openCard);
+                              boxopened = null;
+                            }
+                            found++;
+                            imgopened = "";
+                        }
+                    }
+                  
+                }
+                if (found == Elemente.length) {
+                      AppClient.setSolved();
+
+                 
+                      if($("#feedback").length === 0){
+                        var f = AppClient.getParameters("feedback").value;
+                        if(trim(f) !== "")
+                        $("body").append(
+                          '<div id="feedback" style="display:none;" '+(f.length < 50 ? 'style="text-align:center"':'')+'>'+AppClient.linkifyText(f)+
+                          '<br><br><div style="text-align:center">'+
+                            '<button style="font-size:120%" onclick="$(\'#feedback\').remove()">OK</button>'+
+                          '</div>');
+                        $('#feedback').fadeIn();
+
+                      }
+                }
+        }
+  
+        $("#boxcard > div").click(openCard);
+
+};
+
+
